@@ -3,8 +3,7 @@ import '../css/footer.css'
 import '../css/responsive/responsive.css'
 import '../grid.css'
 
-import footerlogo from '../img/footerlogo.png';
-import logodiscord from '../img/logodiscord.png';
+import footerlogo from '../img/Footerlogo.png';
 import facebook from '../img/facebook-box-fill.png';
 import linked from '../img/linkedin-box-fill.png';
 import tw from '../img/twitter-fill.png';
@@ -16,9 +15,8 @@ const Footer = () => {
             <div className="grid wide">
                 <div className="footer__content">
                     <div className=" footer__content-wrap row">
-                        <div className="footer__logo col l-4 c-12">
-                            <img src={footerlogo} alt="" />
-                            
+                        <div className="footer__logo col l-4 c-12"> 
+                              <img src={footerlogo} alt="" />
                         </div>
                         <div className="footer__about col l-4 c-12">
                             <h4>About</h4>

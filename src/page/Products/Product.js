@@ -21,9 +21,7 @@ import arrow from './imgProduct/arrow.png'
 import Groupproduct1 from './imgProduct/Groupproduct1.png'
 import Groupproduct2 from './imgProduct/Groupproduct2.png'
 
-
-
-import logo21 from '../../img/W1.png'
+import logo21 from '../../img/logo21.png'
 
 
 import ProductItems from './ProductItems';

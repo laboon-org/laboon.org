@@ -25,7 +25,7 @@ import personne9 from './imgTeam/personel9.png'
 import personne10 from './imgTeam/personel10.png'
 import personnel1 from './imgTeam/personel11.png'
 import personnel2 from './imgTeam/personel12.png'
-import logo21 from '../../img/W1.png'
+import logo21 from '../../img/logo21.png'
 
 
 
