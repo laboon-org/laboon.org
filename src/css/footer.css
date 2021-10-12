@@ -1,0 +1,82 @@
+.footer{
+    background-color:#F0F0F0;
+}
+.footer__content{
+    border-bottom: 1px solid #D7D7D7;
+}
+
+
+.footer__logo{
+ margin-top: 119px;
+
+}
+.footer__infor{
+    margin-top:50px;
+    text-align: center;
+    padding-bottom: 71px;
+   
+}
+
+.footer__infor p{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 25px;
+    color: #255056;
+}
+
+.footer__about{
+    padding-top: 138px;
+    padding-left: 50px;
+}
+.footer__about h4,.footer__infor h4{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 25px;
+    color: #255056;
+    padding-bottom:24px ;
+    margin-left: -20px;
+}
+
+.footer__about ul {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 32px;
+    /* or 188% */
+
+
+    /* blue */
+
+    color: #255056;
+    /* margin-left: 25px; */
+    display: flex;
+}
+.footer__about ul li{
+    text-align: left;
+}
+.footer__connect i {
+    font-size: 25px;
+    color: #255056;
+    
+}
+.footer__social{
+    /* margin-top: 32px; */
+    /* display:flex;
+    text-align: center; */
+    
+    
+}
+.footer__social img{
+    /* margin-right: 20px; */
+}
+.footer__icon-connect{
+    margin-right: 19px;
+}
+.footer__content-wrap{
+    padding-bottom: 70px;
+}

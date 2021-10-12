@@ -1,69 +1,51 @@
 import React from 'react'
-import LogoHeader from './img/LogoHeader.png'
-const Header = () => {
+import '../css/header.css'
+import '../css/responsive/responsive.css'
+import '../grid.css'
+import logo21 from '../img/logo21.png'
+import {Link} from 'react-router-dom'
+
+
+const navSilde = ()=>{
+    const bars = document.querySelector('.header__bars');
+    const navbar = document.querySelector('.header__nav')
+    bars.addEventListener('click', ()=>{
+        navbar.classList.toggle('nav_active');
+    })
+}
+
+window.addEventListener('load', (event) => {
+    navSilde();
+  });
+
+const Header = ({active, logo}) => {
     return (
-        <>
-        <div className="header">
+        <> 
+        <div className="grid">
+            <section className="header">
                 <div className="grid wide">
-                    <div className="header__top">
-                        <div className="header__top-left">
-                            <div className="header__hotline">
-                                Hotline: 0123.456.789
-                            </div>
-                            <div className="header__social">
-                                <a href="#"><i className="fab fa-facebook"></i></a>
-                            </div>
-                            <div className="header__social">
-                                <a href=""><i className="fab fa-telegram"></i></a>
-                            </div>
-                            <div className="header__social">
-                                <a href=""> <i className="fab fa-twitter"></i></a>
-                            </div>
+                    <div className="row header__wrapper">
+                        <div className="header__logo col l-7 c-11">
+                            <img src={logo} alt="logo" />
                         </div>
-                        <div className="header__top-mid">
-                            <a href="#"><img src={LogoHeader} alt="Logo"></img></a>
-                        </div>
-                        <div className="header__top-right">
-                            <div className="header__search">
-                                <input type="text" placeholder="Search..."></input>
-                                <i className="fas fa-search"></i>
-                            </div>
-                        </div>
-                        
-                    </div>
-                    <div className="header__bottom">
-                        <div className="header__bottom-navbar">
+                        <div className="header__nav col l-5 ">
                             <ul>
-                                <li className="header__nav-item active">
-                                    <a href="/">HOME</a>
-                                </li>
-                                <li className="header__nav-item">
-                                    <a href="/">ABOUT US</a>
-                                </li>
-                                <li className="header__nav-item">
-                                    <a href="/">TOCKENOMIC</a>
-
-                                </li>
-                                <li className="header__nav-item">
-                                    <a href="/">PROJECTS</a>
-
-                                </li>
-                                <li className="header__nav-item">
-                                    <a href="/">OUR TEAM</a>
-
-                                </li>
-                                <li className="header__nav-item">
-                                    <a href="/">JOIN OUR COMMUNITY</a>
-                                </li>
-                                <li className="header__nav-item">
-                                    <a href="/">CONTACT</a>
-                                </li>
+                                <li className={`header__nav-item ${active == 'home' && 'active' } `}><Link to="/">Home</Link></li>
+                                <li className={`header__nav-item ${active == 'product' && 'active' } `}><Link to="/product">Product</Link></li>
+                                <li className={`header__nav-item ${active == 'team' && 'active' } `}><Link to="/team" >Team</Link></li>
+                                <li className={`header__nav-item ${active == 'blog' && 'active' } `}><Link to="/blog" >Blog</Link></li>
                             </ul>
                         </div>
+                        <div className="header__bars ">
+                            <i className="nav__bar-icon"class="fas fa-bars"></i>
+                        </div>
                     </div>
+                    
                 </div>
-            </div>
+            </section>  
+        </div>
         </>
     )
 }
-export default Header;
+
+export default Header

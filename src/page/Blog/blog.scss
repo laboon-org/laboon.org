@@ -1,0 +1,212 @@
+.blog__container{
+    .blog__content{
+        h1{
+            text-align: center;
+            font-family: Poppins;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 30px;
+            line-height: 22px;
+            /* identical to box height, or 73% */
+    
+    
+            /* blue */
+    
+            color: #255056;
+            margin-bottom: 56px;
+        }
+    
+        .blog__content--main{
+            width: 1141px;
+            height: 513px;
+            background: #FEFEFE;
+            /* 1 */
+            box-shadow: -2px 0px 15px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+            margin-bottom:21px ;
+            .blog__content--main__img{
+                text-align: center;
+                img{
+                    padding-top: 20px;
+                    padding-left: 15px;
+                }
+            }
+            .blog__content--main__inf{
+                margin-top: 51px;
+               .blog__content--inf{
+                   display: flex;
+                   img{
+                       margin-right: 18px;
+                   }
+                   .blog__content--inf__right{
+                    h3{
+                        font-family: Poppins;
+                        font-style: normal;
+                        font-weight: 500;
+                        font-size: 15px;
+                        line-height: 30px;
+                        /* identical to box height, or 200% */
+                        /* yeallow */
+
+                        color: #E6B86A;
+                    }
+                    span{
+                        font-family: Poppins;
+                        font-style: normal;
+                        font-weight: normal;
+                        font-size: 13px;
+                        line-height: 22px;
+                        color: #061B1C;
+                    }
+                   }
+               }
+               .blog__content--inf__desp{
+                   margin-left: 20px;
+                   margin-right: 38px;
+                h2{
+                    font-family: Poppins;
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 25px;
+                    line-height: 35px;
+                    /* or 140% */
+
+
+                    /* blue */
+
+                    color: #255056;
+                    margin-top: 24px;
+                    margin-bottom: 20px;
+
+                }
+                div{
+                    margin-bottom: 28px;
+                }
+                p{
+                    font-family: Poppins;
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 15px;
+                    line-height: 22px;
+                    /* or 147% */
+                    /* background */
+
+                    color: #061B1C;
+
+                }
+                span{
+                    padding-top: 15px;
+                    font-family: Poppins;
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 15px;
+                    line-height: 22px;
+                    /* identical to box height, or 147% */
+
+
+                    /* yeallow */
+
+                    color: #E6B86A;
+
+                }
+
+               }
+            }
+        }
+
+        .blog__content-list{
+            padding-bottom: 63px;
+            .blog__content-item{
+                max-width: 560px;
+                height:503px;
+                background: #FEFEFE;
+                /* 1 */
+                box-shadow: -2px 0px 15px rgba(0, 0, 0, 0.1);
+                border-radius: 10px;
+                margin-right: 10px;
+                margin-left: 10px;
+                margin-top: 24px;
+                .blog__content-item-img{
+
+                    img{
+                        margin: 21px 0 20px 10px;
+                    }
+                }
+                .blog__content-item-inf{
+                    h2{
+                        margin-top: 0px;
+                        font-family: Poppins;
+                        font-style: normal;
+                        font-weight: 500;
+                        font-size: 20px;
+                        line-height: 28px;
+                        /* or 140% */
+
+
+                        /* blue */
+
+                        color: #255056;
+                    }
+
+                    p{
+                        font-family: Poppins;
+                        font-style: normal;
+                        font-weight: normal;
+                        font-size: 15px;
+                        line-height: 22px;
+                        /* or 147% */
+
+
+                        /* background */
+
+                        color: #061B1C;
+                        margin-bottom: 11px;
+                    }
+                    span{
+                        font-family: Poppins;
+                        font-style: normal;
+                        font-weight: 500;
+                        font-size: 15px;
+                        line-height: 22px;
+                        /* identical to box height, or 147% */
+
+
+                        /* yeallow */
+
+                        color: #E6B86A;
+                    }
+                    div{
+                        display: flex;
+                        justify-content: space-between;
+                        img{
+                            margin-right: 10px;
+                        }
+                    }
+                }
+            }
+        }
+
+
+        .blog__project-idea{
+            margin-top: 100px;
+            h1{
+                font-family: Poppins;
+                font-style: normal;
+                font-weight: 500;
+                font-size: 30px;
+                line-height: 22px;
+                /* identical to box height, or 73% */
+
+
+                /* blue */
+
+                color: #255056;
+            }
+            .blog__project-idea__content{
+                margin-bottom: 550px;
+            }
+        }
+    }
+
+    
+}

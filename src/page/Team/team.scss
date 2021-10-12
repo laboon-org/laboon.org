@@ -1,0 +1,253 @@
+.team__container{
+    margin-bottom: 40px;
+    .team__content{
+        h1{
+            text-align: center;
+            font-family: Poppins;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 30px;
+            line-height: 22px;
+            /* identical to box height, or 73% */
+
+
+            /* blue */
+
+            color: #255056;
+        }
+
+        .team__wrapper{
+
+            margin-top: 50px;
+            margin-bottom: 20px;
+    
+            .team__wrapper-left,.team__wrapper-right{
+    
+                .team__thumb{
+                    width: 270px;
+                    height: 247px;
+                    background: #FEFEFE;
+                    /* 1 */
+    
+                    box-shadow: -2px 0px 15px rgba(0, 0, 0, 0.1);
+                    border-radius: 10px;
+                    text-align:center;
+                    margin-bottom: 20px;
+    
+                    .team__thumb-img{
+                        margin-top: 15px;
+                    }
+    
+                    .team__thumb-inf{
+                        text-align: left;
+                        margin-left: 16px;
+                        h2{
+                            font-family: Poppins;
+                            font-style: normal;
+                            font-weight: 500;
+                            font-size: 20px;
+                            line-height: 30px;
+                            /* identical to box height, or 150% */
+                            /* blue */
+                            color: #255056;
+                        }
+                        span{
+                            font-family: Poppins;
+                            font-style: normal;
+                            font-weight: 500;
+                            font-size: 15px;
+                            line-height: 22px;
+                            /* or 147% */
+                            /* yeallow */
+                            color: #E6B86A;
+                        }
+                    }
+                }
+            }
+    
+            .team__wrapper-mid{
+                .team__wrapper-mid__content{
+                    width: 580px;
+                    height: 513px;
+                    background: #FEFEFE;
+                    /* 1 */
+    
+                    box-shadow: -2px 0px 15px rgba(0, 0, 0, 0.1);
+                    border-radius: 10px;
+                    text-align: center;
+                    img{
+                        margin-top: 14px;
+                    }
+                }
+                .team__wrapper-mid-inf{
+                    text-align: left;
+                    margin-top: 25px;
+                    margin-left: 38px;
+                    margin-right: 28px;
+                    h2{
+                        font-family: Poppins;
+                        font-style: normal;
+                        font-weight: 500;
+                        font-size: 20px;
+                        line-height: 30px;
+                        /* identical to box height, or 150% */
+    
+    
+                        /* blue */
+    
+                        color: #255056;
+                    }
+                    p{
+                        margin-top: 10px;
+                        font-family: Poppins;
+                        font-style: normal;
+                        font-weight: normal;
+                        font-size: 15px;
+                        line-height: 22px;
+                        /* or 147% */
+    
+    
+                        /* background */
+    
+                        color: #061B1C;
+                        margin-bottom: 20px;
+    
+                    }
+                    span{
+                        font-family: Poppins;
+                        font-style: normal;
+                        font-weight: 500;
+                        font-size: 15px;
+                        line-height: 22px;
+                        /* or 147% */
+                        /* yeallow */
+                        color: #E6B86A;
+                    }
+                }
+            }
+    
+            
+        }
+        .team__personel{
+            margin-top: 100px;
+           
+            h1{
+                margin-bottom:31px ;
+                font-family: Poppins;
+                font-style: normal;
+                font-weight: 500;
+                font-size: 30px;
+                line-height: 22px;
+                /* identical to box height, or 73% */
+    
+    
+                /* blue */
+    
+                color: #255056;
+            }
+            .team__personel-link{
+                text-align: center;
+                margin-bottom: 50px;
+                .team__personel-link--wrap{
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    .team__personel-link__item{
+                        margin-right: 50px;
+                    }
+                    .team__personel-link__item.active{
+                        span{
+                            color: #E6B86A;
+                            font-family: Poppins;
+                            font-style: normal;
+                            font-weight: 600;
+                            font-size: 20px;
+                            line-height: 22px;
+                        }
+                    }
+                }   
+            }
+            .team__personel--list{
+                .team__personel--item:hover{
+                        
+                    transform:translateY(-15px);
+                    transition: all 0.5s ease-in;
+                }
+                .team__personel--item{
+                    max-width: 268px;
+                    height: 358px;   
+                    background: #FFFFFF;
+                    box-shadow: -2px 0px 15px rgba(0, 0, 0, 0.1);
+                    border-radius: 10px;
+                    margin-right: 10px;
+                    margin-left: 10px;
+                    margin-top: 27px;
+                    cursor: pointer;
+                    
+                    .team__personel--item__inf{
+                        max-width: 268px;
+                        height: 316px; 
+                        text-align:center;
+                        padding-top: 25px;
+                        position: relative;
+                        h2{
+                            // padding-top:26px ;
+                            font-family: Poppins;
+                            font-style: normal;
+                            font-weight: 500;
+                            font-size: 20px;
+                            line-height: 30px;
+                            color: #255056;
+                        }
+                        span{
+                            font-family: Poppins;
+                            font-style: normal;
+                            font-weight: normal;
+                            font-size: 15px;
+                            line-height: 22px;
+                            color: #061B1C;
+                        }
+                        .team__personel--item__bg{
+                            
+                        }
+
+                        .team__personel--item-img-avt{
+                            position: absolute;
+                            top: 25px;
+                            left: 42px;
+                        }
+                    }
+                    .team__personel--item__connect{
+                        max-width: 268px;
+                        height: 41px;
+                        background: #FAFAFA;
+                        border-radius: 0px 0px 10px 10px;
+                        display: flex;;
+                        justify-content:space-between;
+                        align-items:center;
+                        padding: 0 15px;
+
+                        span{
+                            font-family: Poppins;
+                            font-style: normal;
+                            font-weight: 500;
+                            font-size: 15px;
+                            color: #E6B86A;
+                            line-height: 22px;
+                        }
+                        i{
+                            padding: 5px;
+                            background: #E6B86A;
+                            color: white;
+                        }
+
+                    }
+                }
+            }
+            
+        }
+
+
+    }
+    
+}

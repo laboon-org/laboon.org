@@ -1,0 +1,245 @@
+.products__container{
+    position: relative;
+    .products__content{
+
+        .products__list-title{
+            text-align: center;
+            margin-top: -40px;
+            margin-bottom:50px;
+            span{
+                position: relative;
+                z-index: 2;
+
+                font-family: Poppins;
+                font-style: normal;
+                font-weight: 600;
+                font-size: 20px;
+                line-height: 22px;
+                /* identical to box height, or 110% */
+
+
+                /* yeallow */
+
+                // color: #E6B86A;
+                margin-right: 50px;
+                color: #061B1C;
+                cursor: pointer;
+               
+            }
+            span:hover{
+                opacity: 0.5;
+            }
+            .active{
+                color: #E6B86A;
+            }
+        }
+        
+        .products__dapps{
+            
+            height: 300px;
+            background: #255056;
+            box-shadow: -2px 0px 15px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+           
+            .products__dapps-left{
+                padding: 100px 0 0 150px;
+
+                .products__dapps-left__wrap{
+                    h1{
+                        font-family: Poppins;
+                        font-style: normal;
+                        font-weight: 500;
+                        font-size: 35px;
+                        line-height: 30px;
+                        /* identical to box height, or 86% */
+
+                        /* wihite */
+
+                        color: #FEFEFE;
+                        margin-bottom: 25px;
+                    }
+                    p{
+                        width: 526px;
+                        height: 67px;
+                        font-family: Poppins;
+                        font-style: normal;
+                        font-weight: normal;
+                        font-size: 20px;
+                        line-height: 30px;
+                        /* or 150% */
+
+
+                        /* wihite */
+
+                        color: #FEFEFE;
+                    }
+                }
+            }
+
+            .products__dapps-right{
+                position: relative;
+                
+                .products__dapps0{
+                    top: 41px;
+                    left: 6px;
+                }
+
+                .products__dapps1{
+                    top: 34px;
+                    left: -60px;
+                }
+
+                .products__dapps2{
+                    top: 0;
+                    left: 0;
+                }
+
+                .products__dapps1-game{
+                    left:-10px;
+                }
+
+                .products__dapps-logo{
+                    position: absolute;
+                }
+            }
+        }
+        
+        .products__list-items{
+            margin-top: 25px;
+            margin-bottom: 100px;
+                
+                .products__item{
+                    height: 440px;
+                    max-width: 380px;
+                    background: #FFFFFF;
+                    box-shadow: -2px 0px 15px rgba(0, 0, 0, 0.1);
+                    border-radius: 10px;
+                    text-align: center;
+                    margin-right: 12px;
+                    margin-left: 15px;
+                    margin-top: 25px;
+                    position: relative;
+                    
+                    
+                    .products__item-img__active{
+                        position: absolute;
+                        z-index: -1;
+                        top: -54px;
+                        left: -62px;
+                        display: none;
+                    }
+                    .products__item-img{
+                        padding:25px 25px 0 25px;
+                    }
+                    .products__item-inf{
+                        text-align: left;
+                        margin-left: 35px;
+                        h1{
+                            font-family: Poppins;
+                            font-style: normal;
+                            font-weight: 600;
+                            font-size: 20px;
+                            line-height: 30px;
+                            /* identical to box height, or 150% */
+                            /* blue */
+                            
+                            color: #255056;
+                            margin-bottom: 10px;
+                        }
+                        p{
+                            font-family: Poppins;
+                            font-style: normal;
+                            font-weight: normal;
+                            font-size: 15px;
+                            font-weight: 500;
+
+                            line-height: 22px;
+                            /* or 147% */
+
+                            /* background */
+
+                            color: #061B1C;
+                            margin-bottom: 20px;
+                        }
+
+                        .products__item-inf__joint{
+                            display: flex;
+                            align-items: center;
+                            span{
+                                font-family: Poppins;
+                                font-style: normal;
+                                font-weight: 500;
+                                font-size: 15px;
+                                line-height: 22px;
+                                /* identical to box height, or 147% */
+
+                                /* yeallow */
+
+                                color: #E6B86A;
+
+                            }
+                            .products__item-inf__joint-img{
+                                margin-right: 10px;
+                            }
+                            
+                        }
+                    }
+
+                    
+                }
+                .products__item:hover{
+                    background-color: #E6B86A;
+                    cursor: pointer;
+                    // transform: translateY(-15px);
+                    transition: all 0.5s ease-in;
+                    
+                }
+
+                .products__item:hover .products__item-img__active{
+                    display: block;
+                }
+
+                .products__item:hover {
+                    .products__item-inf{
+                        h1,p{
+                            color: #FEFEFE;
+                        }
+                        .products__item-inf__joint{
+                            span{
+                                color: white;
+                            }
+                        }
+                    }
+                }
+
+
+                // .products__item.active{
+                //     background-color: #E6B86A;
+                //     .products__item-inf{
+                //         h1{
+                //             color: white;
+                //         }
+                //         p{
+                //             color: white;
+                //         }
+                        
+
+                //     }
+
+                //     .products__item-inf__joint{
+                //        span{
+                //             color: white;
+                //        }
+                //        img{
+                //        }    
+                //     }
+                // } 
+            
+
+        }
+        .products__dapps--snd{
+            margin-bottom: 30px;
+        }
+    }
+
+}

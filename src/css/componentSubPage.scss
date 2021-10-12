@@ -1,0 +1,170 @@
+.product__heading{
+    margin-top: 107px;
+
+    .group235{
+        margin-left: -131px;
+    }
+    .product__heading-right {
+        display: flex;
+        .product__heading-wrap{
+           margin: auto 0;
+           margin-left: 92px;
+        }
+        h1{
+            font-style: normal;
+            font-weight: 600;
+            font-size: 60px;
+            line-height: 22px;
+            /* or 37% */
+            /* blue */
+
+            color: #255056;
+            margin-bottom:30px;
+        }
+
+        .product__heading-link{
+            display: flex;
+            align-items: center;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 22px;
+
+            .product__heading-Link-page{
+            display: flex;
+            align-items: center;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 22px;
+            color: #E6B86A;
+
+
+
+            img{
+                margin-left: 15px;
+                margin-right: 15px;
+            }
+            }
+        }
+        
+        
+    }
+
+}
+.title__heading-container{
+    position: relative;
+    .title__heading-img{
+        position: absolute;
+        
+    }
+    .title__heading-group1{
+        top: 157px;
+        left: -156px;
+    }
+    .title__heading-group2{
+        top: 100px;
+        left: 858px;
+    }
+    .title__heading-group3{
+        top: 84px;
+        left: 838px;
+    }
+
+    .title__heading-group4{
+        top: 74px;
+        left: 106px;
+    }
+    .title__heading-group5{
+        top: 40px;
+        left: 76px;
+    }
+
+    .title__heading-group6{
+        top: 150px;
+        left: -151px;
+    }
+
+    .title__heading-group7{
+        top: 25px;
+        left: 858px;
+    }
+    .title__heading-group8{
+        top: 53px;
+        left: 1064px;
+    }
+    .title__heading-group9{
+        top: 219px;
+        left: 1118px;
+    }
+    .title__heading-group10{
+        top: 131px;
+        left: 1161px;
+    }
+    .title__heading-group11{
+        top: 186px;
+        left: 1132px;
+    }
+
+    .title__heading-group12{
+        top: 176px;
+        left: 213px;
+    }
+
+    .title__heading-group13{
+        top: 109px;
+        left: 1006px;
+    } 
+    .title__heading-group14{
+        top: 79px;
+        left: 984px;
+    }
+
+    .title__heading-group15{
+        top: 188px;
+        left: -104px;
+    }
+
+    .title__heading-group16{
+        top: 121px;
+        left: -244px;
+    }
+    .title__heading-group17{
+        z-index: -1;
+        top: 0px;
+        left: -349px;
+    }
+    .title__heading-subpage{
+        text-align: center;
+        padding-top: 150px;
+        padding-bottom: 80px;
+        h1{
+            margin-bottom: 50px;
+            font-family: Poppins;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 50px;
+            line-height: 30px;
+            /* identical to box height, or 60% */
+            
+            /* blue */
+            
+            color: #255056;
+            
+        }
+        p{
+            font-family: Poppins;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 20px;
+            line-height: 30px;
+            /* or 150% */
+    
+    
+            /* background */
+    
+            color: #061B1C;
+    
+        }
+    }
+}
