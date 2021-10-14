@@ -10,7 +10,7 @@ const navSilde = ()=>{
     const bars = document.querySelector('.header__bars');
     const navbar = document.querySelector('.header__nav')
     bars.addEventListener('click', ()=>{
-        navbar.classList.toggle('nav_active');
+        navbar.classList.toggle('nav_active');  
     })
 }
 
