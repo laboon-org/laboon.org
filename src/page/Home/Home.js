@@ -92,11 +92,6 @@ import hypermon from "../../img/hypermon.png"
 
 import sung from "../../img/sung.png"
 
-
-
-
-
-
 const Home = () => {
     return (
         <div>
@@ -186,7 +181,7 @@ const Home = () => {
           <section className="ourproducts grid wide">
             <div className="ourproducts__title">
               <h1>Our Products</h1>
-              <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium</p>
+              {/* <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium</p> */}
             </div>
             <div className="ourproducts__bottom">
               <div className="row">
@@ -257,7 +252,7 @@ const Home = () => {
                     <img src={backgroundElipItem} alt="" className ="backgroundElipItem backgroundElipItem-wrap"/>
                     <img src={mallItem5} alt=""  className ="mallIMain"/>
                   </div>
-                  <h1>Comming soon</h1>
+                  <h1>Coming soon</h1>
 
                   {/* <img src={itemourproduct5} alt="" /> */}
                 </div>
@@ -281,8 +276,8 @@ const Home = () => {
           <div className="product__elu-full grid">
               <div className="grid wide">
                 <div className="productlist__title col c-12">
-                  <h1>Product list</h1>
-                  <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium</p>
+                  <h1>Our Creativity</h1>
+                  {/* <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium</p> */}
                 </div>
                 <div className="angry">
                   <div className="row">
@@ -291,7 +286,7 @@ const Home = () => {
                       {/* <img src={productitem5} alt=""  className="productitem5"/> */}
                     </div>
                     <div className="angry__right roate col l-8 c-12">
-                      <h1>Elu Universe</h1>
+                      <h1>Elu Verse</h1>
                       <div className="wrap__angry row">
                         <ItemProduct title={"Drop"} img={productitem1}></ItemProduct>
                         <ItemProduct title={"Nest"} img={productitem1}></ItemProduct>
@@ -356,7 +351,7 @@ const Home = () => {
               </div>
             </div>
             <div className="product__seemore">
-              <h1>See More</h1>
+              {/* <h1>See More</h1> */}
             </div>
             
           </div>

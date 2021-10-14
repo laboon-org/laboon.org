@@ -6,7 +6,6 @@ import Product from './page/Products/Product';
 import Team from './page/Team/Team';
 import Blog from './page/Blog/Blog';
 
-
 function App() {
   return (
     <Router>
@@ -15,7 +14,7 @@ function App() {
         <Route exact path="/">
           <Home></Home>
         </Route>
-        <Route exact path="/product">
+        {/* <Route exact path="/product">
           <Product></Product>
         </Route>
         <Route path="/team">
@@ -23,7 +22,7 @@ function App() {
         </Route>
         <Route path="/blog">
           <Blog></Blog>
-        </Route>
+        </Route> */}
       </Switch>
       </div>
     </Router>

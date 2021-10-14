@@ -12,7 +12,7 @@ body {
   overflow: hidden;
 }
 .container__grid{
-  background-color: #E5E5E5;
+  background-color: #FFFFFF;
 }
 .container{
   position: relative;
@@ -304,7 +304,7 @@ body {
 /* OUr Products */
 
 .ourproducts__container {
-  background-color: #E5E5E5;
+  background-color:#FFFFFF;
 }
 .ourproducts{
   height: 1200px;

@@ -31,9 +31,9 @@ const Header = ({active, logo}) => {
                         <div className="header__nav col l-5 ">
                             <ul>
                                 <li className={`header__nav-item ${active == 'home' && 'active' } `}><Link to="/">Home</Link></li>
-                                <li className={`header__nav-item ${active == 'product' && 'active' } `}><Link to="/product">Product</Link></li>
-                                <li className={`header__nav-item ${active == 'team' && 'active' } `}><Link to="/team" >Team</Link></li>
-                                <li className={`header__nav-item ${active == 'blog' && 'active' } `}><Link to="/blog" >Blog</Link></li>
+                                <li className={`header__nav-item ${active == 'product' && 'active' } `}><Link to="/">Product</Link></li>
+                                <li className={`header__nav-item ${active == 'team' && 'active' } `}><Link to="/" >Team</Link></li>
+                                <li className={`header__nav-item ${active == 'blog' && 'active' } `}><Link to="/" >Blog</Link></li>
                             </ul>
                         </div>
                         <div className="header__bars ">

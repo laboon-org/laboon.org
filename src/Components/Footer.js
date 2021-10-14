@@ -8,7 +8,6 @@ import facebook from '../img/facebook-box-fill.png';
 import linked from '../img/linkedin-box-fill.png';
 import tw from '../img/twitter-fill.png';
 
-
 const Footer = () => {
     return (
         <section className="footer grid">
@@ -32,7 +31,7 @@ const Footer = () => {
                             </ul>
                         </div> 
                         <div className="footer__about col l-4 c-12">
-                            <h4>Producs</h4>
+                            <h4>Products</h4>
                             <ul >
                                 <div className="c-4">
                                     <li>Elu</li>
