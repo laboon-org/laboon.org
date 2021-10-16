@@ -290,11 +290,13 @@ const Home = () => {
                       <div className="wrap__angry row">
                         <ItemProduct title={"Drop"} img={productitem1}></ItemProduct>
                         <ItemProduct title={"Nest"} img={productitem1}></ItemProduct>
-                        <ItemProduct title={"Comming Soon"} img={productitem1}></ItemProduct>
-                        <ItemProduct title={"Comming Soon"} img={productitem1}></ItemProduct>
+                        <ItemProduct title={"Coming Soon"} img={productitem1}></ItemProduct>
+                        <ItemProduct title={"Coming Soon"} img={productitem1}></ItemProduct>
                       </div>
                       <div className="wrap__angry-btn">
-                        <button>Let's explore Elu world</button>
+                      <a href="https://playelu.io/">
+                      <button>Let's explore Elu world</button>  
+                      </a>
                       </div>
                     </div>
                   </div>

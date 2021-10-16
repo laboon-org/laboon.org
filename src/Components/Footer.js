@@ -38,7 +38,7 @@ const Footer = () => {
                                     <li>Need</li>
                                 </div>
                                 <div className="c-5">
-                                    <li>Mail</li>
+                                    <li>Mall</li>
                                     <li>Wallet</li>
                                 </div>
                             </ul>
