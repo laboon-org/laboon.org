@@ -374,7 +374,7 @@ const Home = () => {
       </section>
       <section className="ourpatners grid">
         <div className="ourpatners__content grid wide">
-          <h1>Our Patners</h1>
+          <h1>Our Partners</h1>
           <div className="row ourpatners__items-wrap">
               <div className="ourpatner__item l-2 c-4">
                 <img src={ourpatner1} alt="" className=" "/>
@@ -382,7 +382,7 @@ const Home = () => {
               <div className="ourpatner__item l-2 c-4">
                 <img src={ourpatner2} alt="" className=" "/>
               </div>
-              <div className="ourpatner__item l-2 c-4">
+              <div className="ourpatner__item l-2 c-4 mt">
                 <img src={ourpatner3} alt="" className=" "/>
               </div>
               <div className="ourpatner__item l-2 c-4">

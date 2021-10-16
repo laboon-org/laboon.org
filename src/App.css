@@ -1004,12 +1004,7 @@ height: 123px;
   box-shadow: 4px 4px 0px 2px rgba(230, 184, 106,0.8);
   transition: all 0.3s ease-in;
 }
-
-
-
-
-
-
+ 
 /* ProductBoth */
 .ourpatners__content h1{
   text-align: center;
@@ -1044,11 +1039,11 @@ height: 123px;
   font-weight: 500;
   font-size: 25px;
   line-height: 22px;
-
   color: #575757;
-
 }
-
+.mt {
+  padding-top: 7px;
+}
 .ourpatner__item:hover{
   filter: grayscale(0);
   cursor: pointer;
