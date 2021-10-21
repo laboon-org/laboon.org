@@ -1011,12 +1011,7 @@ height: 123px;
   box-shadow: 4px 4px 0px 2px rgba(230, 184, 106,0.8);
   transition: all 0.3s ease-in;
 }
-
-
-
-
-
-
+ 
 /* ProductBoth */
 .ourpatners__content h1{
   text-align: center;
@@ -1045,10 +1040,22 @@ height: 123px;
     object-fit:cover;
 }
 
+<<<<<<< HEAD
 .ourpatner__item.pt{
   padding-top: 6px;
+=======
+.ourpatner__item span{
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 22px;
+  color: #575757;
+>>>>>>> 20a5832df33d2cde0919624e5da0e5d5405a43df
 }
-
+.mt {
+  padding-top: 7px;
+}
 .ourpatner__item:hover{
   filter: grayscale(0);
   cursor: pointer;
