@@ -78,3 +78,7 @@
 .footer__content-wrap{
     padding-bottom: 70px;
 }
+
+.footer__infor.mobile p{
+    display: none;
+}

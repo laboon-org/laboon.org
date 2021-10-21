@@ -17,27 +17,31 @@ const Footer = () => {
                         <div className="footer__logo col l-4 c-12"> 
                               <img src={footerlogo} alt="" />
                         </div>
-                        <div className="footer__about col l-4 c-12">
+                        {/* <div className="footer__infor mobile">
+                            <p>© All right reserved 2021. </p>
+                            <p>Laboon Website Demo by Laboon Designer</p>
+                        </div> */}
+                        <div className="footer__about col l-4 c-12 ">
                             <h4>About</h4>
                             <ul>
-                                <div className="c-6 l-5">
+                                <div className="c-6 l-5 m-6">
                                     <li>Our team</li>
                                     <li>Blog</li>
                                 </div>
-                                <div className="c-6 l-5">
+                                <div className="c-6 l-5 m-6">
                                     <li>Contact us</li>
                                     <li>Term of use</li>
                                 </div>
                             </ul>
                         </div> 
-                        <div className="footer__about col l-4 c-12">
+                        <div className="footer__about col l-4 c-12 ">
                             <h4>Products</h4>
                             <ul >
-                                <div className="c-4">
+                                <div className="c-6 m-6">
                                     <li>Elu</li>
                                     <li>Need</li>
                                 </div>
-                                <div className="c-5">
+                                <div className="c-6 m-6">
                                     <li>Mall</li>
                                     <li>Wallet</li>
                                 </div>
