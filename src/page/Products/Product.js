@@ -1,11 +1,11 @@
 import React from 'react'
-import Footer from '../../components/Footer';
-import Header from './../../components/Header';
+import Footer from '../../Components/Footer';
+import Header from './../../Components/Header';
 import '../../grid.css';
 import './product.scss';
-import HeaddingSubPage from '../../components/HeaddingSubPage';
+import HeaddingSubPage from '../../Components/HeaddingSubPage';
 
-import TitleSubPage from '../../components/TitleSubPage';
+import TitleSubPage from '../../Components/TitleSubPage';
 
 import DappsLogo from './imgProduct/DappsLogo.png'
 import DappsLogo1 from './imgProduct/DappsLogo1.png'

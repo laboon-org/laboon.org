@@ -48,27 +48,17 @@
     }
 
 
-    .blockchainify{
-        height: 800px;
-
+    
+    .ourproducts__title{
+        margin-top: -94px;
     }
-    .blockchainify__top{
-        
-        margin:0px 45px 0 45px;
-        text-align: center;
-
-
-    }
-    .blockchainify__top h1{
+    .ourproducts__title h1{
         font-weight: 500;
         font-size: 30px;
-        line-height: 22px;
-    }
-
-    .blockchainify__top p { 
-
+        line-height: 30px;
         font-family: Poppins;
         font-style: normal;
+<<<<<<< HEAD
         font-weight: normal;
         font-size: 18px;
         line-height: 30px;
@@ -90,6 +80,11 @@
         font-weight: 500;
         font-size: 30px;
         line-height: 30px;
+=======
+        font-weight: 500;
+        font-size: 30px;
+        line-height: 30px;
+>>>>>>> a68bcb1aa68f5ec007529acda756187a9ffe1c3e
         color: #255056;
     }
 
@@ -98,6 +93,7 @@
         font-size: 18px;
         line-height: 30px;
     }
+<<<<<<< HEAD
     .blockchainify--img{
         top: 15px;
         left: -160px;
@@ -152,6 +148,10 @@
     .aboutus__card-mt{
         margin-bottom: 30px;
     }
+=======
+    
+    
+>>>>>>> a68bcb1aa68f5ec007529acda756187a9ffe1c3e
     .ourproducts{
         height:520px;
     }
@@ -234,6 +234,7 @@
        margin-left: 5px;
    }
 
+<<<<<<< HEAD
    .angry{
        height:778px;
        position: relative;
@@ -241,9 +242,11 @@
    .angry__left{
        
    }
+=======
+>>>>>>> a68bcb1aa68f5ec007529acda756187a9ffe1c3e
    .angry__left img{
         top: -64px;
-        left: 0;
+        
         width:100%;
 
    }
@@ -251,10 +254,14 @@
  
   
 
+<<<<<<< HEAD
    .productlist{
+=======
+   /* .productlist{
+>>>>>>> a68bcb1aa68f5ec007529acda756187a9ffe1c3e
     height: 4063px;
    
-   }
+   } */
    
 
      .ourpatner__items{
@@ -615,12 +622,16 @@
         left: -175px;
       }
 
+<<<<<<< HEAD
       .blockchainify--img2 {
         top: 206px;
         left: 234px;
         width: 55.01px;
         height: 51.06px;    
     }
+=======
+      
+>>>>>>> a68bcb1aa68f5ec007529acda756187a9ffe1c3e
 
     
 }
@@ -958,9 +969,6 @@
     .angry__right-2 img {
         padding-left: 0;
     }
-
-
-    /*  */
 
      /*  */
      .productitem5{

@@ -1,101 +1,28 @@
-
 import '../../App.css'
-
 import React from 'react'
-import Header from './../../components/Header';
-
-// import blockchainifyfull1 from '../../img/'
+import Header from '../../Components/Header';
 import logo21 from '../../img/logo21.png'
-
-
-
-import backgroundBlockchinHome from '../../img/backgroundBlockchain.png'
-
-
-import card1 from '../../img/card1.png'
-import card2 from '../../img/card2.png'
-import card3 from '../../img/card3.png'
-
-import card4 from '../../img/card4.png'
-
-import about1 from '../../img/about1.png'
-import vector2 from '../../img/Vector2.png'
-import aboutline from '../../img/aboutline.png'
-import line2 from '../../img/line2.png'
-import newproductlist from '../../img/newproductlist.png'
-
 import ourpatner1 from '../../img/ourpatner1.png'
 import ourpatner2 from '../../img/ourpatner2.png'
 import ourpatner3 from '../../img/ourpatner3.png'
 import ourpatner4 from '../../img/ourpatner4.png'
 import ourpatner5 from '../../img/ourpatner5.png'
 import ourpatner6 from '../../img/ourpatner6.png'
-import productlist from '../../img/productlist.png'
-import productlist1 from '../../img/productlist1.png'
-import productlist2 from '../../img/productlist2.png'
-import productlist3 from '../../img/productlist3.png'
-import productlist4 from '../../img/productlist4.png'
-import productlist5 from '../../img/productlist5.png'
-import productlist6 from '../../img/productlist6.png'
-import productlist7 from '../../img/productlist7.png'
-
-
-import makeGroupf1 from '../../img/makeGroupf1.png'
-import makeGroupf2 from '../../img/makeGroupf2.png'
-import makeGroupf3 from '../../img/makeGroupf3.png'
-import makeGroupf4 from '../../img/makeGroupf4.png'
-import makeGroupf5 from '../../img/makeGroupf5.png'
-import makeGroupf6 from '../../img/makeGroupf6.png'
-import makeGroupf7 from '../../img/makeGroupf7.png'
-
-
-
-
-import Groudabout2 from '../../img/Groupabout2.png'
-
-import Groudaboutus from '../../img/GroupAboutus.png'
-import dotabout from '../../img/dot2.png'
-import lineabout from '../../img/lineabout.png'
-import lineabout1 from '../../img/lineabout1.png'
-import lineabout3 from '../../img/lineabout2.png'
-import GroudaboutusDot from '../../img/Groupdotabout.png'
-import Footer from './../../components/Footer';
-
-// 
-
-import ourproductv3 from "../../img/ourproductv3.png"
-
-
-import itemourproduct6 from "../../img/itemourproduct6.png"
-
-import backgroundElipItem from "../../img/backgroundElipitem.png" 
-
-import mallItem1 from "../../img/mallItem1.png" 
-import mallItem2 from "../../img/mallItem2.png" 
-import mallItem3 from "../../img/mallItem3.png" 
-import mallItem4 from "../../img/mallItem4.png" 
-import mallItem5 from "../../img/mallItem5.png" 
-import mallhover from "../../img/mallhover.png" 
-
-
-import productitem1 from "../../img/productitem1.png" 
-
-import ItemProduct from './ItemProduct';
-
-import itemMall from "../../img/itemMall.png" 
-import itemMall2 from "../../img/itemMall2.png" 
-import itemMall3 from "../../img/itemMall3.png" 
-import itemMall4 from "../../img/itemMall4.png" 
-
-
-import hypermon from "../../img/hypermon.png" 
-
-import sung from "../../img/sung.png"
+import ourpatner7 from '../../img/logoHypermon.png'
+import ourpatner8 from '../../img/ourpatner7.png'
+import Footer from './../../Components/Footer';
+import OurCreativity from './OurCreativity';
+import Blockchainify from './Blockchainify';
+import OurOrientation from './OurOrientation';
+import Ourproduct from './Ourproduct';
+import Plaza from './Plaza';
+import Product__both from './Product__both';
 
 const Home = () => {
     return (
         <div>
         <Header active = {"home"} logo={logo21}></Header>
+<<<<<<< HEAD
         <div className="container__grid grid">
           <div className="container grid wide">
             
@@ -244,25 +171,42 @@ const Home = () => {
                   <h1>Wallet</h1>
 
                   {/* <img src={itemourproduct4} alt="" /> */}
+=======
+        <div className='body'>
+          <Blockchainify />
+          <OurOrientation />
+          <Ourproduct />
+          <OurCreativity />
+          <Plaza />
+          <Product__both />
+          <section className="ourpatners">
+          <div className="ourpatners__content">
+            <h1>Our Partners</h1>
+            <div className="row ourpatners__items-wrap">
+                <div className="ourpatner__item l-1 c-6">
+                  <img src={ourpatner1} alt="" className=" "/>
                 </div>
-                <div className="ourproducts__bottom-line__item">
-                  <div className="ourproducts__bottom-line__item-wrap">
-                    <img src={mallhover} alt="" className ="backgroundElipItem mallhover mallhover5"/>
-
-                    <img src={backgroundElipItem} alt="" className ="backgroundElipItem backgroundElipItem-wrap"/>
-                    <img src={mallItem5} alt=""  className ="mallIMain"/>
-                  </div>
-                  <h1>Coming soon</h1>
-
-                  {/* <img src={itemourproduct5} alt="" /> */}
+                <div className="ourpatner__item l-2 c-6">
+                  <img src={ourpatner2} alt="" className=" "/>
                 </div>
-              </div>
-              <div className="ourproducts__bottom-line__mid-item">
-                  <img src={itemourproduct6} alt=""  />
-              </div>
+                <div className="ourpatner__item l-2 c-4 mt">
+                  <img src={ourpatner3} alt="" className=" "/>
+                </div>
+                <div className="ourpatner__item l-2 c-6">
+                  <img src={ourpatner4} alt="" className=" "/>
+                </div>
+                <div className="ourpatner__item l-3 c-6">
+                  <img src={ourpatner7} alt="" className=" "/>
+                </div>
+                <div className="ourpatner__item l-1 c-6">
+                  <img src={ourpatner8} alt="" className=" "/>
+>>>>>>> a68bcb1aa68f5ec007529acda756187a9ffe1c3e
+                </div>
             </div>
           </div>
+        </section>
         </div>
+<<<<<<< HEAD
       <section className="productlist grid">
         <img src={productlist} alt="" className="productlist-img productlist-img1" />
         <img src={productlist1} alt="" className="productlist-img productlist1" />
@@ -393,6 +337,8 @@ const Home = () => {
           </div>
         </div>
       </section>
+=======
+>>>>>>> a68bcb1aa68f5ec007529acda756187a9ffe1c3e
       <Footer></Footer>
       </div>
     )

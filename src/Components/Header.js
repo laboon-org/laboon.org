@@ -31,8 +31,13 @@ const Header = ({active, logo}) => {
                         <div className="header__nav col l-5 ">
                             <ul>
                                 <li className={`header__nav-item ${active == 'home' && 'active' } `}><Link to="/">Home</Link></li>
+<<<<<<< HEAD
                                 <li className={`header__nav-item ${active == 'product' && 'active' } `}><Link to="/product">Product</Link></li>
                                 <li className={`header__nav-item ${active == 'team' && 'active' } `}><Link to="/team" >Crew</Link></li>
+=======
+                                <li className={`header__nav-item ${active == 'product' && 'active' } `}><Link to="/">Product</Link></li>
+                                <li className={`header__nav-item ${active == 'team' && 'active' } `}><Link to="/" >Crew</Link></li>
+>>>>>>> a68bcb1aa68f5ec007529acda756187a9ffe1c3e
                                 <li className={`header__nav-item ${active == 'blog' && 'active' } `}><Link to="/" >Blog</Link></li>
                             </ul>
                         </div>
