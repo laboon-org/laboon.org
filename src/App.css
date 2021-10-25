@@ -283,7 +283,7 @@ body {
 
 
 
-<<<<<<< HEAD
+/* <<<<<<< HEAD
 .angry__left img{
   position: absolute;
   top: 0;
@@ -308,7 +308,7 @@ body {
   width: 181px;
   height: 194px;  
   background: linear-gradient(180deg, #0F3536 0%, #0B686A 100%);
-  /* yeallow */
+   
 
   border: 1px solid #E6B86A;
   box-sizing: border-box;
@@ -318,8 +318,8 @@ body {
   padding: 0 13px;
 
 }
-=======
->>>>>>> a68bcb1aa68f5ec007529acda756187a9ffe1c3e
+======= */
+ 
 
 .angry-item__wrap img{
   padding-top: 12px;
@@ -376,12 +376,12 @@ height: 123px;
 .wrap__angry-item{
   
 }
-<<<<<<< HEAD
+/* <<<<<<< HEAD
 .wrap__angry-item{
   margin-left: 10px;
 }
-=======
->>>>>>> a68bcb1aa68f5ec007529acda756187a9ffe1c3e
+======= */
+ 
 .wrap__angry-item:hover{
   cursor: pointer;
   transform: translateY(-20px);
@@ -711,11 +711,11 @@ justify-content: space-around;
     object-fit:cover;
 }
 
-.ourpatner__item.pt{
+/* .ourpatner__item.pt{
   padding-top: 6px;
 <<<<<<< HEAD
-=======
-}
+======= */
+/* } */
 
 .ourpatner__item span{
   font-family: Poppins;
@@ -724,7 +724,7 @@ justify-content: space-around;
   font-size: 25px;
   line-height: 22px;
   color: #575757;
->>>>>>> a68bcb1aa68f5ec007529acda756187a9ffe1c3e
+ 
 }
 .mt {
   padding-top: 7px;

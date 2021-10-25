@@ -58,33 +58,7 @@
         line-height: 30px;
         font-family: Poppins;
         font-style: normal;
-<<<<<<< HEAD
-        font-weight: normal;
-        font-size: 18px;
-        line-height: 30px;
 
-        /* or 167% */
-
-
-        color: #000000;
-    }
-    .ourproducts__title{
-        margin-top: -94px;
-    }
-    .ourproducts__title h1{
-        font-weight: 500;
-        font-size: 30px;
-        line-height: 30px;
-        font-family: Poppins;
-        font-style: normal;
-        font-weight: 500;
-        font-size: 30px;
-        line-height: 30px;
-=======
-        font-weight: 500;
-        font-size: 30px;
-        line-height: 30px;
->>>>>>> a68bcb1aa68f5ec007529acda756187a9ffe1c3e
         color: #255056;
     }
 
@@ -93,7 +67,7 @@
         font-size: 18px;
         line-height: 30px;
     }
-<<<<<<< HEAD
+/* <<<<<<< HEAD
     .blockchainify--img{
         top: 15px;
         left: -160px;
@@ -148,10 +122,10 @@
     .aboutus__card-mt{
         margin-bottom: 30px;
     }
-=======
+======= */
     
     
->>>>>>> a68bcb1aa68f5ec007529acda756187a9ffe1c3e
+ 
     .ourproducts{
         height:520px;
     }
@@ -234,16 +208,7 @@
        margin-left: 5px;
    }
 
-<<<<<<< HEAD
-   .angry{
-       height:778px;
-       position: relative;
-   }
-   .angry__left{
-       
-   }
-=======
->>>>>>> a68bcb1aa68f5ec007529acda756187a9ffe1c3e
+ 
    .angry__left img{
         top: -64px;
         
@@ -254,9 +219,9 @@
  
   
 
-<<<<<<< HEAD
+/* <<<<<<< HEAD
    .productlist{
-=======
+======= */
    /* .productlist{
 >>>>>>> a68bcb1aa68f5ec007529acda756187a9ffe1c3e
     height: 4063px;
@@ -622,7 +587,7 @@
         left: -175px;
       }
 
-<<<<<<< HEAD
+/* <<<<<<< HEAD
       .blockchainify--img2 {
         top: 206px;
         left: 234px;
@@ -631,7 +596,7 @@
     }
 =======
       
->>>>>>> a68bcb1aa68f5ec007529acda756187a9ffe1c3e
+>>>>>>> a68bcb1aa68f5ec007529acda756187a9ffe1c3e */
 
     
 }

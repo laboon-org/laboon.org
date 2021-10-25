@@ -1,11 +1,11 @@
 import React from 'react'
-import Footer from '../../Components/Footer';
-import Header from './../../Components/Header';
+import Footer from '../../components/Footer';
+import Header from './../../components/Header';
 import '../../grid.css';
 import './team.scss';
-import HeaddingSubPage from '../../Components/HeaddingSubPage';
+import HeaddingSubPage from '../../components/HeaddingSubPage';
 
-import TitleSubPage from '../../Components/TitleSubPage';
+import TitleSubPage from '../../components/TitleSubPage';
 
 import camping1 from './imgTeam/camping1.png'
 import camping2 from './imgTeam/camping2.png'

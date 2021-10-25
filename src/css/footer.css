@@ -48,8 +48,11 @@
     padding-bottom:24px ;
     margin-left: -20px;
 }
-
+.mr-right{ 
+    padding-right: 30px;
+}
 .footer__about ul {
+
     font-family: Poppins;
     font-style: normal;
     font-weight: normal;
@@ -91,29 +94,4 @@
 
 .footer__infor.mobile p{
     display: none;
-<<<<<<< HEAD
-}
-.footer__about-address{
-    display: flex;
-}
-.footer__about-address i,p{
-    color: #06454B;
-}
-.footer__about-address i{
-    margin-left: -15px;
-    font-size: 25px;
-    margin-right: 15px;
-}
-.footer__about-address p{
-    font-family: Poppins;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 17px;
-    line-height: 32px;
-    /* or 188% */
-
-    color: #06454B;
-    width: 224px;
-=======
->>>>>>> a68bcb1aa68f5ec007529acda756187a9ffe1c3e
 }

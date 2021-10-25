@@ -1,8 +1,8 @@
 import React from 'react'
-import Footer from '../../Components/Footer';
-import Header from './../../Components/Header';
-import HeaddingSubPage from '../../Components/HeaddingSubPage';
-import TitleSubPage from '../../Components/TitleSubPage';
+import Footer from '../../components/Footer';
+import Header from './../../components/Header';
+import HeaddingSubPage from '../../components/HeaddingSubPage';
+import TitleSubPage from '../../components/TitleSubPage';
 
 import './blog.scss'
 
