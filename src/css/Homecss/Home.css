@@ -1,0 +1,352 @@
+/* Blockchainify */
+.blockchainify{
+  margin-top: 107px;
+}
+
+.blockchainify__top{
+  z-index: 1;
+  text-align: center;
+  padding-top: 122px;
+  position: relative;
+}
+.blockchainify__top h1{
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 50px;
+  line-height: 22px;
+  color: #255056;
+  padding-bottom: 35px;
+}
+
+.blockchainify__top .blockchain-subheading{
+  max-width: 754px;
+  margin: auto;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
+  color: #000000;
+}
+
+.blockchainify__bottom{
+  z-index: 0;
+  margin-top: -140px;
+  position: relative;
+}
+
+.blockchainify--img2{
+  position: absolute;
+  top: 320px;
+  left: 684px;
+}
+.blockchainify--img{
+}
+
+.blockchainify--img1{
+  width: 100%;
+  
+}
+
+/* OurOrientation */
+.ourOrientation-background{
+  z-index: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #E6B86A;
+}
+.Groupaboutdot{
+  top: 40px;
+  left: 720px;
+  opacity: 0.5;
+}
+.lineabout2{
+  position: absolute;
+  bottom: 69px;
+  right: 884px;
+  opacity: 0.5;
+}
+.ahoutus__container{
+  background-color: #E6B86A;
+  overflow: hidden;
+  position: relative;
+}
+
+.aboutus{
+  position: relative;
+}
+
+.aboutus__left{
+  margin-top: 420px;
+}
+.aboutus__left-wrapper{
+  text-align: right;
+}
+
+.aboutus__left-wrapper h1{
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 50px;
+  line-height: 60px;
+  color: #255056;
+  width: 294px;
+  margin: auto;
+}
+.aboutus__left-wrapper p{
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 35px;
+  width: 272px;
+  margin: auto;
+  color: #061B1C;
+}
+
+.aboutus__right{
+  /* position:relative; */
+  padding-left: 110px;
+}
+
+.aboutus__card{
+  position: relative;
+  width: 354px;
+  height:409px;
+  margin-bottom: 38px;
+
+  box-shadow: -2px 0px 15px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  background: #FFFFFF;
+  cursor: pointer;
+  
+}
+.aboutus__card:hover{
+  transform:translateY(-20px);
+  transition: all 0.5s ease-in;
+}
+
+.aboutus__right-1{
+  margin-top: 160px;
+}
+
+.aboutus__right-2{
+  margin-top: 220px;
+}
+
+.aboutus__card img{
+  padding: 39px 21px 0 20px;
+  object-fit: cover;
+}
+
+.aboutus__card-infor span{
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #061B1C;
+}
+.aboutus__card-infor{
+  margin: 0 31px 35px 70px;
+}
+
+.aboutus__card-infor p{
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 22px;
+  color: #061B1C;
+}
+
+.about-img{
+  position: absolute;
+}
+
+.Groupabout1{
+  z-index: 0;
+  top: 0px;
+  left: 0px;
+ 
+}
+
+/* Productlist */
+.productlist{
+    overflow: hidden;
+    background-color: #163034;
+  
+    
+  }
+
+  .product__elu-full{
+    /* position: absolute; */
+    position: relative;
+  }
+
+  .product__elu-background{
+      /* position: absolute; */
+      z-index: -1;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+  }
+
+  .productlist-img{
+    position: absolute;
+  }
+  
+  .productlist-img1{
+    width: 505px;
+    height: 305px;
+    top: 0;
+    right: 0;
+    z-index: 0;
+  }
+  
+  .productlist1{
+    right:60px;
+    top: 0px;
+  }
+  
+  .productlist2{
+    right:0px;
+    top: 0;
+  }
+  
+  .productlist3{
+    width: 253.27px;
+    left:67.85px;
+    top: -120px;
+  }
+  
+  .productlist4{
+    left: 0;
+    top: -100px;
+    border-radius: 0px;
+  
+  }
+  .productlist5{
+    top: 309px;
+    right: 38px;
+  }
+  
+  .productlist6{
+    bottom: 33.84px;
+    right:160.15px;
+  }
+  .productlist7{
+    top: -40px;
+    right: 0px;
+  }
+
+  .productlist8{
+    top: 33.88px;
+    left: 220px;
+  }
+
+  .product__elu-content{
+     
+  }
+
+  .productlist__title{
+    text-align: center;
+    padding-top: 120px;
+    position: relative;
+  }
+
+  .productlist__title h1{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 30px;
+    color: #FEFEFE;
+    padding-bottom: 30px;
+  }
+  
+  /* .productlist__title p{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    color: #FEFEFE;
+    margin-top: 5px;
+  } */
+  
+.angry {
+    padding: 42px 41px 50px 41px;
+    align-items: center;
+    position: relative;
+  }
+  
+  .angry__left{
+  }
+  .angry__left-img1{
+      width: 100%;
+    /* width: 638px;
+    height: 638px; */
+    align-items: center;
+    margin: auto;
+  }
+  
+  /* .angry__left .productitem5{
+    position: absolute;
+    top: 293px;
+      left: 165px;
+  } */
+  .angry__right{
+    width: 100%;
+    margin-top: 110px;
+    align-items: center;
+    position: relative;
+  }
+  .wrap__angry{
+    align-items: center;
+  }
+  .wrap__angry-wrap-item{
+    width: 100%;
+    padding-left: 20px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  /* .angry-item__wrap{
+    width: 181px;
+    height: 194px;  
+    background: linear-gradient(180deg, #0F3536 0%, #0B686A 100%);
+    border: 1px solid #E6B86A;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    text-align: center;
+    padding: 0 13px;
+  
+  } */
+
+  .wrap__angry-btn{
+    width: 100%;
+    text-align: center;
+    padding-top: 46px;
+  }
+  .wrap__angry-btn:hover{
+    cursor: pointer;
+  }
+  .wrap__angry-btn button img{
+    width: 365px;
+    height: 118px;
+  }
+  /* .wrap__angry-btn img:hover{
+    cursor: pointer;
+    box-shadow: 1px 1px 0px 2px rgba(30, 80, 86,0.8);
+    transition: all 0.3s ease-in;
+  
+  } */

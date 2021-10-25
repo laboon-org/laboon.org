@@ -32,7 +32,7 @@ const Header = ({active, logo}) => {
                             <ul>
                                 <li className={`header__nav-item ${active == 'home' && 'active' } `}><Link to="/">Home</Link></li>
                                 <li className={`header__nav-item ${active == 'product' && 'active' } `}><Link to="/">Product</Link></li>
-                                <li className={`header__nav-item ${active == 'team' && 'active' } `}><Link to="/" >Team</Link></li>
+                                <li className={`header__nav-item ${active == 'team' && 'active' } `}><Link to="/" >Crew</Link></li>
                                 <li className={`header__nav-item ${active == 'blog' && 'active' } `}><Link to="/" >Blog</Link></li>
                             </ul>
                         </div>

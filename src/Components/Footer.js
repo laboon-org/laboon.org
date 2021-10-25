@@ -3,10 +3,12 @@ import '../css/footer.css'
 import '../css/responsive/responsive.css'
 import '../grid.css'
 
-import footerlogo from '../img/Footerlogo.png';
+import footerlogo from '../img/footerlogo.png';
 import facebook from '../img/facebook-box-fill.png';
 import linked from '../img/linkedin-box-fill.png';
 import tw from '../img/twitter-fill.png';
+import footermap from '../img/footermap.png'
+
 
 const Footer = () => {
     return (
@@ -14,34 +16,41 @@ const Footer = () => {
             <div className="grid wide">
                 <div className="footer__content">
                     <div className=" footer__content-wrap row">
-                        <div className="footer__logo col l-4 c-12"> 
+                        <div className="footer__logo col l-3 c-12"> 
                               <img src={footerlogo} alt="" />
                         </div>
                         {/* <div className="footer__infor mobile">
                             <p>© All right reserved 2021. </p>
                             <p>Laboon Website Demo by Laboon Designer</p>
                         </div> */}
-                        <div className="footer__about col l-4 c-12 ">
+                        <div className="footer__about col l-3 c-12 ">
+                            <h4>Address</h4>
+                            <div className="footer-map">
+                                <img src={footermap}/>
+                                <p className='footer-address'>68 Upper Serangoon View,Singapore, 533884</p>
+                            </div>
+                        </div>
+                        <div className="footer__about col l-3 c-12 ">
                             <h4>About</h4>
                             <ul>
                                 <div className="c-6 l-5 m-6">
                                     <li>Our team</li>
                                     <li>Blog</li>
-                                </div>
-                                <div className="c-6 l-5 m-6">
+                                {/* </div>
+                                <div className="c-6 l-5 m-6"> */}
                                     <li>Contact us</li>
                                     <li>Term of use</li>
                                 </div>
                             </ul>
                         </div> 
-                        <div className="footer__about col l-4 c-12 ">
+                        <div className="footer__about col l-3 c-12 ">
                             <h4>Products</h4>
                             <ul >
                                 <div className="c-6 m-6">
                                     <li>Elu</li>
                                     <li>Need</li>
-                                </div>
-                                <div className="c-6 m-6">
+                                {/* </div>
+                                <div className="c-6 m-6"> */}
                                     <li>Mall</li>
                                     <li>Wallet</li>
                                 </div>
@@ -57,7 +66,7 @@ const Footer = () => {
                         <img className="footer__icon-connect" src={tw} alt="" />
 
                     </div>
-                    <p>© All right reserved 2021. Laboon Website Demo by Laboon Designer</p>
+                    <p>© 2021 Laboon.LTD.PTE ver0.5. All right reserved</p>
                     
                 </div>
             </div>
