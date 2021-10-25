@@ -9,6 +9,7 @@ import TitleSubPage from '../../components/TitleSubPage';
 
 import camping1 from './imgTeam/camping1.png'
 import camping2 from './imgTeam/camping2.png'
+
 import camping3 from './imgTeam/camping3.png'
 import camping4 from './imgTeam/camping4.png'
 import campingmid from './imgTeam/campingmid.png'
@@ -36,7 +37,7 @@ const Team = () => {
     return (
         <>
             <Header active={"team"} logo={logo21}></Header>
-            <HeaddingSubPage title ={"Team"}></HeaddingSubPage>
+            <HeaddingSubPage title ={"Crew"} desp = {"We think that the really ideal teams are built out of a broad spectrum of spirits who are all striving towards a shared vision."}></HeaddingSubPage>
             <div className="grid">
                 <div className="team__container">
                     <TitleSubPage title={"Laboon Team"} desp = {"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque"}></TitleSubPage>
@@ -45,49 +46,21 @@ const Team = () => {
                         <div className="team__content">
                             <h1>Wonderfill day-by-day</h1>
                             <div className="team__wrapper">
-                                <div className="row">
-                                    <div className="team__wrapper-left col l-3">
-                                        <div className="team__thumb">
-                                            <img src={camping1} alt="" className="team__thumb-img" />
-                                            <div className="team__thumb-inf">
-                                                <h2>Camping</h2>
-                                                <span>20 March 2021</span>
-                                            </div>
-                                        </div>
-                                        <div className="team__thumb">
-                                            <img src={camping2} alt="" className="team__thumb-img" />
-                                            <div className="team__thumb-inf">
-                                                <h2>Camping</h2>
-                                                <span>20 March 2021</span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div className="team__wrapper-mid col l-6">
-                                        <div className="team__wrapper-mid__content">
-
-                                            <img src={campingmid} alt="" className="team__wrapper-mid-img" />
-                                            <div className="team__wrapper-mid-inf">
-                                                <h2>Camping</h2>
-                                                <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores</p>
-                                                <span>20 March 2021</span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div className="team__wrapper-right col l-3">
-                                        <div className="team__thumb">
-                                            <img src={camping3} alt="" className="team__thumb-img" />
-                                            <div className="team__thumb-inf">
-                                                <h2>Camping</h2>
-                                                <span>20 March 2021</span>
-                                            </div>
-                                        </div>
-                                        <div className="team__thumb">
-                                            <img src={camping4} alt="" className="team__thumb-img" />
-                                            <div className="team__thumb-inf">
-                                                <h2>Camping</h2>
-                                                <span>20 March 2021</span>
-                                            </div>
-                                        </div>
+                                <div className="team__wrapper-mid">
+                                    <div className="team__wrapper-mid__content">
+                                      <div className="row">
+                                          <div className="team__wrapper-mid-1 l-3">
+                                            <img src={camping1} alt="" className="img-1 img-mt" />
+                                            <img src={camping2} alt="" className="img-1" />
+                                          </div>
+                                          <div className="team__wrapper-mid-2 l-6">
+                                             <img src={campingmid} alt="" className="img-mid img-mt" />
+                                          </div>
+                                          <div className="team__wrapper-mid-3 l-3">
+                                            <img src={camping3} alt="" className="img-2 img-mt" />
+                                            <img src={camping4} alt="" className="img-2" />
+                                          </div>
+                                      </div>
                                     </div>
                                 </div>
                             </div>
@@ -100,31 +73,80 @@ const Team = () => {
                                             <span>All</span>    
                                         </div>
                                         <div className="team__personel-link__item ">
-                                            <span>Administrators</span> 
+                                            <span>Founders</span> 
                                         </div>
                                         <div className="team__personel-link__item ">
-                                            <span>Advisers</span> 
+                                            <span>Advisors</span> 
                                         </div>
                                         <div className="team__personel-link__item ">
-                                            <span>Crew</span> 
+                                            <span>Crews</span> 
                                         </div>
                                     </div>
                                 </div>
 
                                 <div className="team__personel--list">
                                     <div className="row">
-                                        <TeamItem img={personnel}></TeamItem>
-                                        <TeamItem img={personne2}></TeamItem>
-                                        <TeamItem img={personne3}></TeamItem>
-                                        <TeamItem img={personne4}></TeamItem>
-                                        <TeamItem img={personne5}></TeamItem>
-                                        <TeamItem img={personne6}></TeamItem>
-                                        <TeamItem img={personne7}></TeamItem>
-                                        <TeamItem img={personne8}></TeamItem>
-                                        <TeamItem img={personne9}></TeamItem>
-                                        <TeamItem img={personne10}></TeamItem>
-                                        <TeamItem img={personnel1}></TeamItem>
-                                        <TeamItem img={personnel2}></TeamItem>                               
+                                        <TeamItem img={personnel} 
+                                                    name="name" 
+                                                    position="position"
+                                                    experience = "experience"
+                                        ></TeamItem>
+                                        <TeamItem img={personne2} 
+                                                    name="name" 
+                                                    position="position"
+                                                    experience = "experience"
+                                        ></TeamItem>
+                                        <TeamItem img={personne3} 
+                                                    name="name" 
+                                                    position="position"
+                                                    experience = "experience"
+                                        ></TeamItem>
+                                         <TeamItem img={personne4} 
+                                                    name="name" 
+                                                    position="position"
+                                                    experience = "experience"
+                                        ></TeamItem>
+                                         <TeamItem img={personne5} 
+                                                    name="name" 
+                                                    position="position"
+                                                    experience = "experience"
+                                        ></TeamItem>
+                                         <TeamItem img={personne6} 
+                                                    name="name" 
+                                                    position="position"
+                                                    experience = "experience"
+                                        ></TeamItem>
+                                         <TeamItem img={personne7} 
+                                                    name="name" 
+                                                    position="position"
+                                                    experience = "experience"
+                                        ></TeamItem>
+                                         <TeamItem img={personne8} 
+                                                    name="name" 
+                                                    position="position"
+                                                    experience = "experience"
+                                        ></TeamItem>
+                                         <TeamItem img={personne9} 
+                                                    name="name" 
+                                                    position="position"
+                                                    experience = "experience"
+                                        ></TeamItem>
+                                         <TeamItem img={personne10} 
+                                                    name="name" 
+                                                    position="position"
+                                                    experience = "experience"
+                                        ></TeamItem>
+                                         <TeamItem img={personnel1} 
+                                                    name="name" 
+                                                    position="position"
+                                                    experience = "experience"
+                                        ></TeamItem>
+                                         <TeamItem img={personnel2} 
+                                                    name="name" 
+                                                    position="position"
+                                                    experience = "experience"
+                                        ></TeamItem>
+                            
                                     </div>
                                 </div>
                             </div>

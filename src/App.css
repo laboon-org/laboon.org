@@ -638,6 +638,11 @@ body {
 }
 .wrap__angry{
   margin-top: 58px;
+  
+}
+.wrap__angry-wrap-item{
+  display: flex;
+  position: relative;
 }
 
 .angry-item__wrap{
@@ -719,7 +724,9 @@ height: 123px;
   transition: all 0.3s ease-in;
 
 }
-
+.wrap__angry-item{
+  margin-left: 10px;
+}
 .wrap__angry-item:hover{
   cursor: pointer;
   transform: translateY(-20px);
@@ -1038,15 +1045,8 @@ height: 123px;
     object-fit:cover;
 }
 
-.ourpatner__item span{
-  font-family: Poppins;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 25px;
-  line-height: 22px;
-
-  color: #575757;
-
+.ourpatner__item.pt{
+  padding-top: 6px;
 }
 
 .ourpatner__item:hover{

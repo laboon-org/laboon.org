@@ -41,12 +41,12 @@ const TitleSubPage = ({title, desp}) => {
                     <img src={group13} alt="" className="title__heading-img title__heading-group13" />
                     <img src={group14} alt="" className="title__heading-img title__heading-group14" />
                     <img src={group15} alt="" className="title__heading-img title__heading-group15" />
-
+{/* 
                     <div className="title__heading-subpage">
                         <h1>{title}</h1>
-                        {/* <h1>Laboon Products</h1> */}
+
                         <p>{desp}</p>
-                    </div>
+                    </div> */}
             </div>
         </>
     )

@@ -191,7 +191,7 @@ const Home = () => {
 
                     <div className="ourproducts__content-infor">
                         <h1>MALL</h1>
-                        <p>The digital market allows players to sell and buy those items with great qualities</p>
+                        <p>The chamber of commerce allows players to exchange game items and characters with great qualities</p>
                     </div>
                   </div>
               </div>
@@ -276,7 +276,7 @@ const Home = () => {
           <div className="product__elu-full grid">
               <div className="grid wide">
                 <div className="productlist__title col c-12">
-                  <h1>Our Creativity</h1>
+                  <h1>Product list</h1>
                   {/* <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium</p> */}
                 </div>
                 <div className="angry">
@@ -288,10 +288,12 @@ const Home = () => {
                     <div className="angry__right roate col l-8 c-12">
                       <h1>Elu Verse</h1>
                       <div className="wrap__angry row">
-                        <ItemProduct title={"Drop"} img={productitem1}></ItemProduct>
-                        <ItemProduct title={"Nest"} img={productitem1}></ItemProduct>
-                        <ItemProduct title={"Coming Soon"} img={productitem1}></ItemProduct>
-                        <ItemProduct title={"Coming Soon"} img={productitem1}></ItemProduct>
+                        <div className="wrap__angry-wrap-item">
+                          <ItemProduct title={"Drop"} img={productitem1}></ItemProduct>
+                          <ItemProduct title={"Nest"} img={productitem1}></ItemProduct>
+                          <ItemProduct title={"Coming Soon"} img={productitem1}></ItemProduct>
+                          <ItemProduct title={"Coming Soon"} img={productitem1}></ItemProduct>
+                        </div>
                       </div>
                       <div className="wrap__angry-btn">
                       <a href="https://playelu.io/">
@@ -376,27 +378,18 @@ const Home = () => {
         <div className="ourpatners__content grid wide">
           <h1>Our Patners</h1>
           <div className="row ourpatners__items-wrap">
-              <div className="ourpatner__item l-2 c-4">
+              <div className="ourpatner__item l-2 c-6">
                 <img src={ourpatner1} alt="" className=" "/>
               </div>
-              <div className="ourpatner__item l-2 c-4">
+              <div className="ourpatner__item l-2 c-6">
                 <img src={ourpatner2} alt="" className=" "/>
               </div>
-              <div className="ourpatner__item l-2 c-4">
+              <div className="ourpatner__item pt l-2 c-6">
                 <img src={ourpatner3} alt="" className=" "/>
               </div>
-              <div className="ourpatner__item l-2 c-4">
+              <div className="ourpatner__item l-2 c-6">
                 <img src={ourpatner4} alt="" className=" "/>
               </div>
-
-              {/* <div className="ourpatner__item span l-2 c-4">
-                <img src={ourpatner5} alt="" className=" "/>
-
-              </div>
-              <div className="ourpatner__item span l-2 c-4">
-                <img src={ourpatner6} alt="" className=" "/>
-
-              </div> */}
           </div>
         </div>
       </section>

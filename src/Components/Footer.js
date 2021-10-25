@@ -17,30 +17,32 @@ const Footer = () => {
                         <div className="footer__logo col l-4 c-12"> 
                               <img src={footerlogo} alt="" />
                         </div>
-                        <div className="footer__about col l-4 c-12">
+                        {/* <div className="footer__infor mobile">
+                            <p>© All right reserved 2021. </p>
+                            <p>Laboon Website Demo by Laboon Designer</p>
+                        </div> */}
+                        <div className="footer__about col l-4 c-12 ">
+                            <h4>Address</h4>
+                            <div className="footer__about-address">
+                                <i class="fas fa-map-marker-alt"></i><p>68 Upper Serangoon View, Singapore, 533884</p>
+                            </div>
+                        </div>
+                        <div className="footer__about col l-3 c-12 ">
                             <h4>About</h4>
                             <ul>
-                                <div className="c-6 l-5">
-                                    <li>Our team</li>
-                                    <li>Blog</li>
-                                </div>
-                                <div className="c-6 l-5">
-                                    <li>Contact us</li>
-                                    <li>Term of use</li>
-                                </div>
+                                <li>Our team</li>
+                                <li>Blog</li>
+                                <li>Contact us</li>
+                                <li>Term of use</li>
                             </ul>
                         </div> 
-                        <div className="footer__about col l-4 c-12">
+                        <div className="footer__about col l-1 c-12 ">
                             <h4>Products</h4>
                             <ul >
-                                <div className="c-4">
-                                    <li>Elu</li>
-                                    <li>Need</li>
-                                </div>
-                                <div className="c-5">
-                                    <li>Mall</li>
-                                    <li>Wallet</li>
-                                </div>
+                                <li>Elu</li>
+                                <li>Need</li>
+                                <li>Mall</li>
+                                <li>Wallet</li>
                             </ul>
                         </div>
                     </div>
@@ -53,7 +55,7 @@ const Footer = () => {
                         <img className="footer__icon-connect" src={tw} alt="" />
 
                     </div>
-                    <p>© All right reserved 2021. Laboon Website Demo by Laboon Designer</p>
+                    <p>© 2021, Laboon. LTD. PTE ver0.5. All right reserved</p>
                     
                 </div>
             </div>

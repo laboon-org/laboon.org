@@ -1,10 +1,10 @@
 .products__container{
     position: relative;
     .products__content{
-
+        padding-top: 50px;
         .products__list-title{
             text-align: center;
-            margin-top: -40px;
+            margin-top: 111px;
             margin-bottom:50px;
             span{
                 position: relative;
@@ -109,16 +109,82 @@
             margin-bottom: 100px;
                 
                 .products__item{
-                    height: 440px;
-                    max-width: 380px;
+                    height: 312px;
+                    max-width: 600px;
                     background: #FFFFFF;
                     box-shadow: -2px 0px 15px rgba(0, 0, 0, 0.1);
                     border-radius: 10px;
-                    text-align: center;
-                    margin-right: 12px;
-                    margin-left: 15px;
-                    margin-top: 25px;
+                    // text-align: center;
                     position: relative;
+                    margin-right: 10px;
+                    margin-top: 10px;
+
+                    .products__item-left{
+                        display: flex;
+                        align-items: center;
+                        height: 312px;
+                        margin: 0 auto;
+                        .backgrourd{
+                            position: absolute;
+                        }
+                        .mainproductv5{
+                            z-index: 1;
+                            padding-left: 65px;
+                        }
+                        img{
+                            padding-left: 30px;
+                        }
+
+
+                    }
+
+                    .products__item-right{
+                        margin-top: 37px;
+                        span{
+                            font-family: Poppins;
+                            font-style: normal;
+                            font-weight: 500;
+                            font-size: 15px;
+                            line-height: 30px;
+
+
+                            /* yeallow */
+
+                            color: #E4B460;
+                            
+                        }
+                        h5{
+                            font-family: Poppins;
+                            font-style: normal;
+                            font-weight: 500;
+                            font-size: 20px;
+                            line-height: 30px;
+                            color: #06454B;
+                        }
+                        p{
+                            width: 278px;
+                            height: 120px;
+
+                            font-family: Poppins;
+                            font-style: normal;
+                            font-weight: normal;
+                            font-size: 15px;
+                            line-height: 30px;
+                            /* or 200% */
+
+
+                            /* background */
+
+                            color: #061B1C;
+                        }
+
+                        .products__item-right-icon {
+                            margin-top: 0px;
+                            img{
+                                margin-right: 15px;
+                            }
+                        }
+                    }
                     
                     
                     .products__item-img__active{
