@@ -1,24 +1,23 @@
 import React from 'react'
-import '../../css/Homecss/Home.css'
-// import '../../css/responsive/responsiveHome.css'
 
-import backgroundBlockchinHome from '../../img/backgroundBlockchain.png'
-import sung from "../../img/sung.png"
-
-
-export default function Blockchainify() {
+const BlockChainify = ({img1,img2}) => {
     return (
-        <div className='blockchainify'>
-            <section className="container-xxl">
-                <div className="blockchainify__top">
-                  <h1>Blockchainify</h1>
-                  <h3 className='blockchain-subheading'>Metaverse - Where games become the places that players can create and own their gamified economies.</h3> 
-                </div>
-                <div className="blockchainify__bottom">
-                  <img src={backgroundBlockchinHome} alt="" className="blockchainify__bottom-img blockchainify--img1" />
-                  <img src={sung} alt="" className="blockchainify__bottom-img blockchainify--img2" />
-                </div>
-              </section>
+        <div className="container__grid grid">
+          <div className="container grid wide">
+            
+            <section className="blockchainify ">
+              <div className="blockchainify__top">
+                <h1>Blockchainify</h1>
+                <p>Digiverse - Where games become the places that players can create and own their gamified economies.</p> 
+              </div>
+              <div className="blockchainify__bottom">
+                <img src={img1} alt="" className="blockchainify__bottom-img blockchainify--img1" />
+                <img src={img2} alt="" className="blockchainify__bottom-img blockchainify--img2" />
+              </div>
+            </section>
+          </div>
         </div>
     )
 }
+
+export default BlockChainify
