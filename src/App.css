@@ -398,6 +398,8 @@ body {
   align-items: center;
   justify-content: space-around;
   margin-top: 50px;
+  padding-left: 344px;
+
   
 }
 .ourproducts__bottom-line__mid-item{
@@ -1096,6 +1098,7 @@ height: 123px;
   z-index: 1;
   width: 150px;
   height: 149px;
+  margin-right: 100px;
   /* border: 1px solid #000000; */
 }
 
@@ -1173,7 +1176,6 @@ height: 123px;
   font-size: 100px;
   line-height: 30px;
   color: #E4B460;
-  padding-left:   286px;
   text-shadow: -1px 1px black, 1px 1px black, -1px -1px black, 1px -1px black;
 }
 
@@ -1182,7 +1184,6 @@ height: 123px;
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
-  padding-left: 229px;
   line-height: 35px;
   /* or 175% */
  
@@ -1199,5 +1200,8 @@ height: 123px;
 .productlistxleft{
   top: 300px;
   left:300px;
+}
+.ourproducts__bottom-inf-wrap{
+  padding-left: 200px;
 }
 

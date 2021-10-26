@@ -27,9 +27,11 @@ const OurProducts = () => {
                   <img src={ourproductv3} alt="" />
                 </div>
                 <div className="ourproducts__bottom-inf col l-8 c-12">
-                  <h2>PlAZA</h2>
-                  <div className="ourproducts__bottom-inf-p">
-                    <p>The chamber of commerce allows players to exchange game items and characters with great qualities</p>
+                  <div className="ourproducts__bottom-inf-wrap">
+                    <h2>PlAZA</h2>
+                    <div className="ourproducts__bottom-inf-p">
+                      <p>The chamber of commerce allows players to exchange game items and characters with great qualities</p>
+                    </div>
                   </div>
                   <div className="ourproducts__bottom-line">
               <div className="ourproducts__bottom-line__list">

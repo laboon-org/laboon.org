@@ -656,6 +656,17 @@
     .footer__about h4{
         margin-left: 0;
     }
+    .ourproducts__bottom-inf-wrap{
+        padding-left:  0;
+      }
+
+      .ourproducts__bottom-line__list{
+          padding-left: 0;
+      }
+
+    .ourproducts__bottom-line__mid-item{
+        left: -296px;
+    }
 
 
 }
@@ -1310,6 +1321,17 @@
     }
     .footer__about h4{
         margin-left: 0;
+    }
+    .ourproducts__bottom-inf-wrap{
+        padding-left:  0;
+      }
+
+      .ourproducts__bottom-line__list{
+          padding-left: 0;
+      }
+
+    .product__mall-itemMall8{
+        display:none;
     }
 }
 
