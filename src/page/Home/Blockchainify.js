@@ -5,10 +5,10 @@ const BlockChainify = ({img1,img2}) => {
         <div className="container__grid grid">
           <div className="container grid wide">
             
-            <section className="blockchainify ">
+            <section className="blockchainify">
               <div className="blockchainify__top">
                 <h1>Blockchainify</h1>
-                <p>Digiverse - Where games become the places that players can create and own their gamified economies.</p> 
+                <p>Metaverse - Where games become the places that players can create and own their gamified economies</p> 
               </div>
               <div className="blockchainify__bottom">
                 <img src={img1} alt="" className="blockchainify__bottom-img blockchainify--img1" />

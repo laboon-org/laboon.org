@@ -19,7 +19,8 @@ import productitemactive2 from './imgProduct/productitemactive2.png'
 import arrow from './imgProduct/arrow.png'
 
 import Groupproduct1 from './imgProduct/Groupproduct1.png'
-import Groupproduct2 from './imgProduct/Groupproduct2.png'
+import EluverseImg from '../../img/ImgProduct/eluverse.png'
+import HypermonImg from '../../img/ImgProduct/hypermon.png'
 
 import logo21 from '../../img/logo21.png'
 
@@ -58,7 +59,7 @@ const Product = () => {
                                             icon2 = {react}
                                             icon3 = {xd}
                                 ></ProductItems>
-                                <ProductItems img={Groupproduct1} 
+                                <ProductItems img={EluverseImg} 
                                             title ={"Game"} 
                                             mainTitle = {"ELU VERSE"}
                                             descp = {"Coming Soon !"}
@@ -66,7 +67,7 @@ const Product = () => {
                                             icon2 = {dn}
                                             icon3 = {ae}
                                 ></ProductItems>
-                                 <ProductItems img={Groupproduct1} 
+                                 <ProductItems img={HypermonImg} 
                                             title ={"HYPERMON"} 
                                             mainTitle = {"PLAZA"}
                                             descp = {"Coming Soon !"}
