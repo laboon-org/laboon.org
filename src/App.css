@@ -551,8 +551,8 @@ body {
 }
 
 .makeGroupf7{
-  bottom: 11px;
-  left: -12px;
+  bottom: 100.47px;
+  left: 103.9px;
 }
 .makeGroupf1{
   bottom: 11px;
@@ -560,7 +560,7 @@ body {
 }
 .makeGroupf2{
   bottom: -4px;
-  right: 594px;
+  right: 455px;
 }
 .makeGroupf3{
 
@@ -911,13 +911,15 @@ height: 123px;
 
 /* ProductBoth */
 
-.product__pepeper{
+/* .product__pepeper{
   position: relative;
   z-index: 2;
-}
+} */
 
 .product__hypermon,.product__pepeper{
   margin-top: 61px;
+  position: relative;
+  z-index: 2;
 }
 
 .product__hypermon-wrap{
@@ -935,26 +937,21 @@ height: 123px;
   padding-top: 50px;
 }
 
-
-
 .product__hypermon .product__hypermon-wrap{
   background: linear-gradient(180deg, #0F3536 0%, #0B686A 100%);
 }
 
 .product__pepeper .product__hypermon-wrap{
   background: linear-gradient(180deg, #0F3536 0%, #0B686A 100%);
-
   /* background: linear-gradient(90.09deg, #E6B86A 1.58%, #CC8C20 98.47%); */
   border-radius: 10px;
 }
-
 
 .product__hypermon-wrap:hover{
   transform: translateY(-15px);
   background: linear-gradient(90.09deg, #E6B86A 1.58%, #CC8C20 98.47%);
   transition: all 0.5s ease-in;
 }
-
 
 .product__hypermon-wrap h2{
   padding-top: 61px;
@@ -963,10 +960,7 @@ height: 123px;
   font-weight: bold;
   font-size: 60px;
   line-height: 22px;
-  /* identical to box height, or 37% */
-
   text-align: center;
-
   color: #FFFFFF;
 }
 
@@ -974,25 +968,18 @@ height: 123px;
   padding: 0 32px;
 }
 
-
 .product__hypermon-wrap__inf p,ul{
   font-family: Poppins;
   font-style: normal;
   font-weight: normal;
   font-size: 15px;
   line-height: 22px;
-  /* or 147% */
-
-  /* text-align: center; */
-
   color: #FFFFFF;
 }
 
 .product__hypermon-wrap__inf p{
   width: 447px;
-  height: 106px; 
-  /*  */
-  
+  height: 106px;   
 }
 
 /* .product__hypermon-wrap__inf li{
@@ -1007,16 +994,9 @@ height: 123px;
   border-radius: 30px;
   font-size: 15px;
   line-height: 22px;
-  /* identical to box height, or 147% */
-
   text-align: center;
-
-  /* wihite */
-
   color: #FEFEFE;
-
 }
-
 
 .product__both-btn.hypermon button, .product__both-btn.pepper button{
   background: #E6B86A;

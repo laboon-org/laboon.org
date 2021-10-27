@@ -23,7 +23,7 @@ const OurPathners = () => {
               <div className="ourpatner__item l-2 c-6">
                 <img src={ourpatner4} alt="" className=" "/>
               </div>
-              <div className="ourpatner__item l-2 c-6">
+              <div className="ourpatner__item hypermon-ourpatner__item l-2 c-6">
                 <img src={ourpatner5} alt="" className=" "/>
               </div>
               <div className="ourpatner__item l-2 c-6">

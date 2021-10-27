@@ -27,75 +27,63 @@ const OurProducts = () => {
                   <img src={ourproductv3} alt="" />
                 </div>
                 <div className="ourproducts__bottom-inf col l-8 c-12">
-                  <div className="ourproducts__bottom-inf-wrap">
+                  <div className="ourproducts__bottom-inf-wrap c-12">
                     <h2>PlAZA</h2>
                     <div className="ourproducts__bottom-inf-p">
                       <p>The chamber of commerce allows players to exchange game items and characters with great qualities</p>
                     </div>
                   </div>
                   <div className="ourproducts__bottom-line">
-              <div className="ourproducts__bottom-line__list">
-                <div className="ourproducts__bottom-line__item">
-
-                  <div className="ourproducts__bottom-line__item-wrap">
-                    <img src={mallhover} alt="" className ="backgroundElipItem mallhover mallhover1"/>
-
-                    <img src={backgroundElipItem} alt="" className ="backgroundElipItem backgroundElipItem-wrap" />
-                    <img src={mallItem1} alt="" className ="mallIMain" />
+                    <div className="ourproducts__bottom-line__list c-12">
+                      <div className="ourproducts__bottom-line__item">
+                        <div className="ourproducts__bottom-line__item-wrap">
+                          <img src={mallhover} alt="" className ="backgroundElipItem mallhover mallhover1"/>
+                          <img src={backgroundElipItem} alt="" className ="backgroundElipItem backgroundElipItem-wrap" />
+                          <img src={mallItem1} alt="" className ="mallIMain" />
+                        </div>
+                        <h1>dApps</h1>
+                      </div>
+                      <div className="ourproducts__bottom-line__item">
+                        <div className="ourproducts__bottom-line__item-wrap">
+                          <img src={mallhover} alt="" className ="backgroundElipItem mallhover mallhover2"/>
+                          <img src={backgroundElipItem} alt="" className ="backgroundElipItem backgroundElipItem-wrap"/>
+                          <img src={mallItem2} alt="" className ="mallIMain" />
+                        </div>
+                        <h1>Games</h1>
+                        {/* <img src={itemourproduct2} alt="" /> */}
+                      </div>
+                      <div className="ourproducts__bottom-line__item">
+                        <div className="ourproducts__bottom-line__item-wrap">
+                          <img src={mallhover} alt="" className ="backgroundElipItem mallhover mallhover3"/>
+                          <img src={backgroundElipItem} alt="" className=" backgroundElipItem backgroundElipItem-wrap"/>
+                          <img src={mallItem3} alt="" className="itemourproduct3main mallIMain" />
+                        </div>
+                        <h1>Plaza</h1>
+                        {/* <img src={itemourproduct3} alt="" /> */}
+                      </div>
+                      <div className="ourproducts__bottom-line__item">
+                        <div className="ourproducts__bottom-line__item-wrap">
+                          <img src={mallhover} alt="" className ="backgroundElipItem mallhover mallhover4"/>
+                          <img src={backgroundElipItem} alt="" className ="backgroundElipItem backgroundElipItem-wrap" />
+                          <img src={mallItem4} alt="" className ="mallIMain" />
+                        </div>
+                        <h1>Wallet</h1>
+                        {/* <img src={itemourproduct4} alt="" /> */}
+                      </div>
+                      <div className="ourproducts__bottom-line__item">
+                        <div className="ourproducts__bottom-line__item-wrap">
+                          <img src={mallhover} alt="" className ="backgroundElipItem mallhover mallhover5"/>
+                          <img src={backgroundElipItem} alt="" className ="backgroundElipItem backgroundElipItem-wrap"/>
+                          <img src={mallItem5} alt=""  className ="mallIMain"/>
+                        </div>
+                        <h1>Coming soon</h1>
+                        {/* <img src={itemourproduct5} alt="" /> */}
+                      </div>
+                    </div>
+                    <div className="ourproducts__bottom-line__mid-item">
+                        <img src={itemourproduct6} alt=""  />
+                    </div>
                   </div>
-                  <h1>dApps</h1>
-                </div>
-                <div className="ourproducts__bottom-line__item">
-                  <div className="ourproducts__bottom-line__item-wrap">
-                    <img src={mallhover} alt="" className ="backgroundElipItem mallhover mallhover2"/>
-                    <img src={backgroundElipItem} alt="" className ="backgroundElipItem backgroundElipItem-wrap"/>
-                    <img src={mallItem2} alt="" className ="mallIMain" />
-                  </div>
-                  <h1>Games</h1>
-
-                  {/* <img src={itemourproduct2} alt="" /> */}
-                </div>
-                <div className="ourproducts__bottom-line__item">
-                  <div className="ourproducts__bottom-line__item-wrap">
-
-                    <img src={mallhover} alt="" className ="backgroundElipItem mallhover mallhover3"/>
-
-                    <img src={backgroundElipItem} alt="" className=" backgroundElipItem backgroundElipItem-wrap"/>
-                    <img src={mallItem3} alt="" className="itemourproduct3main mallIMain" />
-                  </div>
-                  <h1>Plaza</h1>
-
-                  {/* <img src={itemourproduct3} alt="" /> */}
-
-                </div>
-                <div className="ourproducts__bottom-line__item">
-                  <div className="ourproducts__bottom-line__item-wrap">
-
-                    <img src={mallhover} alt="" className ="backgroundElipItem mallhover mallhover4"/>
-
-                    <img src={backgroundElipItem} alt="" className ="backgroundElipItem backgroundElipItem-wrap" />
-                    <img src={mallItem4} alt="" className ="mallIMain" />
-                  </div>
-                  <h1>Wallet</h1>
-
-                  {/* <img src={itemourproduct4} alt="" /> */}
-                </div>
-                <div className="ourproducts__bottom-line__item">
-                  <div className="ourproducts__bottom-line__item-wrap">
-                    <img src={mallhover} alt="" className ="backgroundElipItem mallhover mallhover5"/>
-
-                    <img src={backgroundElipItem} alt="" className ="backgroundElipItem backgroundElipItem-wrap"/>
-                    <img src={mallItem5} alt=""  className ="mallIMain"/>
-                  </div>
-                  <h1>Coming soon</h1>
-
-                  {/* <img src={itemourproduct5} alt="" /> */}
-                </div>
-              </div>
-              <div className="ourproducts__bottom-line__mid-item">
-                  <img src={itemourproduct6} alt=""  />
-              </div>
-            </div>
                 </div>
               </div>
             </div>
