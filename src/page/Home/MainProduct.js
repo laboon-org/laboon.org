@@ -21,6 +21,7 @@ import makeGroupf4 from '../../img/makeGroupf4.png'
 import makeGroupf5 from '../../img/makeGroupf5.png'
 import makeGroupf6 from '../../img/makeGroupf6.png'
 import makeGroupf7 from '../../img/makeGroupf7.png'
+import makeGroupf8 from '../../img/makeGroupf8.png'
 const MainProduct = () => {
     return (
         <section className="productlist grid">
@@ -44,13 +45,14 @@ const MainProduct = () => {
         {/* <img src={makeg1} alt="" className="productlist-img makeg1" /> */}
         {/* <img src={makeg2} alt="" className="productlist-img makeg2" /> */}
 
-        <img src={makeGroupf7} alt="" className="productlist-img makeg2 makeGroupf7" />
+        {/* <img src={makeGroupf7} alt="" className="productlist-img makeg2 makeGroupf7" /> */}
         <img src={makeGroupf1} alt="" className="productlist-img makeg2 makeGroupf1" />
-        <img src={makeGroupf2} alt="" className="productlist-img makeg1 makeGroupf2" />
+        {/* <img src={makeGroupf2} alt="" className="productlist-img makeg1 makeGroupf2" /> */}
         <img src={makeGroupf3} alt="" className="productlist-img makeg2 makeGroupf3" />
-        <img src={makeGroupf5} alt="" className="productlist-img makeg1 makeGroupf5" />
-        <img src={makeGroupf6} alt="" className="productlist-img makeg1 makeGroupf6" />
-        <img src={makeGroupf4} alt="" className="productlist-img makeg1 makeGroupf4" />
+        {/* <img src={makeGroupf5} alt="" className="productlist-img makeg1 makeGroupf5" /> */}
+        {/* <img src={makeGroupf6} alt="" className="productlist-img makeg1 makeGroupf6" /> */}
+        {/* <img src={makeGroupf4} alt="" className="productlist-img makeg1 makeGroupf4" /> */}
+        <img src={makeGroupf8} alt="" className="productlist-img-one makeg1 makeGroupf8" />
       </section>
     )
 }

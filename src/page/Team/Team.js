@@ -58,7 +58,7 @@ const Team = () => {
                     <div className="row">
                        {/* anh cua cong ty */}
                       <div className="team__wrapper-mid-1 l-3">
-                        {/* <img src={camping1} alt="" className="img-1 img-mt" />
+                        <img src={camping1} alt="" className="img-1 img-mt" />
                         <img src={camping2} alt="" className="img-1" />
                       </div>
                       <div className="team__wrapper-mid-2 l-6">
@@ -70,7 +70,7 @@ const Team = () => {
                       </div>
                       <div className="team__wrapper-mid-3 l-3">
                         <img src={camping3} alt="" className="img-2 img-mt" />
-                        <img src={camping4} alt="" className="img-2" /> */}
+                        <img src={camping4} alt="" className="img-2" />
                       </div>
                     </div>
                   </div>
@@ -95,7 +95,6 @@ const Team = () => {
                     </div>
                   </div>
                 </div>
-
                 <div className="team__personel--list">
                   <div className="row">
                     <TeamItem
