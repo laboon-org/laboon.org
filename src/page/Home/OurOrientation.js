@@ -20,20 +20,24 @@ import line2 from '../../img/line2.png'
 const Ourorientation = () => {
     return (
         <div className="ahoutus__container grid">
-          <img src={about1} alt="" className="about-img about1" />
-          <img src={vector2} alt="" className="about-img about2" />
-          <img src={aboutline} alt="" className="about-img aboutline" />
-          <img src={line2} alt="" className="about-img line2" />
-          {/* <img src={aboutbot1} alt="" className="about-img aboutbot1" /> */}
-          <img src={lineabout} alt="" className="about-img lineabout" />
-          <img src={lineabout1} alt="" className=" lineabout1" />
-          <img src={lineabout3} alt="" className=" lineabout3" />
-          <img src={Groudaboutus} alt="" className="about-img Groupabout1" />
-          <section className="aboutus grid wide">
+          <div className='aboutus-background'>
+            <img src={about1} alt="" className="about-img about1" />
+            <img src={vector2} alt="" className="about-img about2" />
+            <img src={aboutline} alt="" className="about-img aboutline" />
+            <img src={line2} alt="" className="about-img line2" />
+            {/* <img src={aboutbot1} alt="" className="about-img aboutbot1" /> */}
+            <img src={lineabout} alt="" className="about-img lineabout" />
+            <img src={lineabout1} alt="" className="lineabout1" />
+            <img src={lineabout3} alt="" className=" lineabout3" />
+            <img src={Groudaboutus} alt="" className="about-img Groupabout1" />
             <img src={GroudaboutusDot} alt="" className="about-img Groupaboutdot" />
             <img src={dotabout} alt="" className=" lineabout2" />
+          </div>
+          
+          <section className="aboutus grid wide">
+            
             <div className="row">
-              <div className="aboutus__left col l-3 c-12">
+              <div className="aboutus__left col l-3 l0-12 c-12">
                 <div className="aboutus__left-wrapper">
                   <h1>Our Orientation</h1>
                   <p>Our desire is to build the</p>
@@ -42,9 +46,9 @@ const Ourorientation = () => {
                   <p>and virtual worlds are one</p>
                 </div>
               </div>
-              <div className="aboutus__right l-9">
+              <div className="aboutus__right l-9 l0-12">
                 <div className="row no-gutters">
-                  <div className="aboutus__right-1 col l-6 c-12 m-12 ">
+                  <div className="aboutus__right-1 col l-6 c-12 m-12 l0-6 ">
                     <div className="aboutus__card aboutus__card-mt col c-12">
                       <img src={card1} alt="" className="aboutus__card-img" />
                       <div className="aboutus__card-infor">
@@ -60,7 +64,7 @@ const Ourorientation = () => {
                       </div>
                     </div>
                   </div>
-                  <div className="aboutus__right-2 col l-6 c-12 m-12">
+                  <div className="aboutus__right-2 col l-6 c-12 m-12 l0-6">
                     <div className="aboutus__card aboutus__card-mt col c-12">
                       <img src={card3} alt="" className="aboutus__card-img" />
                       <div className="aboutus__card-infor">

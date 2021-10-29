@@ -1,85 +1,27 @@
-
-
-@media screen and (min-width: 740px) and (max-width: 1023px){
+@media screen and (max-width: 740px){
     .container{
         overflow: hidden;
       }
-    .header{
-    }
-
-    .header__nav{
-        position:absolute;
-        right:0;
-        height:92vh;
-        top:107px;
-        background-color:#255056;
-        z-index: 99999;
-        display:flex;
-        flex-direction:column;
-        align-items: center;
-        width: 50%;
-        border:1px solid #ccc;
-        transform: translateX(100%);
-        transition: transform 0.5s ease-in;
-        display: none;
-        
-    }
-    .header__nav ul{
-        display:flex;
-        flex-direction:column;
-        align-items: center;
-    }
-
-    .nav_active{
-        transform: translateX(0%);
-        display:block;
-        transition: all 0.5s ease-in;
-        
-    }
-    .header__nav-item{
-        padding: 15px;
-    }
-    .header__bars{
-        padding:5px;
-        display: block;
-    }
-    .header__bars i{
-       color: #E6B86A;
-       cursor: pointer;
-        
-    }
+    
 
 
     .blockchainify{
-        height: 800px;
-
+        /* height: 800px; */
     }
     .blockchainify__top{
-        
         margin:0px 45px 0 45px;
         text-align: center;
-
-
     }
+    
     .blockchainify__top h1{
-        font-weight: 500;
         font-size: 30px;
-        line-height: 22px;
     }
 
     .blockchainify__top p { 
-
-        font-family: Poppins;
-        font-style: normal;
-        font-weight: normal;
+        width: 100%;
         font-size: 18px;
-        line-height: 30px;
-
-        /* or 167% */
-
-
-        color: #000000;
     }
+
     .ourproducts__title{
         margin-top: -94px;
     }
@@ -100,24 +42,30 @@
         font-size: 18px;
         line-height: 30px;
     }
+    .blockchainify__bottom{
+        width: 180%;
+        margin-left: -40%;
+    }
     .blockchainify--img{
-        top: 15px;
+        /* top: 15px;
         left: -160px;
-        height: 315.89px;
+        height: 315.89px; */
         
     }
-    /* .blockchainify--img1{
-           
-            width: 826.9px;
-            height: 522px;
+    .blockchainify--img1{
+        /* top: -35px;
+        left: -217px;
+        width: 826.9px;
+        height: 522px; */
+      
         
-    } */
+    }
     .aboutus__left{
         margin-top: 80px;
     }
 
     .aboutus{
-        /* height:100%; */
+        width: 100%;
         padding-bottom: 50px;
     }
     .aboutus__left-wrapper{
@@ -236,7 +184,7 @@
    }
 
    .angry{
-       height:2398px;
+       height:2150px;
        position: relative;
    }
    .angry__left{
@@ -250,7 +198,7 @@
    }
 
    .productlist{
-    height: 6468px;
+    height: 5490px;
    
    }
    
@@ -363,8 +311,8 @@
 
      }
      .ourpatner__item img{
-        max-width: 80%;
-        height: 90.33px;
+        width: 50%;
+        height: 80px;
       }
 
       .aboutus__right-1 {
@@ -589,10 +537,10 @@
 
 
       .blockchainify--img2 {
-        /* top: 123px;
-        left: 348px;
+        /* top: 206px;
+        left: 234px;
         width: 55.01px;
-        height: 51.06px;  */
+        height: 51.06px;     */
     }
 
     .ourproducts__bottom-img img{
@@ -654,51 +602,25 @@
     .footer__about h4{
         margin-left: 0;
     }
-    .ourproducts__bottom-inf-wrap{
+    /* .ourproducts__bottom-inf-wrap{
         padding-left:  0;
-      }
+    } */
 
-      .ourproducts__bottom-line__list{
-          padding-left: 0;
-      }
-
-      .makeGroupf8{
-        display: block;
-      }
-      /* .makeGroupf5,.makeGroupf6,.makeGroupf4{
+    .ourproducts__bottom-line__list{
+        padding-left: 0;
+    }
+    .makeGroupf5,.makeGroupf6,.makeGroupf4{
         display: none;
     }
     .makeGroupf8{
         display: block;
-    } */
+    }
     .productlistxleft{
         display: none;
     }
     .product__mall-itemMall8{
         display: none;
+
     }
+
 }
-
-@media screen and (min-width: 1024px) and (max-width: 1365px){
-    .wrap__angry-item{
-        margin-right: 15px;
-    }
-    .about2,.Groupaboutdot{
-        display: none;
-    }
-    .aboutus__left{
-        padding-right: 0;
-        
-      }
-    .aboutus__left-wrapper{
-        text-align: center;
-        padding-top: 80px;
-        margin-bottom: -100px;
-      }
-    .ourproducts__bottom-img img{
-        padding-top: 150px;
-        
-      }
-}
-
-

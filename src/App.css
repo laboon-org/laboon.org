@@ -11,20 +11,21 @@ body {
 .App{
   overflow: hidden;
 }
-.container__grid{
+/* .container__grid{
   background-color: #FFFFFF;
-}
-.container{
+} */
+/* .container{
   position: relative;
-}
+  margin: auto;
+}  */
 .blockchainify{
-  height: 1036px;
   margin-top: 107px;
+  /* position: relative; */
 }
 
 .blockchainify__top{
   position: relative;
-  z-index: 1;
+  z-index: 2;
   text-align: center;
   padding-top: 122px;
   
@@ -35,49 +36,49 @@ body {
   font-weight: 500;
   font-size: 50px;
   line-height: 22px;
-  /* identical to box height, or 44% */
   margin-bottom: 35px;
-
-  /* blue */
-
   color: #255056;
 }
 
 .blockchainify__top p{
+  width: 45%;
+  margin: auto;
   font-family: Poppins;
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
   line-height: 30px;
-
-  /* or 150% */
-
   text-align: center;
-
   color: #000000;
-
 }
 
 .blockchainify__bottom{
   position: relative;
+  z-index: 1;
+  width: 80%;
+  margin: auto;
+  margin-top: -7%;
 }
 
-.blockchainify__bottom-img{
+/* .blockchainify__bottom-img{
   position: absolute;
+} */
+.blockchainify--img1{
+  position: relative;
+  margin: auto;
+  width: 100%;
 }
 .blockchainify--img2{
-  top: 273px;
-  left: 624px;
+  position: absolute;
+  width: 10%;
+  top: 40%;
+  left: 52%;
 }
 .blockchainify--img{
-  z-index: 1;
+
 }
 
-.blockchainify--img1{
-  top: -88px;
-  left: -87px;
-  z-index: 0;
-}
+
 /* ABOUTUS */
 
 .ahoutus__container{
@@ -88,16 +89,22 @@ body {
 
 .aboutus{
   position: relative;
-  height:1183px;
+  /* height:1183px; */
+  z-index: 2;
 }
 
 .aboutus__left{
-  margin-top: 490px;
+  height: 100%;
+  align-items: center;
+  margin: auto;
   padding-right: 100px;
   
 }
 .aboutus__left-wrapper{
   text-align: right;
+  height: 300px;
+  
+  z-index: 2;
 }
 
 .aboutus__left-wrapper h1{
@@ -246,8 +253,10 @@ body {
 }
 .lineabout3{
   position: absolute;
+  width: 85%;
   bottom: -19px;
-  right: -334px;
+  right: 0;
+  /* right: -334px; */
 }
 
 .Groupabout2{
@@ -257,17 +266,17 @@ body {
   z-index: 1;
 }
 .lineabout1{
+  width: 100%;
   position: absolute;
   z-index: 0;
-  bottom: -19px;
-  right: -350px;
-  
+  bottom: -5%;
 }
 
 .lineabout2{
   position: absolute;
-  bottom: 89px;
-  right: 484px;
+  bottom: 50px;
+  left: -25%;
+  /* right: 484px; */
   opacity: 0.5;
 }
 
@@ -306,10 +315,6 @@ body {
 .ourproducts__container {
   background-color:#FFFFFF;
 }
-.ourproducts{
-  height: 950px;
-  
-}
 
 .ourproducts__title{
   text-align: center;
@@ -341,7 +346,6 @@ body {
 }
 .ourproducts__bottom{
   position: relative;
-  margin-top: 50px;
 }
 .ourproducts__content-wrap{
   position:absolute;
@@ -353,7 +357,7 @@ body {
   left: 0;
 }
 
-.ourproducts__content-infor{
+/* .ourproducts__content-infor{
   margin-top: -210px;
   text-align: center;
   margin-left: -215px;
@@ -365,48 +369,42 @@ body {
   font-weight: bold;
   font-size: 80px;
   line-height: 30px;
-  
-
   color: #E6B86A;
-
   text-shadow: -1px 1px black, 1px 1px black, -1px -1px black, 1px -1px black;
   margin-bottom: 26px;
-}
-.ourproducts__content-infor p{
+} */
+/* .ourproducts__content-infor p{
   font-family: Poppins;
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
   line-height: 35px;
-  /* or 175% */
-
-
-  /* background */
   width: 476px;
   height: 98px;
   color: #061B1C;
   text-align:left;
   margin-left:638px;
-}
+} */
+
 .ourproducts__bottom-line{
+  position: relative;
   padding-bottom: 150px;
 }
-
 .ourproducts__bottom-line__list{
   position: relative;
   display: flex;
   align-items: center;
-  justify-content: space-around;
-  margin-top: 50px;
-  padding-left: 344px;
-
-  
+  justify-content: space-between;
+  overflow: auto;
+  padding: 50px 0 120px 0;
+}
+.ourproducts__bottom-line__list::-webkit-scrollbar{
+  display: none;
 }
 .ourproducts__bottom-line__mid-item{
-  position: relative;
-  bottom: 110px;
+  position: absolute;
+  top: 30%;
   z-index: 0;
-  left:-19px;
 }
 .ourproducts__bottom-line__item{
   position: relative;
@@ -1104,7 +1102,7 @@ height: 123px;
   z-index: 1;
   width: 150px;
   height: 149px;
-  margin-right: 100px;
+  /* margin-right: 100px; */
   /* border: 1px solid #000000; */
 }
 
@@ -1167,13 +1165,15 @@ height: 123px;
 
 
 .ourproducts__bottom-img img{
-  width: 625.79px;
-  height: 592.41px;
-  margin-left: -203px;
+  width: 100%;
+  /* align-items: center; */
+  /* width: 625.79px;
+  height: 592.41px; */
 }
 .ourproducts__bottom-inf{
   text-align: center;
-  padding-top: 180px;
+  padding-top: 160px;
+  align-items: center;
 }
 .ourproducts__bottom-inf h2{
   font-family: Poppins;
@@ -1186,13 +1186,13 @@ height: 123px;
 }
 
 .ourproducts__bottom-inf p{
+  width: 60%;
+  margin: auto;
   font-family: Poppins;
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
   line-height: 35px;
-  /* or 175% */
- 
   color: #061B1C;
   margin-top: 50px;
 }
@@ -1201,13 +1201,11 @@ height: 123px;
 }
 .productlistx{
   top: 45px;
-    right: 460px;
+    /* right: 460px; */
 }
 .productlistxleft{
   top: 300px;
   left:300px;
 }
-.ourproducts__bottom-inf-wrap{
-  padding-left: 200px;
-}
+
 

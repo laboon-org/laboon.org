@@ -52,3 +52,51 @@
 .header__bars{
     display: none;
 }
+
+
+@media screen and (max-width: 740px){
+    .header{
+    }
+
+    .header__nav{
+        position:absolute;
+        right:0;
+        height:92vh;
+        top:107px;
+        background-color:#255056;
+        z-index: 99999;
+        display:flex;
+        flex-direction:column;
+        align-items: center;
+        width: 50%;
+        border:1px solid #ccc;
+        transform: translateX(100%);
+        transition: transform 0.5s ease-in;
+        display: none;
+        
+    }
+    .header__nav ul{
+        display:flex;
+        flex-direction:column;
+        align-items: center;
+    }
+
+    .nav_active{
+        transform: translateX(0%);
+        display:block;
+        transition: all 0.5s ease-in;
+        
+    }
+    .header__nav-item{
+        padding: 15px;
+    }
+    .header__bars{
+        padding:5px;
+        display: block;
+    }
+    .header__bars i{
+       color: #E6B86A;
+       cursor: pointer;
+        
+    }
+}
