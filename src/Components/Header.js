@@ -4,7 +4,6 @@ import '../grid.css'
 import logo21 from '../img/logo21.png'
 import {Link} from 'react-router-dom'
 
-
 const navSilde = ()=>{
     const bars = document.querySelector('.header__bars');
     const navbar = document.querySelector('.header__nav')

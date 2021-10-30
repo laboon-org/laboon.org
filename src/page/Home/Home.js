@@ -2,14 +2,14 @@ import "../../App.css";
 import '../../css/responsive/homeMobile.css'
 
 import React from "react";
-import Header from "../../components/Header";
+import Header from "../../Components/Header";
 
 // import blockchainifyfull1 from '../../img/'
 import logo21 from "../../img/logo21.png";
 
 import backgroundBlockchinHome from "../../img/backgroundBlockchain.png";
 
-import Footer from "../../components/Footer";
+import Footer from "../../Components/Footer";
 //
 
 import sung from "../../img/sung.png";
