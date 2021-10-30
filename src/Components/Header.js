@@ -13,7 +13,7 @@ const navSilde = ()=>{
     })
 }
 
-window.addEventListener('load', (event) => {
+window.addEventListener('click', (event) => {
     navSilde();
   });
 

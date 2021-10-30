@@ -19,16 +19,21 @@ import OurProducts from "./OurProducts";
 
 import OurPathners from "./OurPathners";
 import MainProduct from "./MainProduct";
+import OurCreativity from "./OurCreativity";
+import Plaza from "./Plaza";
+import BothProducts from "./BothProducts";
 
 const Home = () => {
   return (
     <div>
       <Header active={"home"} logo={logo21}></Header>
-      <BlockChainify img1={backgroundBlockchinHome} img2={sung}></BlockChainify>
-      <Ourorientation></Ourorientation>
-      <OurProducts></OurProducts>
-      <MainProduct></MainProduct>
-      <OurPathners></OurPathners>
+      <BlockChainify img1={backgroundBlockchinHome} img2={sung} />
+      <Ourorientation />
+      <OurProducts />
+      <OurCreativity />
+      <Plaza />
+      <BothProducts />
+      <OurPathners />
       <Footer></Footer>
     </div>
   );

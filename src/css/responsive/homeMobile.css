@@ -184,7 +184,7 @@
    }
 
    .angry{
-       height:2150px;
+       /* height:2150px; */
        position: relative;
    }
    .angry__left{
@@ -195,11 +195,6 @@
         left: 0;
         width:100%;
 
-   }
-
-   .productlist{
-    height: 5490px;
-   
    }
    
 
@@ -286,21 +281,15 @@
      .header__logo img{
          margin-left: 24px;
      }
-     .productlist__title h1{
-        font-family: Poppins;
-        font-style: normal;
-        font-weight: 500;
-        font-size: 30px;
-        line-height: 30px;
-
-        /* wihite */
-
-        color: #FEFEFE;
-     }
-     .productlist__title p{
-        font-size: 18px;
-        line-height: 30px;
-     }
+     .productlist__title{
+        text-align: center;
+        padding-top:100px;
+      }
+      .productlist__title h1{
+        font-size: 40px;
+        padding-bottom: 120px;
+      
+      }
      .ourpatners__content h1{
         font-weight: 500;
         font-size: 30px;
@@ -475,9 +464,14 @@
     }
 
     .wrap__angry-btn{
-        margin-top: 40px;
-        text-align: center;
-    }
+        width: 100%;
+      
+        /* text-align: right;
+        margin-top: 46px; */
+      }
+      .wrap__angry-btn img{
+          width: 100%;
+      }
 
     .product__mall-itemMall{
         left: -157px;
@@ -563,13 +557,9 @@
         margin-top: -99px;
         margin-left: 0;
     }
-    .item-product img {
-        padding-left:0 ;
-      }
+    
 
-    .item-product{
-        padding-top: 40px;
-    }
+    
     .product__mall-itemMall2{
         
     }
@@ -577,22 +567,12 @@
     .wrap__angry-wrap-item{
         left: 0;
     }
-    .product__mall-itemMall7,
-    .product__mall-itemMall2,
-    .product__mall-itemMall3,
-    .product__mall-itemMall5,
-    .product__mall-itemMall3,
-    .product__mall-itemMall,
-    .product__mall-itemMall6
+    /* .product__mall-itemMall,
+    .product__mall-itemMall1
     {
         display: none;
-    }
-    .product__mall-Group374{
-        display: block;
-        position: absolute;
-        top: 0;
-        left: 0;
-    }
+    } */
+    
     .product__mall-content h2 {
         padding-top: 150px;
     }
