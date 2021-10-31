@@ -419,7 +419,7 @@
         width: 100%;
         padding: 0 10px;
       }
-      .product__hypermon{
+      .product__both-ele{
           padding:0 10px;
       }
       .product__hypermon-wrap{
@@ -499,7 +499,7 @@
 
     .product__hypermon-wrap__inf p{
         width: 95%;
-        height: 140px;
+        height: 160px;
         font-family: Poppins;
         font-style: normal;
         font-weight: normal;
@@ -588,9 +588,6 @@
 
     .ourproducts__bottom-line__list{
         padding-left: 0;
-    }
-    .makeGroupf5,.makeGroupf6,.makeGroupf4{
-        display: none;
     }
     .makeGroupf8{
         display: block;
