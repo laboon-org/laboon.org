@@ -20,8 +20,8 @@ import OurProducts from "./OurProducts";
 import OurPathners from "./OurPathners";
 import MainProduct from "./MainProduct";
 import OurCreativity from "./OurCreativity";
-import Plaza from "./Plaza";
 import BothProducts from "./BothProducts";
+import Plaza from "./Plaza";
 
 const Home = () => {
   return (

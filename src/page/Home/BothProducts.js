@@ -5,12 +5,14 @@ import pepper from "../../img/pepper.png"
 import makeGroupf1 from '../../img/makeGroupf1.png'
 import makeGroupf3 from '../../img/makeGroupf3.png'
 import makeGroupf8 from '../../img/makeGroupf8.png'
+import makeGroupf2 from '../../img/bothProducts-img.png'
 const BothProducts = () => {
     return (
         <div className="product__both">
           <div className='product__both-background'>
             <img src={makeGroupf1} alt="" className="productlist-img makeg2 makeGroupf1" />
             <img src={makeGroupf3} alt="" className="productlist-img makeg2 makeGroupf3" />
+            <img src={makeGroupf2} alt="" className="productlist-img makeg2 makeGroupf2" />
             <img src={makeGroupf8} alt="" className="makeg1 makeGroupf8" />
           </div>
             <div className="grid wide row ">
