@@ -11,7 +11,7 @@ import axios from 'axios';
 const endpoint = "https://directus.laboon.org/graphql";
 const FILMS_QUERY = `
   {
-    employ(limit: 10, offset: 0){
+    employ(limit: 22, offset: 0){
         last_name
         first_name
         short_desc
@@ -97,9 +97,9 @@ useEffect(() => {
         <Route path="/team">
           <Team user={user}></Team>
         </Route>
-        <Route path="/blog">
+        {/* <Route path="/blog">
           <Blog></Blog>
-        </Route>
+        </Route> */}
       </Switch>
       </div>
     </Router>
