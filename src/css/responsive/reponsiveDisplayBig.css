@@ -1,0 +1,74 @@
+@media (min-width: 1920px){
+    .blockchainify__bottom{
+        width: 1500px;
+        margin-top: 30px;
+      }
+    .blockchainify--img2{
+        position: absolute;
+        width: 150px;
+        top: 40%;
+        left: 52%;
+      }
+    
+    .ourproducts__bottom{
+        width: 1920px;
+        margin: auto;
+    }
+    .ourproducts__bottom-img img{
+        width: 750px;
+      }
+
+      .productlist-img1{
+        width: 576px;
+      }
+      .productlist1{
+        width: 730px;
+      }
+
+      .productlist2{
+        width: 864px;
+      }
+    .angry {
+        width: 1920px;
+        margin: auto;
+        padding-bottom: 100px;
+      }
+
+      .product__mall-full{
+        height: 1200px;
+      }
+      .product__mall-itemMall1{
+       width: 960px;
+     }
+      .product__mall-container{
+          width: 1920px;
+          height: 100%;
+          margin: auto;
+      }
+      .product__mall-itemMall{
+        width: 805px;
+        left: 0;
+        top: 0;
+        z-index: 1;
+      }
+
+      /* .product__mall-right{
+        width: 678px;
+      } */
+      
+    .product__mall-content{
+        position: absolute;
+        width: 100%;
+        padding-bottom: 400px;
+        z-index: 2;
+        top: 300px;
+    }
+      .product__mall-Group375{
+        bottom: 0;
+        width: 798px;
+      }
+
+      .makeGroupf8{
+        width: 1056px;
+      }
+}
