@@ -5,7 +5,7 @@ import "../../grid.css";
 import "./product.scss";
 import HeaddingSubPage from "../../Components/HeaddingSubPage";
 import TitleSubPage from "../../Components/TitleSubPage";
-import logo21 from "../../img/logo21.png";
+import logo21 from "./imgProduct/logo21.png";
 import ProductItems from "./ProductItems";
  
 const Product = ({ products }) => {
@@ -43,13 +43,12 @@ const Product = ({ products }) => {
                       descp={product.content}
                       refs={product.refs}
                 ></ProductItems>
-                   ))}
+                  ))}
               </div>
             </div>
           </div>
         </div>
       </div>
-
       <Footer></Footer>
     </>
   );

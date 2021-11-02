@@ -18,7 +18,7 @@ import InfiniteScroll from "react-infinite-scroll-component";
 const Team = ({ user }) => {
   const [count, setCount] = useState({
     prev: 0,
-    next: 10,
+    next: 22,
   });
 
   const [hasMore, setHasMore] = useState(true);
@@ -30,11 +30,11 @@ const Team = ({ user }) => {
       return;
     }
     setTimeout(() => {
-      setCurrent(current.concat(user.slice(count.prev + 10, count.next + 10)));
+      setCurrent(current.concat(user.slice(count.prev + 22, count.next + 22)));
     }, 2000);
     setCount((prevState) => ({
-      prev: prevState.prev + 10,
-      next: prevState.next + 10,
+      prev: prevState.prev + 22,
+      next: prevState.next + 22,
     }));
   };
 
@@ -57,13 +57,13 @@ const Team = ({ user }) => {
           ></TitleSubPage>
           <div className="grid wide">
             <div className="team__content">
-              <h1>Wonderfill day-by-day</h1>
+              <h1>Wonderful Days</h1>
               <div className="team__wrapper">
                 <div className="team__wrapper-mid">
                   <div className="team__wrapper-mid__content">
                     <div className="row">
                       <div className="team__wrapper-mid-1 l-3">
-                        <img src={camping1} alt="" className="img-1 img-mt" />
+                        {/* <img src={camping1} alt="" className="img-1 img-mt" />
                         <img src={camping2} alt="" className="img-1" />
                       </div>
                       <div className="team__wrapper-mid-2 l-6">
@@ -75,7 +75,7 @@ const Team = ({ user }) => {
                       </div>
                       <div className="team__wrapper-mid-3 l-3">
                         <img src={camping3} alt="" className="img-2 img-mt" />
-                        <img src={camping4} alt="" className="img-2" />
+                        <img src={camping4} alt="" className="img-2" /> */}
                       </div>
                     </div>
                   </div>
@@ -117,7 +117,7 @@ const Team = ({ user }) => {
                           }
                           name={u.first_name}
                           lastName={u.last_name}
-                          position={u.position.group_position.position_group_name}
+                          position={u.position.position_name}
                           experience={u.short_desc}
                         ></TeamItem>
                       ))}
