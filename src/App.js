@@ -11,7 +11,7 @@ import axios from 'axios';
 const endpoint = "https://directus.laboon.org/graphql";
 const FILMS_QUERY = `
   {
-    employ(limit: 22, offset: 0){
+    employ(limit: 24, offset: 0){
         last_name
         first_name
         short_desc

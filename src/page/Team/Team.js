@@ -18,9 +18,9 @@ import InfiniteScroll from "react-infinite-scroll-component";
 const Team = ({ user }) => {
   const [count, setCount] = useState({
     prev: 0,
-    next: 22,
+    next: 24,
   });
-
+  
   const [hasMore, setHasMore] = useState(true);
   const [current, setCurrent] = useState(user.slice(count.prev, count.next));
 
@@ -30,11 +30,11 @@ const Team = ({ user }) => {
       return;
     }
     setTimeout(() => {
-      setCurrent(current.concat(user.slice(count.prev + 22, count.next + 22)));
+      setCurrent(current.concat(user.slice(count.prev + 24, count.next + 24)));
     }, 2000);
     setCount((prevState) => ({
-      prev: prevState.prev + 22,
-      next: prevState.next + 22,
+      prev: prevState.prev + 24,
+      next: prevState.next + 24,
     }));
   };
 
@@ -100,12 +100,13 @@ const Team = ({ user }) => {
                   </div>
                 </div>
                 <div className="team__personel--list">
-                  <InfiniteScroll
+                  {/* <InfiniteScroll
+                   
                     dataLength={current.length}
                     next={getMoreData}
                     hasMore={current.length == user.length ? false : hasMore}
                     loader={<h4>Loading...</h4>}
-                  >
+                  > */}
                     <div className="row">
                       {current.map((u, index) => (
                         <TeamItem
@@ -122,7 +123,7 @@ const Team = ({ user }) => {
                         ></TeamItem>
                       ))}
                     </div>
-                  </InfiniteScroll>
+                  {/* </InfiniteScroll> */}
                 </div>
               </div>
             </div>
