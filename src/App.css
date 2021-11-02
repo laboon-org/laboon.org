@@ -49,8 +49,6 @@ body {
 }
 
 .blockchainify--img1{
-  position: relative;
-  margin: auto;
   width: 100%;
 }
 
@@ -193,7 +191,7 @@ body {
 
 .lineabout3{
   position: absolute;
-  width: 85%;
+  width: 1300px;
   bottom: -19px;
   right: 0;
 }
@@ -206,9 +204,10 @@ body {
 }
 
 .lineabout1{
-  width: 100%;
+  width: 1500px;
   position: absolute;
   z-index: 0;
+  right: 0;
   bottom: -5%;
 }
 
@@ -295,7 +294,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  overflow: auto;
+  overflow: scroll;
   padding: 50px 0 120px 0;
 }
 
@@ -490,10 +489,16 @@ height: 123px;
 .product__mall-full{
   position: relative;
   height: 900px;
-  display: flex;
   background-color: white;
 }
+.product__mall-background{
+  
+}
 
+.product__mall-container{
+  position: relative;
+  width: 100%;
+}
 .product__mall-left{
   width: 40%;
 
