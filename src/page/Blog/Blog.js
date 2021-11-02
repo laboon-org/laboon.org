@@ -20,7 +20,7 @@ import blogitem6 from './imgBlog/blogitem6.png'
 import logo21 from '../../img/logo21.png'
 import BlogItem from './BlogItem';
 
-
+//test commit
 const Blog = () => {
     return (
         <>
