@@ -13,7 +13,7 @@ import campingmid from "./imgTeam/campingmid.png";
 import logo21 from "../../img/logo21.png";
 import TeamItem from "./TeamItem";
 import { useState } from "react";
-import InfiniteScroll from "react-infinite-scroll-component";
+// import InfiniteScroll from "react-infinite-scroll-component";
 
 const Team = ({ user }) => {
   const [count, setCount] = useState({
@@ -37,7 +37,7 @@ const Team = ({ user }) => {
       next: prevState.next + 24,
     }));
   };
-
+  
   return (
     <>
       <Header active={"team"} logo={logo21}></Header>

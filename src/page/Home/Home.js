@@ -1,5 +1,5 @@
 import "../../App.css";
-import '../../css/responsive/homeMobile.css'
+import "../../css/responsive/homeMobile.css";
 import React from "react";
 import Header from "../../Components/Header";
 import logo21 from "../../img/logo21.png";
@@ -34,19 +34,19 @@ const FILMS_QUERY = `
 
 const Home = () => {
   const [ourpartner, setOurpartner] = useState([]);
-  useEffect(() => {
+  useEffect(() => {  
     axios({
-      url : apiourpartner,
-      method : 'POST',
+      url: apiourpartner,
+      method: "POST",
       data: {
-        query :FILMS_QUERY,
-      }
+        query: FILMS_QUERY,
+      },
     })
-    .then(response => setOurpartner(response.data.data.partner_image))
-    .catch(err => console.error(err))
-  },[])
+      .then((response) => setOurpartner(response.data.data.partner_image))
+      .catch((err) => console.error(err));
+  }, []);
   console.log(ourpartner);
-  return (
+  return ( 
     <div>
       <Header active={"home"} logo={logo21}></Header>
       <BlockChainify img1={backgroundBlockchinHome} img2={sung} />

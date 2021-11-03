@@ -71,7 +71,6 @@ function App() {
 },[])
 
 useEffect(() => {
-
   axios({
     url: endpoint,
     method: 'POST',
