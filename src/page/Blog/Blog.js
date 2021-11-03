@@ -5,7 +5,6 @@ import HeaddingSubPage from '../../Components/HeaddingSubPage';
 import TitleSubPage from '../../Components/TitleSubPage';
 
 import './blog.scss'
-
 import '../../grid.css';
 
 import blogmain from './imgBlog/blogmain.png'
@@ -25,13 +24,18 @@ const Blog = () => {
     return (
         <>
         <Header active={"blog"}  logo={logo21}></Header>
-        <HeaddingSubPage title={"Blog"}></HeaddingSubPage>
+        <HeaddingSubPage 
+           title={"Blog"}
+           desp={
+               "This page will be updated on a regular basis with all the shocking news about the firm and our activities. Let’s come around and have a look today."
+           }
+        ></HeaddingSubPage>
         <div className="grid">
             <div className="blog__container">
                 <TitleSubPage title={"Laboon Blog"} desp ={"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque"}></TitleSubPage>
                 <div className="grid wide">
                     <div className="blog__content">
-                        <h1>News and Events</h1>
+                        <h1>Amazing News</h1>
                         <div className="blog__content--main">
                             <div className="row">
                                 <div className="blog__content--main__img col l-8">

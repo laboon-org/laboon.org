@@ -8,12 +8,10 @@
             font-size: 30px;
             line-height: 22px;
             /* identical to box height, or 73% */
-    
-    
             /* blue */
-    
             color: #255056;
             margin-bottom: 56px;
+            padding-right: 10px;
         }
     
         .blog__content--main{
@@ -24,6 +22,7 @@
             box-shadow: -2px 0px 15px rgba(0, 0, 0, 0.1);
             border-radius: 10px;
             margin-bottom:21px ;
+            margin-top: 51px;
             .blog__content--main__img{
                 text-align: center;
                 img{
