@@ -7,7 +7,7 @@ import HeaddingSubPage from "../../Components/HeaddingSubPage";
 import TitleSubPage from "../../Components/TitleSubPage";
 import logo21 from "./imgProduct/logo21.png";
 import ProductItems from "./ProductItems";
- 
+
 const Product = ({ products }) => {
   return (
     <>

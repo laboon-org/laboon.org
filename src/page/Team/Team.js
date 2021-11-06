@@ -23,7 +23,7 @@ const Team = ({ user }) => {
   
   const [hasMore, setHasMore] = useState(true);
   const [current, setCurrent] = useState(user.slice(count.prev, count.next));
-
+  
   const getMoreData = () => {
     if (current.length === user.length) {
       setHasMore(false);
@@ -63,7 +63,7 @@ const Team = ({ user }) => {
                   <div className="team__wrapper-mid__content">
                     <div className="row">
                       <div className="team__wrapper-mid-1 l-3">
-                        {/* <img src={camping1} alt="" className="img-1 img-mt" />
+                        <img src={camping1} alt="" className="img-1 img-mt" />
                         <img src={camping2} alt="" className="img-1" />
                       </div>
                       <div className="team__wrapper-mid-2 l-6">
@@ -75,7 +75,7 @@ const Team = ({ user }) => {
                       </div>
                       <div className="team__wrapper-mid-3 l-3">
                         <img src={camping3} alt="" className="img-2 img-mt" />
-                        <img src={camping4} alt="" className="img-2" /> */}
+                        <img src={camping4} alt="" className="img-2" />
                       </div>
                     </div>
                   </div>
@@ -85,7 +85,7 @@ const Team = ({ user }) => {
                 <h1>Meet the crew</h1>
                 <div className="team__personel-link">
                   <div className="team__personel-link--wrap">
-                    <div className="team__personel-link__item active ">
+                    <div className="team__personel-link__item ">
                       <span>All</span>
                     </div>
                     <div className="team__personel-link__item ">
@@ -94,7 +94,7 @@ const Team = ({ user }) => {
                     <div className="team__personel-link__item ">
                       <span>Advisors</span>
                     </div>
-                    <div className="team__personel-link__item ">
+                    <div className="team__personel-link__item active">
                       <span>Crews</span>
                     </div>
                   </div>

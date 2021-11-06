@@ -1,4 +1,3 @@
-
 @media screen and (min-width: 740px) and (max-width: 1023px){
     .container{
         overflow: hidden;
@@ -668,7 +667,6 @@
     .ourproducts__bottom-inf-wrap{
         padding-left:  0;
       }
-
       .ourproducts__bottom-line__list{
           padding-left: 0;
       }
@@ -678,7 +676,10 @@
     .product__mall-itemMall8{
         display: none;
     }
+
 }
+
+
 
 @media screen and (min-width: 1024px) and (max-width: 1365px){
     .wrap__angry-item{
@@ -688,8 +689,7 @@
         display: none;
     }
     .aboutus__left{
-        padding-right: 0;
-        
+        padding-right: 0;  
       }
     .aboutus__left-wrapper{
         text-align: center;
