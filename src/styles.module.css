@@ -1,0 +1,10 @@
+.page > div {
+  touch-action: none;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+  width: 50%;
+  height: 100%;
+  will-change: transform;
+   
+}

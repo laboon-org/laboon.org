@@ -450,19 +450,21 @@ height: 123px;
 }
 
 .item-product .item-product__img{
-  width: 90%;
+  width: 80%;
 }
 
 .wrap__angry-btn{
-  width: 46%;
+  width: 40%;
   margin: auto;
-  padding-top: 35px;
 }
-
 .wrap__angry-btn:hover{
   cursor: pointer;
 }
-
+@media screen and (min-width: 740px){
+  .wrap__angry-btn{
+    padding-top: 32px;
+  }
+}
 .wrap__angry-btn button:hover{
   cursor: pointer;
   box-shadow: 4px 4px 0px 2px rgba(30, 80, 86,0.8);

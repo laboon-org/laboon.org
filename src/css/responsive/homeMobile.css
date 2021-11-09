@@ -466,13 +466,13 @@
 
     .wrap__angry-btn{
         width: 100%;
-      
+        display: flex;
+        justify-content: center;
         /* text-align: right;
         margin-top: 46px; */
       }
       .wrap__angry-btn img{
           width: 76%;
-          padding-top: 57px;
       }
       .item-product .item-product__img {
           padding-bottom: 48px;
