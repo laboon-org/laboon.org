@@ -4,7 +4,7 @@ const OurPathners = ({ ourpartner }) => {
   console.log(ourpartner);
   ourpartner.sort((num1, num2) => num1.position - num2.position);
   return (
-    <section className="ourpatners grid">
+    <section className="ourpatners grid ">
       <div className="ourpatners__content grid">
         <h1>Our Patners</h1>
         <div className=" ourpatners__items-wrap row">

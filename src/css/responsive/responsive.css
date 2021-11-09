@@ -640,10 +640,8 @@
         padding-top: 40px;
     }
     
-    .product__mall-itemMall2{
-        
+    .product__mall-itemMall2{   
     }
-      
     .wrap__angry-wrap-item{
         left: 0;
     }
@@ -676,9 +674,7 @@
     .product__mall-itemMall8{
         display: none;
     }
-
 }
-
 
 
 @media screen and (min-width: 1024px) and (max-width: 1365px){

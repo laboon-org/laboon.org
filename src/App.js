@@ -80,8 +80,6 @@ useEffect(() => {
 })
 .then(response => setPorducts(response.data.data.projects))
 .catch(err => console.error(err))
-
-
 },[])
 
   return (
@@ -97,9 +95,9 @@ useEffect(() => {
         <Route path="/team">
           <Team user={user}></Team>
         </Route>
-        <Route path="/blog">
+        {/* <Route path="/blog">
           <Blog></Blog>
-        </Route>
+        </Route> */}
       </Switch>
       </div>
     </Router>

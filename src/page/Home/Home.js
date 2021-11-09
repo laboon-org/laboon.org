@@ -13,7 +13,6 @@ import OurPathners from "./OurPathners";
 import OurCreativity from "./OurCreativity";
 import BothProducts from "./BothProducts";
 import Plaza from "./Plaza";
-
 import { useEffect, useState } from "react";
 import axios from "axios";
 
@@ -21,7 +20,6 @@ const apiourpartner = "https://directus.laboon.org/graphql";
 
 const FILMS_QUERY = `
 {
-  
   partner_image{
     link
     position

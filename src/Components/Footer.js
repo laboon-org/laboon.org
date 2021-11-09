@@ -52,7 +52,6 @@ const Footer = () => {
 
                     </div>
                     <p>© 2021, Laboon. LTD. PTE ver0.5. All right reserved</p>
-                    
                 </div>
             </div>
         </section>

@@ -1,7 +1,7 @@
 import React from 'react'
 import itemMall from "../../img/itemMall.png" 
 
-import itemMall1 from "../../img/itemMall6.png" 
+import itemMall1 from "../../img/itemMal6.png" 
 import Group375 from "../../img/Group375.png" 
 const Plaza = () => {
     return (

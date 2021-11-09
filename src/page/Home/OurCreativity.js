@@ -13,12 +13,31 @@ import productlist9 from '../../img/x.png'
 import productitem1 from "../../img/productitem1.png" 
 import productitem2 from "../../img/productitem2.png" 
 import productitem3 from "../../img/productitem3.png" 
-import productitem4 from "../../img/productitem4.png" 
+import productitem4 from "../../img/productitem4.png"
+
 import productitem5 from "../../img/productitem5.png" 
 import newproductlist from '../../img/newproductlist.png'
-
 import ItemProduct from './ItemProduct';
+
 const OurCreativity = () => {
+   const linhvats = [
+     {
+        id: 1,
+        img: productitem1
+     },
+     {
+       id: 2,
+       img: productitem2
+     },
+     {
+       id: 3,
+       img: productitem3
+     },
+     {
+       id: 4,
+       img: productitem4
+     }
+   ]
     return (
         <div className="product__elu-full grid">
               <div className='product__elu-background'>
@@ -64,4 +83,4 @@ const OurCreativity = () => {
     )
 }
 
-export default OurCreativity
+export default OurCreativity;
