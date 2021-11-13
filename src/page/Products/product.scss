@@ -9,7 +9,6 @@
             span{
                 position: relative;
                 z-index: 2;
-
                 font-family: Poppins;
                 font-style: normal;
                 font-weight: 600;
@@ -100,7 +99,6 @@
                 }
             }
         }
-        
         .products__list-items{
             margin-top: 25px;
             margin-bottom: 100px;
@@ -131,10 +129,7 @@
                         img{
                             padding-left: 30px;
                         }
-
-
                     }
-
                     .products__item-right{
                         margin-top: 37px;
                         span{
@@ -143,7 +138,6 @@
                             font-weight: 500;
                             font-size: 15px;
                             line-height: 30px;
-
 
                             /* yeallow */
 
@@ -182,7 +176,6 @@
                             }
                         }
                     }
-                    
                     
                     .products__item-img__active{
                         position: absolute;

@@ -1,25 +1,16 @@
 import React, { useRef, useState } from 'react'
 import styled from 'styled-components';
-import { useSprings, animated } from '@react-spring/web'
-import useMeasure from 'react-use-measure'
-import { useDrag } from 'react-use-gesture'
-import clamp from 'lodash.clamp'
-import * as styless from './../../styles.module.css'
-
-import productitem1 from "../../img/productitem1.png";
-import productitem2 from "../../img/productitem2.png";
-import productitem3 from "../../img/productitem3.png";
-import productitem4 from "../../img/productitem4.png";
+import { useSprings, animated } from '@react-spring/web';
+import useMeasure from 'react-use-measure';
+import { useDrag } from 'react-use-gesture';
+import clamp from 'lodash.clamp';
+import * as styless from './../../styles.module.css';
 
 const pages = [
-  // <img src={productitem1} alt="logo" />,
-  // <img src={productitem2} alt="logo" />,
-  // <img src={productitem3} alt="logo" />,
-  // <img src={productitem4} alt="logo" />,
-  'https://demo.laboon.org/static/media/productitem1.2798df72.png',
-  'https://demo.laboon.org/static/media/productitem2.77733997.png',
-  'https://demo.laboon.org/static/media/productitem3.fee8b991.png',
-  'https://demo.laboon.org//static/media/productitem4.8b8775dc.png'
+  'https://directus.laboon.org/assets/09dcfe07-673f-485c-9eb0-fe5b278788d0.png',
+  'https://directus.laboon.org/assets/8b04a87b-90f2-4510-a8bc-85bfdbe9e1c5.png',
+  'https://directus.laboon.org/assets/6b5f6e98-5528-417c-a97a-de960d69e46d.png',
+  'https://directus.laboon.org/assets/e22f966c-399c-4713-8a5f-d4ea4c230146.png',
 ]
 
 function Viewpager(propso: any) {
@@ -71,7 +62,6 @@ const Dot = (props: any) => {
     <span style={{ ...styles.dotSpan, backgroundColor: color }}></span>
   )
 }
-
 export default function App() {
   const [isSelected, setIsSelected] = useState(0);
   return (

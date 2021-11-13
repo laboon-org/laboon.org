@@ -1,6 +1,7 @@
 
 import './App.css';
-import './css/responsive/reponsiveDisplayBig.css'
+import './css/responsive/reponsiveDisplayBig.css';
+import './css/responsive/responsiveprocrew.css';
 import Home from './page/Home/Home';
 import { BrowserRouter  as Router, Route, Switch } from 'react-router-dom';
 import Product from './page/Products/Product';
@@ -95,9 +96,9 @@ useEffect(() => {
         <Route path="/team">
           <Team user={user}></Team>
         </Route>
-        {/* <Route path="/blog">
+        <Route path="/blog">
           <Blog></Blog>
-        </Route> */}
+        </Route>
       </Switch>
       </div>
     </Router>

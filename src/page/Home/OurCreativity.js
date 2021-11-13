@@ -21,7 +21,33 @@ import ItemProduct from "./ItemProduct";
 import SpringOurcreativy from "./SpringOurcreativy.tsx";
 import { isMobile } from "react-device-detect";
 
+function useWindowSize() {
+  // Initialize state with undefined width/height so server and client renders match
+  // Learn more here: https://joshwcomeau.com/react/the-perils-of-rehydration/
+  const [windowSize, setWindowSize] = React.useState({
+    width: undefined,
+    height: undefined,
+  });
+  React.useEffect(() => {
+    // Handler to call on window resize
+    function handleResize() {
+      // Set window width/height to state
+      setWindowSize({
+        width: window.innerWidth,
+        height: window.innerHeight,
+      });
+    }
+    // Add event listener
+    window.addEventListener("resize", handleResize);
+    // Call handler right away so state gets updated with initial window size
+    handleResize();
+    // Remove event listener on cleanup
+    return () => window.removeEventListener("resize", handleResize);
+  }, []); // Empty array ensures that effect is only run on mount
+  return windowSize;
+}
 const OurCreativity = () => {
+  const windownSize = useWindowSize();
   return (
     <div className="product__elu-full grid">
       <div className="product__elu-background">
@@ -89,9 +115,8 @@ const OurCreativity = () => {
             </div>
             <div className="angry__right col l-8 c-12">
               <div className="wrap__angry">
-                { isMobile ? (
+                {windownSize.height > windownSize.width ? (
                   <SpringOurcreativy></SpringOurcreativy>
-                  
                 ) : (
                   <div className="wrap__angry-wrap-item row">
                     <ItemProduct
@@ -112,11 +137,10 @@ const OurCreativity = () => {
                     ></ItemProduct>
                   </div>
                 )}
-                
                 <div className="wrap__angry-btn">
-                <a href="https://playelu.io/">
-                 <img src={productitem5} alt="" /> 
-                </a>
+                  <a href="https://playelu.io/">
+                    <img src={productitem5} alt="" />
+                  </a>
                 </div>
               </div>
             </div>

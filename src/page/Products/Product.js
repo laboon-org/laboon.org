@@ -42,7 +42,7 @@ const Product = ({ products }) => {
                       mainTitle={product.title}
                       descp={product.content}
                       refs={product.refs}
-                ></ProductItems>
+                ></ProductItems>  
                   ))}
               </div>
             </div>

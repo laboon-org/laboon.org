@@ -10,7 +10,10 @@
             font-size: 30px;
             line-height: 22px;
             /* identical to box height, or 73% */
+
+
             /* blue */
+
             color: #255056;
 
         }
@@ -19,6 +22,7 @@
 
             margin-top: 50px;
             margin-bottom: 20px;
+    
             .team__wrapper-left,.team__wrapper-right{
     
                 .team__thumb{
@@ -73,6 +77,10 @@
                     box-shadow: -2px 0px 15px rgba(0, 0, 0, 0.1);
                     border-radius: 10px;
                     text-align: center;
+
+                    .team__wrapper-mid-2.mb{
+                        display: none;
+                    }
                    .img-1{
                        padding-left: 25px;
                    }
@@ -177,28 +185,33 @@
             }
             .team__personel--list{
                 padding-left: 50px;
+               h4{
+                   text-align: center;
+               }
                 .team__personel--item:hover{
                         
                     transform:translateY(-15px);
                     transition: all 0.5s ease-in;
                 }
-                .team__personel--item{
+                .team__personel--item-wrap{
                     max-width: 268px;
                     height: 391px;   
                     background: #FFFFFF;
                     box-shadow: -2px 0px 15px rgba(0, 0, 0, 0.1);
                     border-radius: 10px;
                     margin-right: 10px;
-                    margin-left: 10px;
+                    margin-left: 14px;
                     margin-top: 27px;
                     cursor: pointer;
                     
                     .team__personel--item__inf{
-                        max-width: 268px;
+                        width: 268px;
                         height: 350px; 
                         text-align:center;
                         padding-top: 25px;
                         position: relative;
+                        text-align: center;
+
                         h2{
                             font-family: Poppins;
                             font-style: normal;
@@ -208,7 +221,7 @@
                             /* identical to box height, or 150% */
 
                             color: #06454B;
-                            margin-top: 5px;
+                            margin-top: 25px;
                         }
                         span{
                             font-family: Poppins;
@@ -236,9 +249,13 @@
                             }
                         }
                         .team__personel--item__bg{
-                            
                         }
-
+                        .team__personel--item-img{
+                            width: 194px;
+                            height: 194px;
+                            border-radius: 97px;
+                            object-fit: contain;
+                        }
                         .team__personel--item-img-avt{
                             position: absolute;
                             top: 25px;
