@@ -72,7 +72,6 @@ const Dot = (props: any) => {
   )
 }
 
-
 export default function App() {
   const [isSelected, setIsSelected] = useState(0);
   return (
