@@ -1,9 +1,5 @@
 import React from "react";
 import personnelbg from "./imgTeam/personelbg.png";
-import fb from "./imgTeam/fb.png";
-import tw from "./imgTeam/tw.png";
-import git from "./imgTeam/git.png";
-import linkin from "./imgTeam/linkin.png";
 const TeamItem = ({ img, name, lastName, position, experience }) => {
   return (
     <>
@@ -29,10 +25,10 @@ const TeamItem = ({ img, name, lastName, position, experience }) => {
             </div>
           </div>
           <div className="team__personel--item__connect">
-            <img src={fb} alt="" className="connect-icon" />
-            <img src={tw} alt="" className="connect-icon" />
-            <img src={git} alt="" className="connect-icon" />
-            <img src={linkin} alt="" className="connect-icon" />
+            <img src="https://storage.googleapis.com/laboon-img-storage/laboon/image-team-icon/fb.png" alt="" className="connect-icon" />
+            <img src="https://storage.googleapis.com/laboon-img-storage/laboon/image-team-icon/tw.png" alt="" className="connect-icon" />
+            <img src="https://storage.googleapis.com/laboon-img-storage/laboon/image-team-icon/git.png" alt="" className="connect-icon" />
+            <img src="https://storage.googleapis.com/laboon-img-storage/laboon/image-team-icon/in.png" alt="" className="connect-icon" />
           </div>
         </div>
       </div>

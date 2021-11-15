@@ -5,15 +5,9 @@ import "../../grid.css";
 import "./team.scss";
 import HeaddingSubPage from "../../Components/HeaddingSubPage";
 import TitleSubPage from "../../Components/TitleSubPage";
-import camping1 from "./imgTeam/camping1.png";
-import camping2 from "./imgTeam/camping2.png";
-import camping3 from "./imgTeam/camping3.png";
-import camping4 from "./imgTeam/camping4.png";
-import campingmid from "./imgTeam/campingmid.png";
 import logo21 from "../../img/logo21.png";
 import TeamItem from "./TeamItem";
 import { useState } from "react";
-import InfiniteScroll from "react-infinite-scroll-component";
 
 const Team = ({ user }) => {
   const [count, setCount] = useState({
@@ -67,25 +61,25 @@ const Team = ({ user }) => {
                     <div className="row">
                       <div className="team__wrapper-mid-2 mb l-6 c-12">
                         <img
-                          src={campingmid}
+                          src="https://storage.googleapis.com/laboon-img-storage/laboon/image-team/campingmid.png"
                           alt=""
                           className="img-mid img-mt"
                         />
                       </div>
                       <div className="team__wrapper-mid-1 l-3 c-6">
-                        <img src={camping1} alt="" className="img-1 img-mt" />
-                        <img src={camping2} alt="" className="img-1" />
+                        <img src="https://storage.googleapis.com/laboon-img-storage/laboon/image-team/camping1.png" alt="" className="img-1 img-mt" />
+                        <img src="https://storage.googleapis.com/laboon-img-storage/laboon/image-team/camping2.png" alt="" className="img-1" />
                       </div>
                       <div className="team__wrapper-mid-2 pc l-6">
                         <img
-                          src={campingmid}
+                          src="https://storage.googleapis.com/laboon-img-storage/laboon/image-team/campingmid.png"
                           alt=""
                           className="img-mid img-mt"
                         />
                       </div>
                       <div className="team__wrapper-mid-3 l-3 c-6">
-                        <img src={camping3} alt="" className="img-2 img-mt" />
-                        <img src={camping4} alt="" className="img-2" />
+                        <img src="https://storage.googleapis.com/laboon-img-storage/laboon/image-team/camping3.png" alt="" className="img-2 img-mt" />
+                        <img src="https://storage.googleapis.com/laboon-img-storage/laboon/image-team/camping4.png" alt="" className="img-2" />
                       </div>
                     </div>
                   </div>

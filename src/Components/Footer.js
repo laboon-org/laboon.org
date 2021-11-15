@@ -51,7 +51,9 @@ const Footer = () => {
                         <img className="footer__icon-connect" src={tw} alt="" />
 
                     </div>
-                    <p>© 2021, Laboon. LTD. PTE ver0.5. All right reserved</p>
+                    <p>
+                        © 2021, Laboon .PTE .LTD, All right reserved
+                            Version: v0.5.8</p>
                 </div>
             </div>
         </section>

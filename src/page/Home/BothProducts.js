@@ -1,38 +1,32 @@
 import React from "react";
 
-import hypermon from "../../img/hypermon.png";
-import pepper from "../../img/pepper.png";
-import makeGroupf1 from "../../img/makeGroupf1.png";
-import makeGroupf3 from "../../img/makeGroupf3.png";
-import makeGroupf8 from "../../img/makeGroupf8.png";
-import makeGroupf2 from "../../img/bothProducts-img.png";
 const BothProducts = () => {
   return (
     <div className="product__both">
       <div className="product__both-background">
         <img
-          src={makeGroupf1}
+          src="https://storage.googleapis.com/laboon-img-storage/laboon/image-Home-BothProducts/makeGroupf1.png"
           alt=""
           className="productlist-img makeg2 makeGroupf1"
         />
         <img
-          src={makeGroupf3}
+          src="https://storage.googleapis.com/laboon-img-storage/laboon/image-Home-BothProducts/makeGroupf3.png"
           alt=""
           className="productlist-img makeg2 makeGroupf3"
         />
         <img
-          src={makeGroupf2}
+          src="https://storage.googleapis.com/laboon-img-storage/laboon/image-Home-BothProducts/bothProductsimg.png"
           alt=""
           className="productlist-img makeg2 makeGroupf2"
         />
-        <img src={makeGroupf8} alt="" className="makeg1 makeGroupf8" />
+        <img src="https://storage.googleapis.com/laboon-img-storage/laboon/image-Home-BothProducts/makeGroupf8.png" alt="" className="makeg1 makeGroupf8" />
       </div>
       <div className="grid wide row ">
         <div className="product__both-contents">
           <div className="product__both-ele col l-6 c-12">
             <div className="product__hypermon-wrap">
               <h2>Hypermon</h2>
-              <img src={hypermon} alt="" />
+              <img src="https://storage.googleapis.com/laboon-img-storage/laboon/image-Home-BothProducts/hypermon.png" alt="" />
               <div className="product__hypermon-wrap__inf">
                 <p>
                   Plus having fun and making profits, this is an
@@ -49,7 +43,7 @@ const BothProducts = () => {
           <div className="product__both-ele col l-6 c-12">
             <div className="product__hypermon-wrap">
               <h2>Pepper Attack</h2>
-              <img className="pepperAttack__img" src={pepper} alt="" />
+              <img className="pepperAttack__img" src="https://storage.googleapis.com/laboon-img-storage/laboon/image-Home-BothProducts/pepper.png" alt="" />
               <div className="product__hypermon-wrap__inf">
                 <p>
                   Pepper Attack is a 10,000 NFT collection that comes with an

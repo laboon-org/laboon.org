@@ -1,8 +1,7 @@
 import React from 'react'
 import itemMall from "../../img/itemMall.png" 
-
 import itemMall1 from "../../img/itemMal6.png" 
-import Group375 from "../../img/Group375.png" 
+
 const Plaza = () => {
     return (
         <div className="product__mall-full grid row">
@@ -27,7 +26,7 @@ const Plaza = () => {
               
             </div>
             <div className='product__mall-right'>
-              <img src={Group375} alt="" className="product__mall-Group375" />
+              <img src="https://storage.googleapis.com/laboon-img-storage/laboon/image-Home-Plaza/Group375.png" alt="" className="product__mall-Group375" />
             </div>
           </div>
           

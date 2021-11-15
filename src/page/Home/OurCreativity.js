@@ -1,25 +1,7 @@
 import React from "react";
-import productlist from "../../img/productlist.png";
-import productlist1 from "../../img/productlist1.png";
-import productlist2 from "../../img/productlist2.png";
-import productlist3 from "../../img/productlist3.png";
-import productlist4 from "../../img/productlist4.png";
-import productlist5 from "../../img/productlist5.png";
-import productlist6 from "../../img/productlist6.png";
-import productlist7 from "../../img/productlist7.png";
-import productlist8 from "../../img/x.png";
-import productlist9 from "../../img/x.png";
-
-import productitem1 from "../../img/productitem1.png";
-import productitem2 from "../../img/productitem2.png";
-import productitem3 from "../../img/productitem3.png";
-import productitem4 from "../../img/productitem4.png";
-
-import productitem5 from "../../img/productitem5.png";
-import newproductlist from "../../img/newproductlist.png";
 import ItemProduct from "./ItemProduct";
+
 import SpringOurcreativy from "./SpringOurcreativy.tsx";
-import { isMobile } from "react-device-detect";
 
 function useWindowSize() {
   // Initialize state with undefined width/height so server and client renders match
@@ -52,52 +34,52 @@ const OurCreativity = () => {
     <div className="product__elu-full grid">
       <div className="product__elu-background">
         <img
-          src={productlist}
+          src="https://storage.googleapis.com/laboon-img-storage/laboon/image-Home-OurCreativity/productlist.png"
           alt=""
           className="productlist-img productlist-img1"
         />
         <img
-          src={productlist1}
+          src="https://storage.googleapis.com/laboon-img-storage/laboon/image-Home-OurCreativity/productlist1.png"
           alt=""
           className="productlist-img productlist1"
         />
         <img
-          src={productlist2}
+          src="https://storage.googleapis.com/laboon-img-storage/laboon/image-Home-OurCreativity/productlist2.png"
           alt=""
           className="productlist-img productlist2"
         />
         <img
-          src={productlist3}
+          src="https://storage.googleapis.com/laboon-img-storage/laboon/image-Home-OurCreativity/productlist3.png"
           alt=""
           className="productlist-img productlist3"
         />
         <img
-          src={productlist4}
+          src="https://storage.googleapis.com/laboon-img-storage/laboon/image-Home-OurCreativity/productlist4.png"
           alt=""
           className="productlist-img productlist4"
         />
         <img
-          src={productlist5}
+          src="https://storage.googleapis.com/laboon-img-storage/laboon/image-Home-OurCreativity/productlist5.png"
           alt=""
           className="productlist-img productlist5"
         />
         <img
-          src={productlist6}
+          src="https://storage.googleapis.com/laboon-img-storage/laboon/image-Home-OurCreativity/productlist6.png"
           alt=""
           className="productlist-img productlist6"
         />
         <img
-          src={productlist7}
+          src="https://storage.googleapis.com/laboon-img-storage/laboon/image-Home-OurCreativity/productlist7.png"
           alt=""
           className="productlist-img productlist7"
         />
         <img
-          src={productlist8}
+          src="https://storage.googleapis.com/laboon-img-storage/laboon/image-Home-OurCreativity/x.png"
           alt=""
           className="productlist-img productlistx"
         />
         <img
-          src={productlist9}
+          src="https://storage.googleapis.com/laboon-img-storage/laboon/image-Home-OurCreativity/x.png"
           alt=""
           className="productlist-img productlistxleft"
         />
@@ -110,7 +92,7 @@ const OurCreativity = () => {
         <div className="angry">
           <div className="row">
             <div className="angry__left col l-4 c-12">
-              <img src={newproductlist} alt="" className="angry__left-img1" />
+              <img src="https://storage.googleapis.com/laboon-img-storage/laboon/image-Home-OurCreativity/newproductlist.png" alt="" className="angry__left-img1" />
               {/* <img src={productitem5} alt=""  className="productitem5"/> */}
             </div>
             <div className="angry__right col l-8 c-12">
@@ -121,25 +103,25 @@ const OurCreativity = () => {
                   <div className="wrap__angry-wrap-item row">
                     <ItemProduct
                       title={"Drop"}
-                      img={productitem1}
+                      img={"https://storage.googleapis.com/laboon-img-storage/laboon/image-Home-OurCreativity/productitem1.png"}
                     ></ItemProduct>
                     <ItemProduct
                       title={"Nest"}
-                      img={productitem2}
+                      img={"https://storage.googleapis.com/laboon-img-storage/laboon/image-Home-OurCreativity/productitem2.png"}
                     ></ItemProduct>
                     <ItemProduct
                       title={"Coming Soon"}
-                      img={productitem3}
+                      img={"https://storage.googleapis.com/laboon-img-storage/laboon/image-Home-OurCreativity/productitem3.png"}
                     ></ItemProduct>
                     <ItemProduct
                       title={"Coming Soon"}
-                      img={productitem4}
+                      img={"https://storage.googleapis.com/laboon-img-storage/laboon/image-Home-OurCreativity/productitem4.png"}
                     ></ItemProduct>
                   </div>
                 )}
                 <div className="wrap__angry-btn">
                   <a href="https://playelu.io/">
-                    <img src={productitem5} alt="" />
+                    <img src={"https://storage.googleapis.com/laboon-img-storage/laboon/image-Home-OurCreativity/productitem5.png"} alt="" />
                   </a>
                 </div>
               </div>

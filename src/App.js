@@ -96,9 +96,9 @@ useEffect(() => {
         <Route path="/team">
           <Team user={user}></Team>
         </Route>
-        <Route path="/blog">
+        {/* <Route path="/blog">
           <Blog></Blog>
-        </Route>
+        </Route> */}
       </Switch>
       </div>
     </Router>
