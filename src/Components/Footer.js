@@ -2,7 +2,6 @@ import React from 'react'
 import '../css/footer.css'
 import '../css/responsive/responsive.css'
 import '../grid.css'
-
 import footerlogo from '../img/Footerlogo.png';
 import facebook from '../img/facebook-box-fill.png';
 import linked from '../img/linkedin-box-fill.png';

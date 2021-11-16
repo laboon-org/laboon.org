@@ -24,7 +24,9 @@ const Header = ({ active, logo }) => {
           <div className="grid wide">
             <div className="row header__wrapper">
               <div className="header__logo col l-7 l0-7 c-11">
+              <Link to="/">
                 <img src={logo} alt="logo" />
+                </Link>
               </div>
               <div className="header__nav col l-5 l0-5">
                 <ul>
