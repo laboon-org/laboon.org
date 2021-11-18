@@ -56,7 +56,7 @@ const Header = ({ active, logo }) => {
                       active == "blog" && "active"
                     } `}
                   >
-                    <Link to="/">Blog</Link>
+                    <Link to="/blog">Blog</Link>
                   </li>
                 </ul>
               </div>

@@ -558,9 +558,8 @@ height: 6468px;
  .ourpatner__item:hover{
     filter: grayscale(0);
     cursor: pointer;
-    box-shadow: -2px 0px 15px rgba(0, 0, 0, 0.1);
+    /* box-shadow: -2px 0px 15px rgba(0, 0, 0, 0.1); */
   }
-
 
   /* abouts */
   .about1,.about2,.lineabout1{

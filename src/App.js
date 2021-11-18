@@ -1,14 +1,13 @@
-
-import './App.css';
-import './css/responsive/reponsiveDisplayBig.css';
-import './css/responsive/responsiveprocrew.css';
-import Home from './page/Home/Home';
-import { BrowserRouter  as Router, Route, Switch } from 'react-router-dom';
-import Product from './page/Products/Product';
-import Team from './page/Team/Team';
-import Blog from './page/Blog/Blog';
-import { useEffect, useState } from 'react';
-import axios from 'axios';
+import "./App.css";
+import "./css/responsive/reponsiveDisplayBig.css";
+import "./css/responsive/responsiveprocrew.css";
+import Home from "./page/Home/Home";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import Product from "./page/Products/Product";
+import Team from "./page/Team/Team";
+import Blog from "./page/Blog/Blog";
+import { useEffect, useState } from "react";
+import axios from "axios";
 
 const endpoint = "https://directus.laboon.org/graphql";
 const FILMS_QUERY = `
@@ -61,48 +60,47 @@ function App() {
   const [products, setPorducts] = useState([]);
   useEffect(() => {
     axios({
-        url: endpoint,
-        method: 'POST',
-        data: {
-            query: FILMS_QUERY,
-        }
+      url: endpoint,
+      method: "POST",
+      data: {
+        query: FILMS_QUERY,
+      },
     })
-    .then(response => setUser(response.data.data.employ))
-    .catch(err => console.error(err))
-},[])
+      .then((response) => setUser(response.data.data.employ))
+      .catch((err) => console.error(err));
+  }, []);
 
-useEffect(() => {
-  axios({
-    url: endpoint,
-    method: 'POST',
-    data: {
+  useEffect(() => {
+    axios({
+      url: endpoint,
+      method: "POST",
+      data: {
         query: FILMS_QUERY_PRODuCTS,
-    }
-})
-.then(response => setPorducts(response.data.data.projects))
-.catch(err => console.error(err))
-},[])
+      },
+    })
+      .then((response) => setPorducts(response.data.data.projects))
+      .catch((err) => console.error(err));
+  }, []);
 
   return (
     <Router>
       <div className="App">
-      <Switch>
-        <Route exact path="/">
-          <Home></Home>
-        </Route>
-        <Route exact path="/product">
-          <Product products={products}></Product>
-        </Route>
-        <Route path="/team">
-          <Team user={user}></Team>
-        </Route>
-        {/* <Route path="/blog">
-          <Blog></Blog>
-        </Route> */}
-      </Switch>
+        <Switch>
+          <Route exact path="/">
+            <Home></Home>
+          </Route>
+          <Route exact path="/product">
+            <Product products={products}></Product>
+          </Route>
+          <Route path="/team">
+            <Team user={user}></Team>
+          </Route>
+          <Route path="/blog">
+            <Blog></Blog>
+          </Route>
+        </Switch>
       </div>
     </Router>
-
   );
 }
 

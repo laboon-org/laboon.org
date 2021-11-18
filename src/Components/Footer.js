@@ -44,10 +44,11 @@ const Footer = () => {
                 </div>
                 <div className="footer__infor">
                     <div className="footer__social">
-
-                        <img className="footer__icon-connect" src={facebook} alt="" />
-                        <img className="footer__icon-connect" src={linked} alt="" />
-                        <img className="footer__icon-connect" src={tw} alt="" />
+                    <a href="https://www.facebook.com/Laboon.org/" >  <img className="footer__icon-connect" src={facebook} alt="" /></a>
+                    <a href="https://www.linkedin.com/in/laboon-ltd-pte-8a6553223/">  <img  className="footer__icon-connect" src={linked} alt="" /></a>
+                    <a href="https://twitter.com/laboon_org" >    <img className="footer__icon-connect" src={tw} alt="" /></a>
+                      
+                    
 
                     </div>
                     <p>

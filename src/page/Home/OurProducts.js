@@ -3,14 +3,11 @@ import React, { useEffect, useState } from "react";
 import itemourproduct6 from "../../img/itemourproduct6.png";
 import OurProductItem from "./ourProductItem";
 
-
 import dappsImg from "../../img/product-dapps.png";
 import gamesImg from "../../img/product-games.png";
 import plazaImg from "../../img/product-plaza.png";
 import walletImg from "../../img/product-wallet.png";
 import comingImg from "../../img/product-coming.png";
-
-
 
 const products = [
   {
@@ -62,8 +59,7 @@ const OurProducts = () => {
         </div>
         <div className="ourproducts__bottom">
           <div className="row">
-            <div
-              className="ourproducts__bottom-img col l-5 l0-12 c-12">
+            <div className="ourproducts__bottom-img col l-5 l0-12 c-12">
               <img
                 src={proActive.img}
                 alt=""

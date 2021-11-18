@@ -3,7 +3,7 @@ import "../../css/responsive/homeMobile.css";
 import React from "react";
 import Header from "../../Components/Header";
 import logo21 from "../../img/logo21.png";
-import backgroundBlockchinHome from "../../img/backgroundBlockchain.png";
+import backgroundBlockchinHome from "../../img/backgroundBlockchain.webp";
 import Footer from "../../Components/Footer";
 import sung from "../../img/sung.png";
 import BlockChainify from "./Blockchainify";

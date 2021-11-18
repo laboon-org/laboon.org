@@ -8,31 +8,70 @@ import TitleSubPage from "../../Components/TitleSubPage";
 import logo21 from "../../img/logo21.png";
 import TeamItem from "./TeamItem";
 import { useState } from "react";
+import axios from "axios";
 
 const Team = ({ user }) => {
-  const [count, setCount] = useState({
-    prev: 0,
-    next: 22,
-  });
+  const [currentProduct, setCurrentProduct] = useState(user);
+  const [category, setCategory] = useState("All");
 
-  const [hasMore, setHasMore] = useState(true);
-  const [current, setCurrent] = useState(user.slice(count.prev, count.next));
-
-  const getMoreData = () => {
-    if (current.length === user.length) {
-      setHasMore(false);
-      return;
+  const endpoint = "https://directus.laboon.org/graphql";
+  React.useLayoutEffect(() => {
+    const condition = `, filter: {
+      position: {
+        group_position: {
+          position_group_name: {
+            _eq: "${category}"
+          }
+        }
+      }
+    }`;
+    const FILMS_QUERY = `
+    {
+      employ(limit: 24, offset: 0${category === "All" ? "" : condition}){
+          last_name
+          first_name
+          short_desc
+          position{ 
+              position_name
+              group_position{ 
+                  position_group_name
+              }
+          }
+          group_resource_id{ 
+              sources{ 
+                  directus_files_id{ 
+                      filename_disk
+                  }
+              }
+          }
+      }
     }
+  `;
+    axios({
+      url: endpoint,
+      method: "POST",
+      data: {
+        query: FILMS_QUERY,
+      },
+    })
+      .then((response) => {
+        setCurrentProduct(
+          response.data.data.employ ? response.data.data.employ : []
+        );
+      }) 
+      .catch((err) => console.error(err));
+  }, [category]);
 
-    setTimeout(() => {
-      setCurrent(current.concat(user.slice(count.prev + 22, count.next + 22)));
-    }, 2000);
-    setCount((prevState) => ({
-      prev: prevState.prev + 22,
-      next: prevState.next + 22,
-    }));
+  const clickAll = (type) => {
+    setCurrentProduct(user);
+    setCategory(type);
+  }; 
+  const fetchUser = (type) => {
+    setCategory(type);
   };
-  console.log(user);
+  const listUser = () => {
+    return currentProduct;
+  };
 
   return (
     <>
@@ -67,8 +106,16 @@ const Team = ({ user }) => {
                         />
                       </div>
                       <div className="team__wrapper-mid-1 l-3 c-6">
-                        <img src="https://storage.googleapis.com/laboon-img-storage/laboon/image-team/camping1.png" alt="" className="img-1 img-mt" />
-                        <img src="https://storage.googleapis.com/laboon-img-storage/laboon/image-team/camping2.png" alt="" className="img-1" />
+                        <img
+                          src="https://storage.googleapis.com/laboon-img-storage/laboon/image-team/camping1.png"
+                          alt=""
+                          className="img-1 img-mt"
+                        />
+                        <img
+                          src="https://storage.googleapis.com/laboon-img-storage/laboon/image-team/camping2.png"
+                          alt=""
+                          className="img-1"
+                        />
                       </div>
                       <div className="team__wrapper-mid-2 pc l-6">
                         <img
@@ -78,8 +125,16 @@ const Team = ({ user }) => {
                         />
                       </div>
                       <div className="team__wrapper-mid-3 l-3 c-6">
-                        <img src="https://storage.googleapis.com/laboon-img-storage/laboon/image-team/camping3.png" alt="" className="img-2 img-mt" />
-                        <img src="https://storage.googleapis.com/laboon-img-storage/laboon/image-team/camping4.png" alt="" className="img-2" />
+                        <img
+                          src="https://storage.googleapis.com/laboon-img-storage/laboon/image-team/camping3.png"
+                          alt=""
+                          className="img-2 img-mt"
+                        />
+                        <img
+                          src="https://storage.googleapis.com/laboon-img-storage/laboon/image-team/camping4.png"
+                          alt=""
+                          className="img-2"
+                        />
                       </div>
                     </div>
                   </div>
@@ -90,30 +145,63 @@ const Team = ({ user }) => {
                 <h1>Meet the crew</h1>
                 <div className="team__personel-link">
                   <div className="team__personel-link--wrap">
-                    <div className="team__personel-link__item active ">
-                      <span>All</span>
+                    <div
+                      className={`team__personel-link__item ${
+                        category == "All" && "active"
+                      } `}
+                    >
+                      <span
+                        onClick={() => {
+                          clickAll("All");
+                        }}
+                      >
+                        All
+                      </span>
                     </div>
-                    <div className="team__personel-link__item ">
-                      <span>Founders</span>
+                    <div
+                      className={`team__personel-link__item ${
+                        category == "Administrators" && "active"
+                      } `}
+                    >
+                      <span
+                        onClick={() => {
+                          fetchUser("Administrators");
+                        }}
+                      >
+                        Founders
+                      </span>
                     </div>
-                    <div className="team__personel-link__item ">
-                      <span>Advisors</span>
+                    <div
+                      className={`team__personel-link__item ${
+                        category == "Advisors" && "active"
+                      } `}
+                    >
+                      <span
+                        onClick={() => {
+                          fetchUser("Advisors");
+                        }}
+                      >
+                        Advisors
+                      </span>
                     </div>
-                    <div className="team__personel-link__item ">
-                      <span>Crews</span>
+                    <div
+                      className={`team__personel-link__item ${
+                        category == "Crew" && "active"
+                      } `}
+                    >
+                      <span
+                        onClick={() => {
+                          fetchUser("Crew");
+                        }}
+                      >
+                        Crew
+                      </span>
                     </div>
                   </div>
                 </div>
-
                 <div className="team__personel--list ">
-                  {/* <InfiniteScroll
-                                        dataLength={current.length}
-                                        next={getMoreData}
-                                        hasMore={current.length == user.length ? false : hasMore} 
-                                        loader={<h4>Loading...</h4>}
-                                        > */}
                   <div className="row">
-                    {current.map((u, index) => (
+                    {listUser().map((u, index) => (
                       <TeamItem
                         key={index}
                         img={
@@ -129,7 +217,6 @@ const Team = ({ user }) => {
                       ></TeamItem>
                     ))}
                   </div>
-                  {/* </InfiniteScroll> */}
                 </div>
               </div>
             </div>

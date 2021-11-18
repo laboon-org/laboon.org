@@ -36,7 +36,9 @@ const BothProducts = () => {
                 </p>
               </div>
               <div className="product__both-btn hypermon">
-                <button>Join now</button>
+               <a href="https://www.hypermon.games/">
+              <button>Join now</button>
+               </a>
               </div>
             </div>
           </div>
@@ -54,7 +56,8 @@ const BothProducts = () => {
                 </p>
               </div>
               <div className="product__both-btn pepper">
-                <button>Join now</button>
+              <a href="https://pepperattack.com/">
+              <button>Join now</button> </a>
               </div>
             </div>
           </div>

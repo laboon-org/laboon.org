@@ -308,8 +308,9 @@
 
      }
      .ourpatner__item img{
-        width: 50%;
+        width: 70%;
         height: 80px;
+        object-fit: scale-down;
       }
 
       .aboutus__right-1 {
@@ -329,7 +330,7 @@
      .ourpatner__item:hover{
         filter: grayscale(0);
         cursor: pointer;
-        box-shadow: -2px 0px 15px rgba(0, 0, 0, 0.1);
+        /* box-shadow: -2px 0px 15px rgba(0, 0, 0, 0.1); */
       }
 
       /* abouts */
@@ -575,7 +576,7 @@
         padding-top: 0;
     }
     .ourproducts__bottom-inf h2 {
-        font-size: 342%;
+        font-size: 332%;
     }
     .ourproducts__bottom-inf-p p{
         padding: 0 10px;
