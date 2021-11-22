@@ -202,7 +202,7 @@
   }
 
   .item-product .item-product__img {
-    width: 100%;
+    width: 60%;
   }
 
   .product__mall-full {
@@ -327,7 +327,7 @@
   }
   .footer__about h4 {
     margin-bottom: 15px;
-    font-size: 22px;
+    font-size: 17px;
     margin-left: 25px;
   }
   .footer__about li {

@@ -93,7 +93,7 @@ const Team = ({ user }) => {
 
           <div className="grid wide">
             <div className="team__content">
-              <h1>Wonderfill day-by-day</h1>
+              <h1>Wonderful Days</h1>
               <div className="team__wrapper">
                 <div className="team__wrapper-mid">
                   <div className="team__wrapper-mid__content">

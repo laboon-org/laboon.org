@@ -459,6 +459,7 @@ body {
 
 .item-product .item-product__img {
     width: 80%;
+    object-fit: scale-down;
 }
 
 .wrap__angry-btn {
