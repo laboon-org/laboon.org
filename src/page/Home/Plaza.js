@@ -1,16 +1,14 @@
 import React from 'react'
-import itemMall from "../../img/itemMall.png" 
-import itemMall1 from "../../img/itemMal6.png" 
-
+ 
 const Plaza = () => {
     return (
         <div className="product__mall-full grid row">
           <div className='product__mall-background'>
-            <img src={itemMall1} alt="" className="product__mall-itemMall1" />
+            <img src="https://storage.googleapis.com/laboon-img-storage/laboon/image-Home-Plaza/itemMal6.webp" alt="" className="product__mall-itemMall1" />
           </div>
           <div className='product__mall-container'>
             <div className='product__mall-left'>
-              <img src={itemMall} alt="" className="product__mall-itemMall" />
+              <img src="https://storage.googleapis.com/laboon-img-storage/laboon/image-Home-Plaza/itemMall.webp" alt="" className="product__mall-itemMall" />
             </div>
             <div className="product__mall-content">
               <div className='product__mall-text'>
@@ -26,7 +24,7 @@ const Plaza = () => {
               
             </div>
             <div className='product__mall-right'>
-              <img src="https://storage.googleapis.com/laboon-img-storage/laboon/image-Home-Plaza/Group375.png" alt="" className="product__mall-Group375" />
+              <img src="https://storage.googleapis.com/laboon-img-storage/laboon/image-Home-Plaza/laboon_image-Home-Plaza_Group375.webp" alt="" className="product__mall-Group375" />
             </div>
           </div>
           

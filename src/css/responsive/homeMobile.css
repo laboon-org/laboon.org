@@ -425,8 +425,8 @@
        margin: 0 24px;
       }
       .product__hypermon-wrap{
-        width: 90%;
-        height: 100%;
+        width: 358px;
+        height: 731px;
         border-radius: 10px;
         text-align: center;
         cursor: pointer;
@@ -528,15 +528,14 @@
           height:1000px;
       }
     .product__hypermon-wrap__inf p{
-        width: 95%;
-        height: 160px;
+        width: 333px;
+        height: 109px;
         font-family: Poppins;
         font-style: normal;
         font-weight: normal;
-        font-size: 15px;
+        font-size: 13px;
         line-height: 22px;
         /* or 147% */
-        
         color: #FFFFFF;
     
     }

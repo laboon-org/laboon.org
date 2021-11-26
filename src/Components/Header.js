@@ -1,7 +1,6 @@
 import React from "react";
 import "../css/header.css";
 import "../grid.css";
-import logo21 from "../img/logo21.png";
 import { Link } from "react-router-dom";
 
 const navSilde = () => {
@@ -49,14 +48,14 @@ const Header = ({ active, logo }) => {
                       active == "team" && "active"
                     } `}
                   >
-                    <Link to="/team">Crew</Link>
+                    <Link to="/">Crew</Link>
                   </li>
                   <li
                     className={`header__nav-item ${
                       active == "blog" && "active"
                     } `}
                   >
-                    <Link to="/blog">Blog</Link>
+                    <Link to="/">Blog</Link>
                   </li>
                 </ul>
               </div>

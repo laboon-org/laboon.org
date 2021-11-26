@@ -2,10 +2,6 @@ import React from "react";
 import "../css/footer.css";
 import "../css/responsive/responsive.css";
 import "../grid.css";
-import footerlogo from "../img/Footerlogo.png";
-import facebook from "../img/facebook-box-fill.png";
-import linked from "../img/linkedin-box-fill.png";
-import tw from "../img/twitter-fill.png";
 
 const Footer = () => {
   return (
@@ -14,7 +10,7 @@ const Footer = () => {
         <div className="footer__content">
           <div className=" footer__content-wrap row">
             <div className="footer__logo col l-3 c-12">
-              <img src={footerlogo} alt="" />
+              <img src="https://storage.googleapis.com/laboon-img-storage/laboon/Image-Foodter/Footerlogo.webp" alt="" />
             </div>
             <div className="footer__about col l-3 c-12 ">
               <h4>Address</h4>
@@ -46,16 +42,20 @@ const Footer = () => {
         <div className="footer__infor">
           <div className="footer__social">
             <a href="https://www.facebook.com/Laboon.org">
-              <img className="footer__icon-connect" src={facebook} alt="" />
+              <img className="footer__icon-connect" src="https://storage.googleapis.com/laboon-img-storage/laboon/Image-Foodter/facebook-box-fill.webp" alt="" />
             </a>
             <a href="https://www.linkedin.com/in/laboon-ltd-pte-8a6553223">
-              <img className="footer__icon-connect" src={linked} alt="" />
+              <img className="footer__icon-connect" src="https://storage.googleapis.com/laboon-img-storage/laboon/Image-Foodter/linkedin-box-fill.webp" alt="" />
             </a>
             <a href="https://twitter.com/laboon_org">
-              <img className="footer__icon-connect" src={tw} alt="" />
+              <img className="footer__icon-connect" src="https://storage.googleapis.com/laboon-img-storage/laboon/Image-Foodter/twitter-fill.webp" alt="" />
             </a>
           </div>
-          <p>© 2021, Laboon .PTE .LTD, All right reserved Version: v0.5.8</p>
+          <div className="footer_copyright">
+            <h3>
+              <span>© 2021, Laboon .PTE .LTD, All right reserved</span>Version: v0.5.8
+            </h3>
+          </div>
         </div>
       </div>
     </section>

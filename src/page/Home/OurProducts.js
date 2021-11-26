@@ -1,43 +1,36 @@
 import React, { useEffect, useState } from "react";
 
-import itemourproduct6 from "../../img/itemourproduct6.png";
 import OurProductItem from "./ourProductItem";
-
-import dappsImg from "../../img/product-dapps.png";
-import gamesImg from "../../img/product-games.png";
-import plazaImg from "../../img/product-plaza.png";
-import walletImg from "../../img/product-wallet.png";
-import comingImg from "../../img/product-coming.png";
 
 const products = [
   {
     title: "dApps",
     slogan:
       "Our best interest is to provide the users with useful tools that allow them to remove any digital hindrances.",
-    img: dappsImg,
+    img: "https://storage.googleapis.com/laboon-img-storage/laboon/image-Home-OurProducts/product-dapps.webp",
   },
   {
     title: "Games",
     slogan:
       "Virtual realms for players to conquer and build their own empires.",
-    img: gamesImg,
+    img: "https://storage.googleapis.com/laboon-img-storage/laboon/image-Home-OurProducts/product-games.webp",
   },
   {
     title: "PLAZA",
     slogan:
       "The chamber of commerce allows players to exchange game items and characters with great qualities.",
-    img: plazaImg,
+    img: "https://storage.googleapis.com/laboon-img-storage/laboon/image-Home-OurProducts/product-plaza.webp",
   },
   {
     title: "Wallet",
     slogan: "A reliable haven for your digital purchases and currencies.",
-    img: walletImg,
+    img: "https://storage.googleapis.com/laboon-img-storage/laboon/image-Home-OurProducts/product-wallet.webp",
   },
   {
     title: "Coming soon",
     slogan:
       "Our best interest is to provide the users with useful tools that allow them to remove any digital hindrances.",
-    img: comingImg,
+    img: "https://storage.googleapis.com/laboon-img-storage/laboon/image-Home-OurProducts/product-coming.webp",
   },
 ];
 
@@ -84,7 +77,7 @@ const OurProducts = () => {
                       />
                     ))}
                   <div className="ourproducts__bottom-line__mid-item">
-                    <img src={itemourproduct6} alt="" />
+                    <img src="https://storage.googleapis.com/laboon-img-storage/laboon/image-Home-OurProducts/itemourproduct6.webp" alt="" />
                   </div>
                 </div>
               </div>

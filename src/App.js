@@ -92,12 +92,12 @@ function App() {
           <Route exact path="/product">
             <Product products={products}></Product>
           </Route>
-          <Route path="/team">
+          {/* <Route path="/team">
             <Team user={user}></Team>
           </Route>
           <Route path="/blog">
             <Blog></Blog>
-          </Route>
+          </Route> */}
         </Switch>
       </div>
     </Router>

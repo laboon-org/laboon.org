@@ -1,6 +1,4 @@
 import React from 'react'
-import Group235 from '../img/Group235.png'
-import arrow from '../img/arrow-left-s-line.png'
 import '../grid.css';
 import '../css/componentSubPage.scss';
 import '../css/responsive/responsiveprocrew.css';
@@ -19,7 +17,7 @@ const HeaddingSubPage = ({title,desp}) => {
                         </div>
                     </div>
                     <div className="col l-6 c-12 m-12">
-                        <img src={Group235} alt="" className="group235" />
+                        <img src="https://storage.googleapis.com/laboon-img-storage/laboon/image-Components-HeadingSubpage/Group235.webp" alt="" className="group235" />
                     </div>
                     
                 </div>

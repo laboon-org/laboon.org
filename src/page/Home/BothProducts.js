@@ -5,28 +5,28 @@ const BothProducts = () => {
     <div className="product__both">
       <div className="product__both-background">
         <img
-          src="https://storage.googleapis.com/laboon-img-storage/laboon/image-Home-BothProducts/makeGroupf1.png"
+          src="https://storage.googleapis.com/laboon-img-storage/laboon/image-Home-BothProducts/laboon_image-Home-BothProducts_makeGroupf1.webp"
           alt=""
           className="productlist-img makeg2 makeGroupf1"
         />
         <img
-          src="https://storage.googleapis.com/laboon-img-storage/laboon/image-Home-BothProducts/makeGroupf3.png"
+          src="https://storage.googleapis.com/laboon-img-storage/laboon/image-Home-BothProducts/laboon_image-Home-BothProducts_makeGroupf3.webp"
           alt=""
           className="productlist-img makeg2 makeGroupf3"
         />
         <img
-          src="https://storage.googleapis.com/laboon-img-storage/laboon/image-Home-BothProducts/bothProductsimg.png"
+          src="https://storage.googleapis.com/laboon-img-storage/laboon/image-Home-BothProducts/laboon_image-Home-BothProducts_bothProductsimg.webp"
           alt=""
           className="productlist-img makeg2 makeGroupf2"
         />
-        <img src="https://storage.googleapis.com/laboon-img-storage/laboon/image-Home-BothProducts/makeGroupf8.png" alt="" className="makeg1 makeGroupf8" />
+        <img src="https://storage.googleapis.com/laboon-img-storage/laboon/image-Home-BothProducts/laboon_image-Home-BothProducts_makeGroupf8.webp" alt="" className="makeg1 makeGroupf8" />
       </div>
       <div className="grid wide row ">
         <div className="product__both-contents">
           <div className="product__both-ele col l-6 c-12">
             <div className="product__hypermon-wrap">
               <h2>Hypermon</h2>
-              <img src="https://storage.googleapis.com/laboon-img-storage/laboon/image-Home-BothProducts/hypermon.png" alt="" />
+              <img src="https://storage.googleapis.com/laboon-img-storage/laboon/image-Home-BothProducts/laboon_image-Home-BothProducts_hypermon.webp" alt="" />
               <div className="product__hypermon-wrap__inf">
                 <p>
                   Plus having fun and making profits, this is an
@@ -45,7 +45,7 @@ const BothProducts = () => {
           <div className="product__both-ele col l-6 c-12">
             <div className="product__hypermon-wrap">
               <h2>Pepper Attack</h2>
-              <img className="pepperAttack__img" src="https://storage.googleapis.com/laboon-img-storage/laboon/image-Home-BothProducts/pepper.png" alt="" />
+              <img className="pepperAttack__img" src="https://storage.googleapis.com/laboon-img-storage/laboon/image-Home-BothProducts/laboon_image-Home-BothProducts_pepper.webp" alt="" />
               <div className="product__hypermon-wrap__inf">
                 <p>
                   Pepper Attack is a 10,000 NFT collection that comes with an

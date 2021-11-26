@@ -7,10 +7,10 @@ import clamp from 'lodash.clamp';
 import * as styless from './../../styles.module.css';
 
 const pages = [
-  'https://directus.laboon.org/assets/09dcfe07-673f-485c-9eb0-fe5b278788d0.png',
-  'https://directus.laboon.org/assets/8b04a87b-90f2-4510-a8bc-85bfdbe9e1c5.png',
-  'https://directus.laboon.org/assets/6b5f6e98-5528-417c-a97a-de960d69e46d.png',
-  'https://directus.laboon.org/assets/e22f966c-399c-4713-8a5f-d4ea4c230146.png',
+  'https://storage.googleapis.com/laboon-img-storage/laboon/image-Home-OurCreativity/laboon_image-Home-OurCreativity_productitem1.webp',
+  'https://storage.googleapis.com/laboon-img-storage/laboon/image-Home-OurCreativity/laboon_image-Home-OurCreativity_productitem2.webp',
+  'https://storage.googleapis.com/laboon-img-storage/laboon/image-Home-OurCreativity/laboon_image-Home-OurCreativity_productitem3.webp',
+  'https://storage.googleapis.com/laboon-img-storage/laboon/image-Home-OurCreativity/laboon_image-Home-OurCreativity_productitem4.webp',
 ]
 
 function Viewpager(propso: any) {
