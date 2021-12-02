@@ -20,7 +20,7 @@ const BothProducts = () => {
           className="productlist-img makeg2 makeGroupf2"
         />
         <img src="https://storage.googleapis.com/laboon-img-storage/laboon/image-Home-BothProducts/laboon_image-Home-BothProducts_makeGroupf8.webp" alt="" className="makeg1 makeGroupf8" />
-      </div>
+      </div> 
       <div className="grid wide row ">
         <div className="product__both-contents">
           <div className="product__both-ele col l-6 c-12">

@@ -1,4 +1,5 @@
 import "../../App.css";
+import "../../Home.css";
 import "../../css/responsive/homeMobile.css";
 import React from "react";
 import Header from "../../Components/Header";
@@ -12,7 +13,6 @@ import BothProducts from "./BothProducts";
 import Plaza from "./Plaza";
 import { useEffect, useState } from "react";
 import axios from "axios";
-
 import logo21 from "../../img/logo21.png";
 import backgroundBlockchinHome from "../../img/backgroundBlockchain.webp";
 import sung from "../../img/sung.png";
@@ -30,7 +30,6 @@ const FILMS_QUERY = `
   }
 }
 `;
-
 const Home = () => {
   const [ourpartner, setOurpartner] = useState([]);
   useEffect(() => {  

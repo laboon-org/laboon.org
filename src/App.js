@@ -1,4 +1,5 @@
 import "./App.css";
+import "./Home.css";
 import "./css/responsive/reponsiveDisplayBig.css";
 import "./css/responsive/responsiveprocrew.css";
 import Home from "./page/Home/Home";

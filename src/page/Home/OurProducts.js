@@ -55,7 +55,7 @@ const OurProducts = () => {
             <div className="ourproducts__bottom-img col l-5 l0-12 c-12">
               <img
                 src={proActive.img}
-                alt=""
+                alt=""         
                 className="ourproducts__img-main"
               />
             </div>
@@ -77,7 +77,10 @@ const OurProducts = () => {
                       />
                     ))}
                   <div className="ourproducts__bottom-line__mid-item">
-                    <img src="https://storage.googleapis.com/laboon-img-storage/laboon/image-Home-OurProducts/itemourproduct6.webp" alt="" />
+                    <img
+                      src="https://storage.googleapis.com/laboon-img-storage/laboon/image-Home-OurProducts/itemourproduct6.webp"
+                      alt=""
+                    />
                   </div>
                 </div>
               </div>

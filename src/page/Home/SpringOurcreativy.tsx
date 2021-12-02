@@ -62,6 +62,7 @@ const Dot = (props: any) => {
     <span style={{ ...styles.dotSpan, backgroundColor: color }}></span>
   )
 }
+
 export default function App() {
   const [isSelected, setIsSelected] = useState(0);
   return (
@@ -71,20 +72,20 @@ export default function App() {
       </div>
       <Mystyle style={{ height: '10vh' }}>
         {[0, 1, 2, 3].map((value) => {
-          return (<Dot isSelect={isSelected == value} />)
+          return (<Dot isSelect={isSelected == value}/>)
         })}
-      </Mystyle>
+      </Mystyle> 
     </div>
   )
 }
+
 const styles: { [key: string]: { [key: string]: string } } = {
   wrapper: {
     width: '50%',
     height: '100%',
   },
-  container: {
+  container: { 
     display: 'flex',
-
     alignItems: 'center',
     height: '30vh',
     justifyContent: 'center',
