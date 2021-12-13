@@ -13,7 +13,7 @@ const OurPathners = ({ ourpartner }) => {
               <div className="ourpatner__item l-2 c-6">
                 <a href={!ourp.link ? "/" : ourp.link}>
                   <img
-                    src={`https://directus.laboon.org/assets/${ourp.source.filename_disk}`}
+                    src={`${ourp.image.url}`}
                     alt=""
                     className=""
                   />

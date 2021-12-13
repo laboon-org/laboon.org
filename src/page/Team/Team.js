@@ -14,58 +14,49 @@ const Team = ({ user }) => {
   const [currentProduct, setCurrentProduct] = useState(user);
   const [category, setCategory] = useState("All");
 
-  const endpoint = "https://directus.laboon.org/graphql";
+  const endpoint = "https://api-ap-northeast-1.graphcms.com/v2/ckx41ssik336s01w89hsk0rf5/master";
   React.useLayoutEffect(() => {
-    const condition = `, filter: {
+    const condition = `, where: {
       position: {
-        group_position: {
-          position_group_name: {
-            _eq: "${category}"
-          }
-        }
+        group_position: ${category}
       }
     }`;
-    const FILMS_QUERY = `
-    {
-      employ(limit: 24, offset: 0${category === "All" ? "" : condition}){
-          last_name
-          first_name
-          short_desc
-          position{ 
-              position_name
-              group_position{ 
-                  position_group_name
-              }
+
+    const MyQuery = `
+        {
+          people(${category === "All" ? "" : condition}) {
+            first_name
+            last_name
+            short_desc
+            position {
+              group_position  
+              postion_name
+            }
+            photo {
+              url 
+            }
           }
-          group_resource_id{ 
-              sources{ 
-                  directus_files_id{ 
-                      filename_disk
-                  }
-              }
-          }
-      }
-    }
-  `;
+        }
+        `;
     axios({
       url: endpoint,
       method: "POST",
       data: {
-        query: FILMS_QUERY,
+        query: MyQuery,
       },
     })
       .then((response) => {
         setCurrentProduct(
-          response.data.data.employ ? response.data.data.employ : []
+          response.data.data.people ? response.data.data.people : []
         );
-      }) 
+      })
       .catch((err) => console.error(err));
   }, [category]);
 
   const clickAll = (type) => {
     setCurrentProduct(user);
     setCategory(type);
-  }; 
+  };
   const fetchUser = (type) => {
     setCategory(type);
   };
@@ -204,15 +195,10 @@ const Team = ({ user }) => {
                     {listUser().map((u, index) => (
                       <TeamItem
                         key={index}
-                        img={
-                          !u.group_resource_id.sources[0].directus_files_id
-                            ? "0a82aa93-4f88-4d5d-b56d-6296b249e8c3.png"
-                            : u.group_resource_id.sources[0].directus_files_id
-                                .filename_disk
-                        }
+                        img={u.photo.url}
                         name={u.first_name}
                         lastName={u.last_name}
-                        position={u.position.position_name}
+                        position={u.position.postion_name}
                         experience={u.short_desc}
                       ></TeamItem>
                     ))}

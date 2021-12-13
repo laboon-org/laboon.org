@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import Footer from "../../Components/Footer";
 import Header from "../../Components/Header";
+import constant from "../../constant";
 import "../../grid.css";
 import "./product.scss";
 import HeaddingSubPage from "../../Components/HeaddingSubPage";
@@ -12,36 +13,40 @@ import axios from "axios";
 const Product = ({ products, setPorducts }) => {
   const [currentProduct, setCurrentProduct] = useState(products);
   const [category, setCategory] = useState("All");
-
-  const endpoint = "https://directus.laboon.org/graphql";
+  const isFirstRef=React.useRef(true)
+  const endpoint = constant.API.url;
 
   const allProduct = (type) => {
     setCategory(type);
     setCurrentProduct(products);
   };
   const dApps = (type) => {
+    let whereQuery = type == "All" ? "" : `( where:{product_category:${type}})`;
     const FILMS_QUERY_dApps = `
-  {
-    projects(filter:{product_category: {category_name:{_eq:"${type}"}}}){
-      title
-      content
-      image{
-        filename_disk
-      }
-      product_category{
-        category_name
-      }
-      refs{
-        ref_link_id{
-          image{
-            filename_disk
+    {
+      products ${whereQuery} {
+        title 
+        content{
+          html 
+        }
+        cover_image {
+          url 
+        }
+        ref 
+        product_category 
+        product_refs {
+          name 
+          link 
+          image{ 
+            url
           }
         }
       }
     }
-  }
-`;
+  `;
+
     setCategory(type);
+    console.log(FILMS_QUERY_dApps);
     axios({
       url: endpoint,
       method: "POST",
@@ -49,10 +54,13 @@ const Product = ({ products, setPorducts }) => {
         query: FILMS_QUERY_dApps,
       },
     })
-      .then((response) => setCurrentProduct(response.data.data.projects))
+      .then((response) => setCurrentProduct(response.data.data.products))
       .catch((err) => console.error(err));
   };
-
+  if(isFirstRef.current){
+    isFirstRef.current=false;
+    dApps('All')
+  }
   return (
     <>
       <Header active={"product"} logo={logo21}></Header>
@@ -107,11 +115,12 @@ const Product = ({ products, setPorducts }) => {
                   currentProduct.map((product, index) => (
                     <ProductItems
                       key={index}
-                      img={product.image.filename_disk}
-                      title={product.product_category.category_name}
+                      link={product.ref}
+                      img={product.cover_image.url}
+                      title={product.product_category}
                       mainTitle={product.title}
-                      descp={product.content}
-                      refs={product.refs}
+                      descp={product.content.html}
+                      refs={product.product_refs}
                     ></ProductItems>
                   ))}
               </div>

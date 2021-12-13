@@ -17,22 +17,32 @@ import logo21 from "../../img/logo21.png";
 import backgroundBlockchinHome from "../../img/backgroundBlockchain.webp";
 import sung from "../../img/sung.png";
 
-const apiourpartner = "https://directus.laboon.org/graphql";
+const apiourpartner ="https://api-ap-northeast-1.graphcms.com/v2/ckx41ssik336s01w89hsk0rf5/master";
 
-const FILMS_QUERY = `
-{
-  partner_image{
-    link
-    position
-    source{
-      filename_disk
+const FILMS_QUERY = `{
+  partners{
+    link  
+    position 
+    image{
+      url  
     }
   }
 }
 `;
+// const FILMS_QUERY = `
+// {
+//   partner_image{
+//     link
+//     position
+//     source{
+//       filename_disk
+//     }
+//   }
+// }
+// `;
 const Home = () => {
   const [ourpartner, setOurpartner] = useState([]);
-  useEffect(() => {  
+  useEffect(() => {
     axios({
       url: apiourpartner,
       method: "POST",
@@ -40,11 +50,11 @@ const Home = () => {
         query: FILMS_QUERY,
       },
     })
-      .then((response) => setOurpartner(response.data.data.partner_image))
+      .then((response) => setOurpartner(response.data.data.partners))
       .catch((err) => console.error(err));
   }, []);
   console.log(ourpartner);
-  return ( 
+  return (
     <div>
       <Header active={"home"} logo={logo21}></Header>
       <BlockChainify img1={backgroundBlockchinHome} img2={sung} />

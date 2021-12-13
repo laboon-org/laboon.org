@@ -1,7 +1,6 @@
 import React from 'react'
 import '../grid.css';
 import '../css/componentSubPage.scss';
-
 const TitleSubPage = ({title, desp}) => {
     return (
         <>

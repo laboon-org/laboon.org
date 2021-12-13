@@ -3,9 +3,9 @@
   "name": "Laboon - Innovation Technology App PWA",
   "icons": [
     {
-      "src": "/logoWeb.png",
+      "src": "../src/img/logoWeb.png",
       "type": "image/png",
-      "sizes": "1024x1024"
+      "sizes": "16x16"
     }
   ],
   "start_url": ".",

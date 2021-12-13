@@ -48,7 +48,7 @@ const Header = ({ active, logo }) => {
                       active == "team" && "active"
                     } `}
                   >
-                    <Link to="/">Crew</Link>
+                    <Link to="/team">Crew</Link>
                   </li>
                   <li
                     className={`header__nav-item ${

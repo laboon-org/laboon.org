@@ -12,12 +12,12 @@ const TeamItem = ({ img, name, lastName, position, experience }) => {
               className="team__personel--item-img team__personel--item__bg"
             />
             <img
-              src={`https://directus.laboon.org/assets/${img}`}
+              src={`${img}`}
               alt=""
               className="team__personel--item-img team__personel--item-img-avt"
             />
             <h2>
-              {name}{lastName}
+              {name} {lastName}
             </h2>
             <span>{position}</span>
             <div className="experience">

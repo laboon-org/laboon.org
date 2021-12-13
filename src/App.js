@@ -10,52 +10,46 @@ import Blog from "./page/Blog/Blog";
 import { useEffect, useState } from "react";
 import axios from "axios";
 
-const endpoint = "https://directus.laboon.org/graphql";
-const FILMS_QUERY = `
-  {
-    employ(limit: 24, offset: 0){
-        last_name
-        first_name
-        short_desc
-        position{ 
-            position_name
-            group_position{ 
-                position_group_name
-            }
-        }
-        group_resource_id{ 
-            sources{ 
-                directus_files_id{ 
-                    filename_disk
-                }
-            }
-        }
+const endpoint = "https://api-ap-northeast-1.graphcms.com/v2/ckx41ssik336s01w89hsk0rf5/master";
+const MyQuery  = `
+{
+  people {
+    first_name
+    last_name
+    short_desc
+    position {
+      group_position  
+      postion_name  
+    }
+    photo {
+      url 
     }
   }
+}
 `;
-
+ 
 const FILMS_QUERY_PRODuCTS = `
-  {
-    projects {
-      title
-      content
-      image{
-        filename_disk
-      }
-      product_category{
-        category_name
-      }
-      refs{
-        ref_link_id{
-          image{
-            filename_disk
-          }
-        }
+{
+  products{
+    title  
+    content{
+      html  
+    }
+    cover_image {
+      url  
+    }
+    ref  
+    product_category  
+    product_refs {
+      name  
+      link  
+      image{ 
+        url  
       }
     }
   }
+}
 `;
-
 function App() {
   const [user, setUser] = useState([]);
   const [products, setPorducts] = useState([]);
@@ -64,10 +58,13 @@ function App() {
       url: endpoint,
       method: "POST",
       data: {
-        query: FILMS_QUERY,
+        query:  MyQuery,
       },
     })
-      .then((response) => setUser(response.data.data.employ))
+      .then((response) => {
+        console.log('TEST:',response)
+        setUser(response.data.data.people)
+      })
       .catch((err) => console.error(err));
   }, []);
 
@@ -79,7 +76,7 @@ function App() {
         query: FILMS_QUERY_PRODuCTS,
       },
     })
-      .then((response) => setPorducts(response.data.data.projects))
+      .then((response) => setPorducts(response.data.data. products))
       .catch((err) => console.error(err));
   }, []);
 
@@ -93,10 +90,10 @@ function App() {
           <Route exact path="/product">
             <Product products={products}></Product>
           </Route>
-          {/* <Route path="/team">
+          <Route path="/team">
             <Team user={user}></Team>
           </Route>
-          <Route path="/blog">
+          {/* <Route path="/blog">
             <Blog></Blog>
           </Route> */}
         </Switch>
