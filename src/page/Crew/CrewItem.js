@@ -1,5 +1,5 @@
 import React from "react";
-import personnelbg from "./imgTeam/personelbg.png";
+import personnelbg from "./imgCrew/personelbg.png";
 const TeamItem = ({ img, name, lastName, position, experience }) => {
   return (
     <>

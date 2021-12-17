@@ -1,4 +1,4 @@
-import React from "react";
+import React  from "react";
 import "../css/header.css";
 import "../grid.css";
 import { Link } from "react-router-dom";
@@ -10,12 +10,12 @@ const navSilde = () => {
     navbar.classList.toggle("nav_active");
   });
 };
-
 window.addEventListener("click", (event) => {
   navSilde();
 });
 
 const Header = ({ active, logo }) => {
+ 
   return (
     <>
       <div className="grid">
@@ -23,38 +23,20 @@ const Header = ({ active, logo }) => {
           <div className="grid wide">
             <div className="row header__wrapper">
               <div className="header__logo col l-7 l0-7 c-11">
-              <Link to="/">
-                <img src={logo} alt="logo" />
-                </Link>
+              <Link to="/"><img src={logo} alt="logo"/></Link>
               </div>
               <div className="header__nav col l-5 l0-5">
                 <ul>
-                  <li
-                    className={`header__nav-item ${
-                      active == "home" && "active"
-                    } `}
-                  >
+                  <li className={`header__nav-item ${ active == "home" && "active" }`} >
                     <Link to="/">Home</Link>
                   </li>
-                  <li
-                    className={`header__nav-item ${
-                      active == "product" && "active"
-                    } `}
-                  >
+                  <li className={`header__nav-item ${ active == "product" && "active" }`} >
                     <Link to="/product">Product</Link>
                   </li>
-                  <li
-                    className={`header__nav-item ${
-                      active == "team" && "active"
-                    } `}
-                  >
-                    <Link to="/team">Crew</Link>
+                  <li className={`header__nav-item ${ active == "crew" && "active" }`} >
+                    <Link to="/">Crew</Link>
                   </li>
-                  <li
-                    className={`header__nav-item ${
-                      active == "blog" && "active"
-                    } `}
-                  >
+                  <li  className={`header__nav-item ${  active == "blog" && "active" } `} >
                     <Link to="/">Blog</Link>
                   </li>
                 </ul>

@@ -2,11 +2,11 @@ import React from "react";
 import Footer from "../../Components/Footer";
 import Header from "./../../Components/Header";
 import "../../grid.css";
-import "./team.scss";
+import "./Crew.scss";
 import HeaddingSubPage from "../../Components/HeaddingSubPage";
 import TitleSubPage from "../../Components/TitleSubPage";
 import logo21 from "../../img/logo21.png";
-import TeamItem from "./TeamItem";
+import CrewItem from "./CrewItem";
 import { useState } from "react";
 import axios from "axios";
 
@@ -66,7 +66,7 @@ const Team = ({ user }) => {
 
   return (
     <>
-      <Header active={"team"} logo={logo21}></Header>
+      <Header active={"crew"} logo={logo21}></Header>
       <HeaddingSubPage
         title={"Crew"}
         desp={
@@ -193,14 +193,14 @@ const Team = ({ user }) => {
                 <div className="team__personel--list ">
                   <div className="row">
                     {listUser().map((u, index) => (
-                      <TeamItem
+                      <CrewItem
                         key={index}
                         img={u.photo.url}
                         name={u.first_name}
                         lastName={u.last_name}
                         position={u.position.postion_name}
                         experience={u.short_desc}
-                      ></TeamItem>
+                      ></CrewItem>
                     ))}
                   </div>
                 </div>

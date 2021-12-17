@@ -29,17 +29,7 @@ const FILMS_QUERY = `{
   }
 }
 `;
-// const FILMS_QUERY = `
-// {
-//   partner_image{
-//     link
-//     position
-//     source{
-//       filename_disk
-//     }
-//   }
-// }
-// `;
+ 
 const Home = () => {
   const [ourpartner, setOurpartner] = useState([]);
   useEffect(() => {

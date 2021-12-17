@@ -5,8 +5,9 @@ import "./css/responsive/responsiveprocrew.css";
 import Home from "./page/Home/Home";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Product from "./page/Products/Product";
-import Team from "./page/Team/Team";
+import Crew from "./page/Crew/Crew";
 import Blog from "./page/Blog/Blog";
+
 import { useEffect, useState } from "react";
 import axios from "axios";
 
@@ -90,10 +91,10 @@ function App() {
           <Route exact path="/product">
             <Product products={products}></Product>
           </Route>
-          <Route path="/team">
-            <Team user={user}></Team>
+          {/* <Route path="/crew">
+            <Crew user={user}></Crew>
           </Route>
-          {/* <Route path="/blog">
+          <Route path="/blog">
             <Blog></Blog>
           </Route> */}
         </Switch>
