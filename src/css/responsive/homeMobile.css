@@ -221,7 +221,7 @@
      }
 
      .ourpatners{
-         height:578px;
+         height:694px;
      }
      .footer__logo{
          text-align: center;
@@ -327,6 +327,11 @@
          width: 100%;
        
      }
+     /* @media (min-width: 1113px) {
+        .l-l-4{
+            max-width: 20.66667%;
+        }
+     } */
      .ourpatner__item:hover{
         filter: grayscale(0);
         cursor: pointer;

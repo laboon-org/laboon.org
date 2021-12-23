@@ -7,10 +7,10 @@ import clamp from 'lodash.clamp';
 import * as styless from './../../styles.module.css';
 
 const pages = [
-  'https://storage.googleapis.com/laboon-img-storage/laboon/image-Home-OurCreativity/laboon_image-Home-OurCreativity_productitem1.webp',
-  'https://storage.googleapis.com/laboon-img-storage/laboon/image-Home-OurCreativity/laboon_image-Home-OurCreativity_productitem2.webp',
-  'https://storage.googleapis.com/laboon-img-storage/laboon/image-Home-OurCreativity/laboon_image-Home-OurCreativity_productitem3.webp',
-  'https://storage.googleapis.com/laboon-img-storage/laboon/image-Home-OurCreativity/laboon_image-Home-OurCreativity_productitem4.webp',
+  'https://storage.googleapis.com/laboon-img-storage/laboon/image-Home-OurCreativity/Eluverse0.webp',
+  'https://storage.googleapis.com/laboon-img-storage/laboon/image-Home-OurCreativity/Eluverse2.webp',
+  'https://storage.googleapis.com/laboon-img-storage/laboon/image-Home-OurCreativity/Eluverse1.webp',
+  'https://storage.googleapis.com/laboon-img-storage/laboon/image-Home-OurCreativity/metaverse%20%201.webp',
 ]
 
 function Viewpager(propso: any) {

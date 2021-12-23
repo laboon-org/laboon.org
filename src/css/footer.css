@@ -28,7 +28,8 @@
     padding-top: 138px;
     padding-left: 50px;
 }
-.footer__about h4,.footer__infor h4{
+.footer__about h4,
+.footer__infor h4{
     font-family: Poppins;
     font-style: normal;
     font-weight: 500;
