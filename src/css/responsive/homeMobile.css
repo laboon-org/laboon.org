@@ -402,13 +402,13 @@
         width: 100%;
 
     }
+    img.backgrourdOurcryvity {
+        display:none;
+    }
     .wrap__angry-item{
-
        display: flex;
        justify-content: center;
-       margin-bottom: 30px;
-
-       
+       margin-bottom: 30px;   
     }
     
     .angry__left-img1{

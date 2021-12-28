@@ -53,7 +53,7 @@ const Footer = () => {
           </div>
           <div className="footer_copyright">
             <h3>
-              <span>© 2021, Laboon .PTE .LTD, All right reserved</span>Version: v0.5.8
+              <span>© 2021, Laboon .PTE .LTD, All right reserved</span>Version: v0.6
             </h3>
           </div>
         </div>

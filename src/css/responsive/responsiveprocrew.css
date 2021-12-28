@@ -410,7 +410,7 @@
 }
 
 .angry{
-   height:2398px;
+   height: 1302px;
    position: relative;
 }
 .angry__left{
@@ -444,7 +444,7 @@ height: 6468px;
  }
 
  .ourpatners{
-     height:578px;
+     height:687px;
  }
  .footer__logo{
      text-align: center;
@@ -661,7 +661,6 @@ height: 6468px;
       padding:0 10px;
   }
   .product__hypermon-wrap{
-    width: 90%;
     height: 100%;
     border-radius: 10px;
     text-align: center;
@@ -703,6 +702,7 @@ height: 6468px;
 .wrap__angry-btn{
     margin-top: 40px;
     text-align: center;
+    padding-top: 32px;
 }
 
 .product__mall-itemMall{
@@ -808,7 +808,6 @@ height: 6468px;
 .product__mall-itemMall3,
 .product__mall-itemMall5,
 .product__mall-itemMall3,
-.product__mall-itemMall,
 .product__mall-itemMall6
 {
     display: none;

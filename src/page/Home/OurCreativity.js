@@ -1,6 +1,7 @@
 import React from "react";
 import ItemProduct from "./ItemProduct";
 import SpringOurcreativy from "./SpringOurcreativy.tsx";
+import backgrourdOurcryvity from "../../img/backgroudOurcryvity.png"
 
 function useWindowSize() {
   const [windowSize, setWindowSize] = React.useState({
@@ -91,7 +92,9 @@ const OurCreativity = () => {
             </div>
             <div className="angry__right col l-8 c-12">
               <div className="wrap__angry">
-                {windownSize.height > windownSize.width ? (
+              <img src={backgrourdOurcryvity} alt="" className="backgrourdOurcryvity"/>
+                {
+                  windownSize.height > windownSize.width ? (
                   <SpringOurcreativy></SpringOurcreativy>
                 ) : (
                   <div className="wrap__angry-wrap-item row">

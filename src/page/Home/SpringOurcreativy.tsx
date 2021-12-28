@@ -37,7 +37,7 @@ function Viewpager(propso: any) {
       const x = (i - index.current) * realWidth + (active ? mx : 0)
       const scale = active ? 1 - distance / realWidth / 2 : 1
       return { x, scale, display: 'block' }
-    })
+    }) 
   })
   return (
     <div ref={ref} style={styles.wrapper}>

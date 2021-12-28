@@ -52,8 +52,8 @@ const FILMS_QUERY_PRODuCTS = `
 }
 `;
 function App() {
-  const [user, setUser] = useState([]);
   const [products, setPorducts] = useState([]);
+  const [user, setUser] = useState([]);
   useEffect(() => {
     axios({
       url: endpoint,
@@ -78,7 +78,7 @@ function App() {
       },
     })
       .then((response) => setPorducts(response.data.data. products))
-      .catch((err) => console.error(err));
+      .catch((err) => console.error(err));                                                                                       
   }, []);
 
   return (
@@ -91,12 +91,12 @@ function App() {
           <Route exact path="/product">
             <Product products={products}></Product>
           </Route>
-          <Route path="/crew">
+          {/* <Route path="/crew">
             <Crew user={user}></Crew>
           </Route>
           <Route path="/blog">
             <Blog></Blog>
-          </Route>
+          </Route> */}
         </Switch>
       </div>
     </Router>

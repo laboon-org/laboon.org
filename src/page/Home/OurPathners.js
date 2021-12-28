@@ -6,7 +6,7 @@ const OurPathners = ({ ourpartner }) => {
   return (
     <section className="ourpatners grid ">
       <div className="ourpatners__content grid">
-        <h1>Our Patners</h1>
+        <h1>Our Partners</h1>
         <div className=" ourpatners__items-wrap row">
           {ourpartner &&  
             ourpartner.map((ourp) => (
