@@ -194,12 +194,6 @@
    .productlistx {
     top: 19px;
     left: 121px;
-        /* width: 35.44
-    px
-    ; */
-        /* height: 37.71
-    px
-    ; */
     width: 18.02px;
     height: 19.17px;
    }
@@ -471,9 +465,10 @@
     }
 
     .wrap__angry-btn{
-        width: 100%;
+        width: 70%;
         display: flex;
         justify-content: center;
+        padding-top: 32px;
         /* text-align: right;
         margin-top: 46px; */
       }
