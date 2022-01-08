@@ -34,10 +34,10 @@ const Header = ({ active, logo }) => {
                     <Link to="/product">Product</Link>
                   </li>
                   <li className={`header__nav-item ${ active == "crew" && "active" }`} >
-                    <Link to="/">Crew</Link>
+                    <Link to="/crew">Crew</Link>
                   </li>
                   <li  className={`header__nav-item ${  active == "blog" && "active" } `} >
-                    <Link to="/">Blog</Link>
+                    <Link to="/blog">Blog</Link>
                   </li>
                 </ul>
               </div>

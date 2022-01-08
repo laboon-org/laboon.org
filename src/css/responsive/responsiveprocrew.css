@@ -15,8 +15,7 @@
     object-fit: scale-down;
 }
 .products__item-left .mainproductv5{
-    width: 176px;
-    height: 120px;
+    height: 77px;
     object-fit: scale-down;
 }
 .products__item-right span{
@@ -870,7 +869,7 @@ height: 6468px;
 }
 .products__item-left .mainproductv5{
     width:100%;
-
+    object-fit: scale-down;
 }
 .products__item-right span{
     font-weight: 500;

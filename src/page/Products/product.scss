@@ -115,6 +115,7 @@
         .products__item-left {
           display: flex;
           align-items: center;
+          justify-content: center;
           height: 312px;
           margin: 0 auto;
           .backgrourd {
@@ -122,7 +123,7 @@
             z-index: 1;
           }
           .mainproductv5 {
-            padding-left: 0px;
+            padding-left: 25px;
             z-index: 1;
           }
           img {
