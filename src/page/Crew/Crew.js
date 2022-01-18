@@ -115,38 +115,6 @@ const Team = ({ user }) => {
                           className="img-mid img-mt"
                         />
                       </div>
-                      {/*
-                      <div className="team__wrapper-mid-1 l-3 c-6">
-                        <img
-                          src="https://storage.googleapis.com/laboon-img-storage/laboon/image-team/camping1.png"
-                          alt=""
-                          className="img-1 img-mt"
-                        />
-                        <img
-                          src="https://storage.googleapis.com/laboon-img-storage/laboon/image-team/camping2.png"
-                          alt=""
-                          className="img-1"
-                        />
-                      </div>
-                      <div className="team__wrapper-mid-2 pc l-6">
-                        <img
-                          src="https://storage.googleapis.com/laboon-img-storage/laboon/image-team/campingmid.png"
-                          alt=""
-                          className="img-mid img-mt"
-                        />
-                      </div>
-                      <div className="team__wrapper-mid-3 l-3 c-6">
-                        <img
-                          src="https://storage.googleapis.com/laboon-img-storage/laboon/image-team/camping3.png"
-                          alt=""
-                          className="img-2 img-mt"
-                        />
-                        <img
-                          src="https://storage.googleapis.com/laboon-img-storage/laboon/image-team/camping4.png"
-                          alt=""
-                          className="img-2"
-                        />
-                      </div> */}
                     </div>
                   </div>
                 </div>
@@ -184,12 +152,12 @@ const Team = ({ user }) => {
                     </div>
                     <div
                       className={`team__personel-link__item ${
-                        category == "Advisors" && "active"
+                        category == "Advisers" && "active"
                       } `}
                     >
                       <span
                         onClick={() => {
-                          fetchUser("Advisors");
+                          fetchUser("Advisers");
                         }}
                       >
                         Advisors
