@@ -6,15 +6,16 @@ const TeamItem = ({ img, name, lastName, position, experience }) => {
       <div className="team__personel--item l-3 m-6 c-6">
         <div className="team__personel--item-wrap">
           <div className="team__personel--item__inf">
-            <img
-              src={personnelbg}
-              alt=""
-              className="team__personel--item-img team__personel--item__bg"
-            />
+           
             <img
               src={`${img}`}
               alt=""
               className="team__personel--item-img team__personel--item-img-avt"
+            />
+             <img
+              src={personnelbg}
+              alt=""
+              className="team__personel--item-img team__personel--item__bg"
             />
             <h2>
               {name} {lastName}

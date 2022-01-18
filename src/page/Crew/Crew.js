@@ -1,12 +1,16 @@
 import React from "react";
 import Footer from "../../Components/Footer";
-import Header from "./../../Components/Header";
+import Header from "../../Components/Header";
 import "../../grid.css";
 import "./Crew.scss";
 import HeaddingSubPage from "../../Components/HeaddingSubPage";
 import TitleSubPage from "../../Components/TitleSubPage";
 import logo21 from "../../img/logo21.png";
 import CrewItem from "./CrewItem";
+import collum from "./imgCrew/colum1.png";
+import collum1 from "./imgCrew/collum(2).png";
+import collum2 from "./imgCrew/collum(3).png";
+import Mobile from "./imgCrew/mobile.png"
 import { useState } from "react";
 import axios from "axios";
 
@@ -89,13 +93,29 @@ const Team = ({ user }) => {
                 <div className="team__wrapper-mid">
                   <div className="team__wrapper-mid__content">
                     <div className="row">
-                      <div className="team__wrapper-mid-2 mb l-6 c-12">
+                      <div className="crew_item item1">
+                         <img src={collum}
+                          className="img-left"
+                         ></img>
+                      </div>
+                      <div className="crew_item item2">
+                         <img src={collum1}
+                          className="img-midle"
+                         ></img>
+                      </div>
+                      <div className="crew_item item3">
+                         <img src={collum2}
+                          className="img-right"
+                         ></img>
+                      </div>
+                    <div className="team__wrapper-mid-2 mb l-6 c-12">
                         <img
-                          src="https://storage.googleapis.com/laboon-img-storage/laboon/image-team/campingmid.png"
+                          src={Mobile}
                           alt=""
                           className="img-mid img-mt"
                         />
                       </div>
+                      {/*
                       <div className="team__wrapper-mid-1 l-3 c-6">
                         <img
                           src="https://storage.googleapis.com/laboon-img-storage/laboon/image-team/camping1.png"
@@ -126,7 +146,7 @@ const Team = ({ user }) => {
                           alt=""
                           className="img-2"
                         />
-                      </div>
+                      </div> */}
                     </div>
                   </div>
                 </div>
