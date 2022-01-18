@@ -94,9 +94,9 @@ function App() {
           <Route path="/crew">
             <Crew user={user}></Crew>
           </Route>
-          <Route path="/blog">
+          {/* <Route path="/blog">
             <Blog></Blog>
-          </Route>
+          </Route> */}
         </Switch>
       </div>
     </Router>
