@@ -10,7 +10,7 @@ import Blog from "./page/Blog/Blog";
 
 import { useEffect, useState } from "react";
 import axios from "axios";
-
+//test
 const endpoint = "https://api-ap-northeast-1.graphcms.com/v2/ckx41ssik336s01w89hsk0rf5/master";
 const MyQuery  = `
 {
