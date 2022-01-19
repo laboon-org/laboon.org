@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import Footer from "../../Components/Footer";
-import Header from "../../Components/Header";
+import Header from "../../Components/Headerlaboon";
 import constant from "../../constant";
 import "../../grid.css";
 import "./product.scss";

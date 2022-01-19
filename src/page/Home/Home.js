@@ -1,8 +1,8 @@
+import Header from "../../Components/Headerlaboon"; 
 import "../../App.css";
 import "../../Home.css";
 import "../../css/responsive/homeMobile.css";
 import React from "react";
-import Header from "../../Components/Header";
 import Footer from "../../Components/Footer";
 import BlockChainify from "./Blockchainify";
 import Ourorientation from "./OurOrientation";
@@ -29,7 +29,6 @@ const FILMS_QUERY = `{
   }
 }
 `;
- 
 const Home = () => {
   const [ourpartner, setOurpartner] = useState([]);
   useEffect(() => {

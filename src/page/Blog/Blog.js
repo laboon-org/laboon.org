@@ -1,6 +1,6 @@
 import React from "react";
 import Footer from "../../Components/Footer";
-import Header from "./../../Components/Header";
+import Header from "../../Components/Headerlaboon";
 import HeaddingSubPage from "../../Components/HeaddingSubPage";
 import TitleSubPage from "../../Components/TitleSubPage";
 
