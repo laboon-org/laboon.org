@@ -1,6 +1,6 @@
 import React from "react";
 import personnelbg from "./imgCrew/personelbg.png";
-const TeamItem = ({ img, name, lastName, position, experience }) => {
+const TeamItem = ({ img, name, lastName, position, experience,refs }) => {
   return (
     <>
       <div className="team__personel--item l-3 m-6 c-6">
@@ -25,10 +25,14 @@ const TeamItem = ({ img, name, lastName, position, experience }) => {
             </div>
           </div>
           <div className="team__personel--item__connect">
-            {/* <img src="https://storage.googleapis.com/laboon-img-storage/laboon/image-team-icon/fb.png" alt="" className="connect-icon" />
-            <img src="https://storage.googleapis.com/laboon-img-storage/laboon/image-team-icon/tw.png" alt="" className="connect-icon" />
-            <img src="https://storage.googleapis.com/laboon-img-storage/laboon/image-team-icon/git.png" alt="" className="connect-icon" />
-            <img src="https://storage.googleapis.com/laboon-img-storage/laboon/image-team-icon/in.png" alt="" className="connect-icon" /> */}
+            { refs.map((ref) => (
+               <a href={ref.link}>
+                <img src={`${ref.icon.url}`}
+                 alt=""
+                  className="connect-icon" 
+                  />
+               </a>
+            ))}
           </div>
         </div>
       </div>

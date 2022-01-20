@@ -22,6 +22,13 @@ const MyQuery  = `
       group_position  
       postion_name  
     }
+    socialLinks {
+      socialName
+      link
+      icon {
+        url
+      }
+    }
     photo {
       url 
     }

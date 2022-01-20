@@ -37,6 +37,13 @@ const Team = ({ user }) => {
               group_position  
               postion_name
             }
+            socialLinks {
+              socialName
+              link
+              icon {
+                url
+              }
+            }
             photo {
               url 
             }
@@ -179,6 +186,7 @@ const Team = ({ user }) => {
                         lastName={u.last_name}
                         position={u.position.postion_name}
                         experience={u.short_desc}
+                        refs={u.socialLinks}
                       ></CrewItem>
                     ))}
                   </div>
