@@ -1,11 +1,12 @@
 import React from 'react'
 import '../grid.css';
 import '../css/componentSubPage.scss';
+
 const TitleSubPage = ({title, desp}) => {
     return (
         <>
             <div className="grid wide title__heading-container">
-                    <img src="https://storage.googleapis.com/laboon-img-storage/laboon/image-Components-TitleSubPage/laboon_image-Components-TitleSubPage_Group17.webp" alt="" className="title__heading-img title__heading-group17" />
+                    <img src={"https://storage.googleapis.com/laboon-img-storage/laboon/image-Components-TitleSubPage/laboon_image-Components-TitleSubPage_Group17.webp" }alt="" className="title__heading-img title__heading-group17" />
                     <img src="https://storage.googleapis.com/laboon-img-storage/laboon/image-Components-TitleSubPage/laboon_image-Components-TitleSubPage_Group6.webp" alt="" className="title__heading-img title__heading-group6" />
                     <img src="https://storage.googleapis.com/laboon-img-storage/laboon/image-Components-TitleSubPage/laboon_image-Components-TitleSubPage_Group7.webp" alt="" className="title__heading-img title__heading-group7" />
                     <img src="https://storage.googleapis.com/laboon-img-storage/laboon/image-Components-TitleSubPage/laboon_image-Components-TitleSubPage_Group16.webp" alt="" className="title__heading-img title__heading-group16" />

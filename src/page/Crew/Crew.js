@@ -124,7 +124,7 @@ const Team = ({ user }) => {
                   <div className="team__personel-link--wrap">
                     <div
                       className={`team__personel-link__item ${
-                        category == "All" && "active"
+                        category === "All" && "active"
                       } `}
                     >
                       <span
@@ -137,7 +137,7 @@ const Team = ({ user }) => {
                     </div>
                     <div
                       className={`team__personel-link__item ${
-                        category == "Administrators" && "active"
+                        category === "Administrators" && "active"
                       } `}
                     >
                       <span
@@ -150,7 +150,7 @@ const Team = ({ user }) => {
                     </div>
                     <div
                       className={`team__personel-link__item ${
-                        category == "Advisers" && "active"
+                        category === "Advisers" && "active"
                       } `}
                     >
                       <span
@@ -163,7 +163,7 @@ const Team = ({ user }) => {
                     </div>
                     <div
                       className={`team__personel-link__item ${
-                        category == "Crew" && "active"
+                        category === "Crew" && "active"
                       } `}
                     >
                       <span

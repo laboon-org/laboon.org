@@ -21,7 +21,7 @@ const Product = ({ products, setPorducts }) => {
     setCurrentProduct(products);
   };
   const dApps = (type) => {
-    let whereQuery = type == "All" ? "" : `( where:{product_category:${type}})`;
+    let whereQuery = type === "All" ? "" : `( where:{product_category:${type}})`;
     const FILMS_QUERY_dApps = `
     {
       products ${whereQuery} {
@@ -72,21 +72,21 @@ const Product = ({ products, setPorducts }) => {
       ></HeaddingSubPage>
       <div className="grid">
         <div className="products__container">
-          <TitleSubPage
+          {/* <TitleSubPage
             title={"Laboon Products"}
             desp={"Join our digital playground with these products"}
-          ></TitleSubPage>
+          ></TitleSubPage> */}
           <div className="grid wide">
             <div className="products__content">
               <div className="products__list-title">
                 <span
-                  className={`${category == "All" && "active"}`}
+                  className={`${category === "All" && "active"}`}
                   onClick={() => allProduct("All")}
                 >
                   All
                 </span>
                 <span
-                  className={`${category == "dApps" && "active"}`}
+                  className={`${category === "dApps" && "active"}`}
                   onClick={() => {
                     dApps("dApps");
                   }}
@@ -94,7 +94,7 @@ const Product = ({ products, setPorducts }) => {
                   dApps
                 </span>
                 <span
-                  className={`${category == "Games" && "active"}`}
+                  className={`${category === "Games" && "active"}`}
                   onClick={() => {
                     dApps("Games");
                   }}
@@ -102,7 +102,7 @@ const Product = ({ products, setPorducts }) => {
                   Games
                 </span>
                 <span
-                  className={`${category == "Webs" && "active"}`}
+                  className={`${category === "Webs" && "active"}`}
                   onClick={() => {
                     dApps("Webs");
                   }}

@@ -6,11 +6,16 @@ import { useDrag } from 'react-use-gesture';
 import clamp from 'lodash.clamp';
 import * as styless from './../../styles.module.css';
 
+import IMG_ELU_1 from '../../img/creativity-elu-1.png'
+import IMG_ELU_2 from '../../img/creativity-elu-2.png'
+import IMG_ELU_3 from '../../img/creativity-elu-3.png'
+import IMG_ELU_4 from '../../img/creativity-elu-4.png'
+
 const pages = [
-  'https://storage.googleapis.com/laboon-img-storage/laboon/image-Home-OurCreativity/Eluverse0.webp',
-  'https://storage.googleapis.com/laboon-img-storage/laboon/image-Home-OurCreativity/Eluverse2.webp',
-  'https://storage.googleapis.com/laboon-img-storage/laboon/image-Home-OurCreativity/Eluverse1.webp',
-  'https://storage.googleapis.com/laboon-img-storage/laboon/image-Home-OurCreativity/metaverse%20%201.webp',
+  IMG_ELU_1,
+  IMG_ELU_2,
+  IMG_ELU_3,
+  IMG_ELU_4,
 ]
 
 function Viewpager(propso: any) {

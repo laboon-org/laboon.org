@@ -3,6 +3,12 @@ import ItemProduct from "./ItemProduct";
 import SpringOurcreativy from "./SpringOurcreativy.tsx";
 import backgrourdOurcryvity from "../../img/backgroudOurcryvity.png"
 
+import IMG_ELU_LOGO from '../../img/creativity-elu-logo.png'
+import IMG_ELU_1 from '../../img/creativity-elu-1.png'
+import IMG_ELU_2 from '../../img/creativity-elu-2.png'
+import IMG_ELU_3 from '../../img/creativity-elu-3.png'
+import IMG_ELU_4 from '../../img/creativity-elu-4.png'
+import IMG_ELU_BTN from '../../img/creativity-elu-btn.png'
 function useWindowSize() {
   const [windowSize, setWindowSize] = React.useState({
     width: undefined,
@@ -25,7 +31,7 @@ const OurCreativity = () => {
   const windownSize = useWindowSize();
   return (
     <div className="product__elu-full grid">
-      <div className="product__elu-background">
+      {/* <div className="product__elu-background">
         <img
           src="https://storage.googleapis.com/laboon-img-storage/laboon/image-Home-OurCreativity/laboon_image-Home-OurCreativity_productlist.webp"
           alt=""
@@ -76,7 +82,7 @@ const OurCreativity = () => {
           alt=""
           className="productlist-img productlistxleft"
         />
-      </div>
+      </div> */}
       <div className="product__elu-content">
         <div className="productlist__title col c-12">
           <h1>Our Creativity</h1>
@@ -85,7 +91,7 @@ const OurCreativity = () => {
           <div className="row">
             <div className="angry__left col l-4 c-12">
               <img
-                src="https://storage.googleapis.com/laboon-img-storage/laboon/image-Home-OurCreativity/Group%20273.webp"
+                src={IMG_ELU_LOGO}
                 alt=""
                 className="angry__left-img1"
               />
@@ -100,36 +106,26 @@ const OurCreativity = () => {
                   <div className="wrap__angry-wrap-item row">
                     <ItemProduct
                       title={"Drop"}
-                      img={
-                        "https://storage.googleapis.com/laboon-img-storage/laboon/image-Home-OurCreativity/Eluverse0.webp"
-                      }
+                      img={IMG_ELU_1}
                     ></ItemProduct>
                     <ItemProduct
                       title={"Nest"}
-                      img={
-                        "https://storage.googleapis.com/laboon-img-storage/laboon/image-Home-OurCreativity/Eluverse2.webp"
-                      }
+                      img={IMG_ELU_2}
                     ></ItemProduct>
                     <ItemProduct
                       title={"Scout"}
-                      img={
-                        "https://storage.googleapis.com/laboon-img-storage/laboon/image-Home-OurCreativity/Eluverse1.webp"
-                      }
+                      img={IMG_ELU_3}
                     ></ItemProduct>
                     <ItemProduct
                       title="Metaverse"
-                      img={
-                        "https://storage.googleapis.com/laboon-img-storage/laboon/image-Home-OurCreativity/metaverse%20%201.webp"
-                      }
+                      img={IMG_ELU_4}
                     ></ItemProduct>
                   </div>
                 )}
                 <div className="wrap__angry-btn">
                   <a href="https://playelu.io/">
                     <img
-                      src={
-                        "https://storage.googleapis.com/laboon-img-storage/laboon/image-Home-OurCreativity/laboon_image-Home-OurCreativity_productitem5.webp"
-                      }
+                      src={IMG_ELU_BTN}
                       alt=""
                     />
                   </a>

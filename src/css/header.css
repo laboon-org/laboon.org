@@ -29,7 +29,7 @@
     font-size: 15px;
     line-height: 22px;
 }
- 
+
 .header__wrapper{
     align-items: center;
     height: 107px;
@@ -93,8 +93,8 @@
         display: block;
     }
     .header__bars i{
-       color: #E6B86A;
-       cursor: pointer;
+        color: #E6B86A;
+        cursor: pointer;
         
     }
 }

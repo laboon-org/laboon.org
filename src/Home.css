@@ -52,6 +52,11 @@
   background-color: #E6B86A;
   overflow: hidden;
   position: relative;
+
+  /* Edox */
+  background-image: url('./img/orientation-bg.png');
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .aboutus {
@@ -230,7 +235,7 @@
 }
 
 
-/* OUr Products */
+/* Our Products */
 
 .ourproducts__container {
   background-color: #FFFFFF;
@@ -256,6 +261,9 @@
 
 .ourproducts__bottom {
   position: relative;
+
+  /* Edox */
+  padding-top: 60px;
 }
 
 .ourproducts__content-wrap {
@@ -279,7 +287,7 @@
   align-items: center; 
   justify-content: space-between;
   overflow: scroll;
-  padding: 50px 0 120px 0;
+  padding: 55px 0 120px 0;
   -ms-overflow-style: none;
   scrollbar-width: none;
 }
@@ -314,6 +322,13 @@
   position: relative;
   background: #163034;
   overflow: hidden;
+
+  /* Edox */
+  background-image: url('./img/creativity-bg.png');
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  background-position-x: center;
+  background-position-y: top;
 }
 
 .productlist-img1 {
@@ -388,6 +403,7 @@
 .wrap__angry {
   padding-left: 30px;
   margin-top: 50px;
+  height: 100%;
 }
 
 .wrap__angry-wrap-item {
@@ -608,8 +624,16 @@ object-fit: scale-down;
 /* ProductBoth */
 
 .product__both {
-  background: #163034;
+  background-color: #163034;
   position: relative;
+
+  /* Edox */
+  background-image: url('./img/2products-bg.png');
+  background-repeat: no-repeat;
+  background-position-y: bottom;
+  background-position-x: center;
+  background-size: 100% auto;
+
 }
 
 .product__both-background {
@@ -826,16 +850,44 @@ ul {
 }
 
 .ourproducts__bottom-img {
-  border-radius: 100rem;
+  display: flex;
+  justify-content: center;
 }
 
-.ourproducts__bottom-img img {
-   width: 100%;
+/* Edox */
+.ourproducts__main-wrap {
+  position: relative;
+  max-width: 600px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  position: relative;
 }
+
+.ourproducts__main-wrap::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background-image: url('./img/products-img-bg.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  z-index: 0;
+}
+/*----------------*/
+
+.ourproducts__bottom-img img {
+  width: 70%;
+  z-index: 1;
+}
+
 
 .ourproducts__bottom-inf {
   text-align: center;
-  padding-top: 160px;
+  padding-top: 80px;
   align-items: center;
 }
 
@@ -854,6 +906,7 @@ ul {
   line-height: 35px;
   color: #061B1C;
   margin-top: 50px;
+  min-height: 105px;
 }
 
 .productlistx {
@@ -880,6 +933,3 @@ ul {
   transition: all .3s linear;
 }
 
-.ourproducts__img-main {
-   
-}

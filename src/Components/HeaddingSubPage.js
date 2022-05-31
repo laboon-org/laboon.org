@@ -2,6 +2,7 @@ import React from 'react'
 import '../grid.css';
 import '../css/componentSubPage.scss';
 import '../css/responsive/responsiveprocrew.css';
+import IMG_MAIN from '../img/main-bg.png'
 
 const HeaddingSubPage = ({title,desp}) => {
     return (
@@ -16,8 +17,8 @@ const HeaddingSubPage = ({title,desp}) => {
                             </div>
                         </div>
                     </div>
-                    <div className="col l-6 c-12 m-12">
-                        <img src="https://storage.googleapis.com/laboon-img-storage/laboon/image-Components-HeadingSubpage/Group235.webp" alt="" className="group235" />
+                    <div className="col l-6 c-12 m-12 product__heading-img">
+                        <img src={IMG_MAIN} alt="" className="group235" />
                     </div>
                     
                 </div>
@@ -26,4 +27,4 @@ const HeaddingSubPage = ({title,desp}) => {
     )
 }
 
-export default HeaddingSubPage
+export default HeaddingSubPage;

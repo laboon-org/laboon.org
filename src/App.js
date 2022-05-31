@@ -35,8 +35,8 @@ const MyQuery  = `
   }
 }
 `;
- 
-const FILMS_QUERY_PRODuCTS = `
+
+const FILMS_QUERY_PRODUCTS = `
 {
   products{
     title  
@@ -58,6 +58,7 @@ const FILMS_QUERY_PRODuCTS = `
   }
 }
 `;
+
 function App() {
   const [products, setPorducts] = useState([]);
   const [user, setUser] = useState([]);
@@ -70,7 +71,7 @@ function App() {
       },
     })
       .then((response) => {
-        console.log('TEST:',response)
+        console.log('TEST:', response)
         setUser(response.data.data.people)
       })
       .catch((err) => console.error(err));
@@ -81,10 +82,10 @@ function App() {
       url: endpoint,
       method: "POST",
       data: {
-        query: FILMS_QUERY_PRODuCTS,
+        query: FILMS_QUERY_PRODUCTS,
       },
     })
-      .then((response) => setPorducts(response.data.data. products))
+      .then((response) => setPorducts(response.data.data.products))
       .catch((err) => console.error(err));                                                                                       
   }, []);
 

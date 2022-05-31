@@ -11,7 +11,7 @@ const TeamItem = ({ img, name, lastName, position, experience,refs }) => {
               alt=""
               className="team__personel--item-img team__personel--item-img-avt"
             />
-             <img
+            <img
               src={personnelbg}
               alt=""
               className="team__personel--item-img team__personel--item__bg"
@@ -26,12 +26,12 @@ const TeamItem = ({ img, name, lastName, position, experience,refs }) => {
           </div>
           <div className="team__personel--item__connect">
             { refs.map((ref) => (
-               <a href={ref.link}>
+              <a href={ref.link}>
                 <img src={`${ref.icon.url}`}
-                 alt=""
+                  alt=""
                   className="connect-icon" 
                   />
-               </a>
+              </a>
             ))}
           </div>
         </div>

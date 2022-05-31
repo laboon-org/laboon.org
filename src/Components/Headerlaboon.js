@@ -1,4 +1,4 @@
-import React,{ useState}  from "react";
+import React,{ useState }  from "react";
 import "../css/header.css";
 import "../grid.css";
 import { Link } from "react-router-dom";
@@ -27,16 +27,16 @@ const Header = ({ active, logo }) => {
               </div>
               <div className="header__nav col l-5 l0-5">
                 <ul>
-                  <li className={`header__nav-item ${ active == "home" && "active" }`} >
+                  <li className={`header__nav-item ${ active === "home" && "active" }`} >
                     <Link to="/">Home</Link>
                   </li>
-                  <li className={`header__nav-item ${ active == "product" && "active" }`} >
+                  <li className={`header__nav-item ${ active === "product" && "active" }`} >
                     <Link to="/product">Product</Link>
                   </li>
-                  <li className={`header__nav-item ${ active == "crew" && "active" }`} >
+                  <li className={`header__nav-item ${ active === "crew" && "active" }`} >
                     <Link to="/crew">Crew</Link>
                   </li>
-                  <li  className={`header__nav-item ${  active == "blog" && "active" } `} >
+                  <li  className={`header__nav-item ${  active === "blog" && "active" } `} >
                     <Link to="/">Blog</Link>
                   </li>
                 </ul>

@@ -6,13 +6,12 @@
 }
 
 .footer__logo{
- margin-top: 119px;
+    margin-top: 119px;
 }
 .footer__infor{
     margin-top:50px;
     text-align: center;
     padding-bottom: 71px;
-   
 }
 
 .footer__infor p{
@@ -58,7 +57,9 @@
 }
 
 .footer__icon-connect{
-    margin-right: 19px;
+    margin:0 9px;
+    font-size: 20px;
+    color: #255056;
 }
 .footer__content-wrap{
     padding-bottom: 70px;

@@ -2,6 +2,9 @@ import React from "react";
 import "../css/footer.css";
 import "../css/responsive/responsive.css";
 import "../grid.css";
+import { GrFacebook, GrLinkedin, GrTwitter } from 'react-icons/gr'
+
+import IMG_LOGO from '../img/logo_footer.png'
 
 const Footer = () => {
   return (
@@ -10,7 +13,7 @@ const Footer = () => {
         <div className="footer__content">
           <div className=" footer__content-wrap row">
             <div className="footer__logo col l-3 c-12">
-              <img src="https://storage.googleapis.com/laboon-img-storage/laboon/Image-Foodter/Footerlogo.webp" alt="" />
+              <img src={IMG_LOGO} alt="" />
             </div>
             <div className="footer__about col l-3 c-12 ">
               <h4>Address</h4>
@@ -42,13 +45,13 @@ const Footer = () => {
         <div className="footer__infor">
           <div className="footer__social">
             <a href="https://www.facebook.com/Laboon.org">
-              <img className="footer__icon-connect" src="https://storage.googleapis.com/laboon-img-storage/laboon/Image-Foodter/facebook-box-fill.webp" alt="" />
+              <i className="footer__icon-connect"><GrFacebook /></i>
             </a>
             <a href="https://www.linkedin.com/in/laboon-ltd-pte-8a6553223">
-              <img className="footer__icon-connect" src="https://storage.googleapis.com/laboon-img-storage/laboon/Image-Foodter/linkedin-box-fill.webp" alt="" />
+              <i className="footer__icon-connect"><GrLinkedin /></i>
             </a>
             <a href="https://twitter.com/laboon_org">
-              <img className="footer__icon-connect" src="https://storage.googleapis.com/laboon-img-storage/laboon/Image-Foodter/twitter-fill.webp" alt="" />
+            <i className="footer__icon-connect"><GrTwitter /></i>
             </a>
           </div>
           <div className="footer_copyright">

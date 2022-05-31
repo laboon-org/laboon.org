@@ -1,5 +1,13 @@
 .products__container {
   position: relative;
+
+  /* Edox */
+  background-image: url('../../img/page-bg.png');
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  background-position-x: center;
+  background-position-y: top;
+  /*----------------*/
   .products__content {
     padding-top: 50px;
     .products__list-title {
@@ -100,6 +108,9 @@
     .products__list-items {
       margin-top: 25px;
       margin-bottom: 100px;
+
+      /* Edox */
+      justify-content: center;
 
       .products__item {
         height: 312px;

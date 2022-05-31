@@ -2,35 +2,41 @@ import React, { useEffect, useState } from "react";
 
 import OurProductItem from "./ourProductItem";
 
+import IMG_DAPPS from '../../img/products-dapps.png'
+import IMG_GAMES from '../../img/products-games.png'
+import IMG_PLAZA from '../../img/products-plaza.png'
+import IMG_WALLET from '../../img/products-wallet.png'
+import IMG_SOON from '../../img/products-soon.png'
+
 const products = [
   {
     title: "dApps",
     slogan:
       "Our best interest is to provide the users with useful tools that allow them to remove any digital hindrances.",
-    img: "https://storage.googleapis.com/laboon-img-storage/laboon/image-Home-OurProducts/product-dapps.webp",
+    img: IMG_DAPPS,
   },
   {
     title: "Games",
     slogan:
       "Virtual realms for players to conquer and build their own empires.",
-    img: "https://storage.googleapis.com/laboon-img-storage/laboon/image-Home-OurProducts/product-games.webp",
+    img: IMG_GAMES,
   },
   {
     title: "PLAZA",
     slogan:
       "The chamber of commerce allows players to exchange game items and characters with great qualities.",
-    img: "https://storage.googleapis.com/laboon-img-storage/laboon/image-Home-OurProducts/product-plaza.webp",
+    img: IMG_PLAZA,
   },
   {
     title: "Wallet",
     slogan: "A reliable haven for your digital purchases and currencies.",
-    img: "https://storage.googleapis.com/laboon-img-storage/laboon/image-Home-OurProducts/product-wallet.webp",
+    img: IMG_WALLET,
   },
   {
     title: "Coming soon",
     slogan:
       "Our best interest is to provide the users with useful tools that allow them to remove any digital hindrances.",
-    img: "https://storage.googleapis.com/laboon-img-storage/laboon/image-Home-OurProducts/product-coming.webp",
+    img: IMG_SOON,
   },
 ];
 
@@ -53,11 +59,13 @@ const OurProducts = () => {
         <div className="ourproducts__bottom">
           <div className="row">
             <div className="ourproducts__bottom-img col l-5 l0-12 c-12">
-              <img
-                src={proActive.img}
-                alt=""         
-                className="ourproducts__img-main"
-              />
+              <div className="ourproducts__main-wrap">
+                <img
+                  src={proActive.img}
+                  alt=""         
+                  className="ourproducts__img-main"
+                />
+              </div>
             </div>
             <div className="ourproducts__bottom-inf col l-7 l0-12 c-12">
               <div className="ourproducts__bottom-inf-wrap">
