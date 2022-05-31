@@ -25,8 +25,8 @@ const TeamItem = ({ img, name, lastName, position, experience,refs }) => {
             </div>
           </div>
           <div className="team__personel--item__connect">
-            { refs.map((ref) => (
-              <a href={ref.link}>
+            { refs.map((ref, index) => (
+              <a href={ref.link} key={index}>
                 <img src={`${ref.icon.url}`}
                   alt=""
                   className="connect-icon" 

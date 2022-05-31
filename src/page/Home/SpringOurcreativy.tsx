@@ -76,8 +76,8 @@ export default function App() {
         <Viewpager setIsSelected={setIsSelected} />
       </div>
       <Mystyle style={{ height: '10vh' }}>
-        {[0, 1, 2, 3].map((value) => {
-          return (<Dot isSelect={isSelected == value}/>)
+        {[0, 1, 2, 3].map((value, index) => {
+          return (<Dot isSelect={isSelected === value} key={index}/>)
         })}
       </Mystyle> 
     </div>

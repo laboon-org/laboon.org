@@ -579,6 +579,7 @@
     }
     .ourproducts__bottom-inf-p p{
         padding: 0 10px;
+        min-height: 210px;
     }
     .ourproducts__bottom-img{
        text-align: center;

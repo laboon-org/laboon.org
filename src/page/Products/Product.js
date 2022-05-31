@@ -46,7 +46,7 @@ const Product = ({ products, setPorducts }) => {
   `;
 
     setCategory(type);
-    console.log(FILMS_QUERY_dApps);
+    //console.log(FILMS_QUERY_dApps);
     axios({
       url: endpoint,
       method: "POST",
@@ -57,10 +57,12 @@ const Product = ({ products, setPorducts }) => {
       .then((response) => setCurrentProduct(response.data.data.products))
       .catch((err) => console.error(err));
   };
-  if(isFirstRef.current){
+
+  if (isFirstRef.current){
     isFirstRef.current=false;
     dApps('All')
   }
+
   return (
     <>
       <Header active={"product"} logo={logo21}></Header>

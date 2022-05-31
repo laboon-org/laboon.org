@@ -18,7 +18,7 @@ const Footer = () => {
             <div className="footer__about col l-3 c-12 ">
               <h4>Address</h4>
               <div className="footer__about-address">
-                <i class="fas fa-map-marker-alt"></i>
+                <i className="fas fa-map-marker-alt"></i>
                 <p>68 Upper Serangoon View, Singapore, 533884</p>
               </div>
             </div>

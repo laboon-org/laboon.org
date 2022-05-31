@@ -71,7 +71,7 @@ function App() {
       },
     })
       .then((response) => {
-        console.log('TEST:', response)
+        // console.log('TEST:', response)
         setUser(response.data.data.people)
       })
       .catch((err) => console.error(err));

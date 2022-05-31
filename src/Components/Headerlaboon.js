@@ -42,7 +42,7 @@ const Header = ({ active, logo }) => {
                 </ul>
               </div>
               <div className="header__bars c-1">
-                <i className="nav__bar-icon" class="fas fa-bars"></i>
+                <i className="nav__bar-icon fas fa-bars"></i>
               </div>
             </div>
           </div>

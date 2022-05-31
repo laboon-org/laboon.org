@@ -42,7 +42,7 @@ const Home = () => {
       .then((response) => setOurpartner(response.data.data.partners))
       .catch((err) => console.error(err));
   }, []);
-  console.log(ourpartner);
+  // console.log(ourpartner);
   return (
     <div>
       <Header active={"home"} logo={logo21}></Header>

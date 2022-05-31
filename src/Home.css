@@ -675,6 +675,8 @@ object-fit: scale-down;
 }
 
 .product__both-ele {
+  display: flex;
+  justify-content: center;
   margin-bottom: 30px;
 }
 

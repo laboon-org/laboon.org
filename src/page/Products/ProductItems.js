@@ -18,9 +18,10 @@ const ProductItems = ({ title, mainTitle, descp, img, refs }) => {
               <h5>{mainTitle}</h5>
               {parse(descp)}
               <div className="products__item-right-icon">
-                {refs.map((ref) => (
-                  <a href={ref.link}>
+                {refs.map((ref, index) => (
+                  <a key={index} href={ref.link}>
                     <img
+                      
                       src={`${ref.image.url}`}
                       alt=""
                       className="products__item-inf__joint-img"

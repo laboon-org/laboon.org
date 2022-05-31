@@ -84,12 +84,12 @@ const OurProducts = () => {
                         handleActiveProduct={handleActiveProduct}
                       />
                     ))}
-                  <div className="ourproducts__bottom-line__mid-item">
+                  {/* <div className="ourproducts__bottom-line__mid-item">
                     <img
-                      src="https://storage.googleapis.com/laboon-img-storage/laboon/image-Home-OurProducts/itemourproduct6.webp"
+                      src={"https://storage.googleapis.com/laboon-img-storage/laboon/image-Home-OurProducts/itemourproduct6.webp"}
                       alt=""
-                    />
-                  </div>
+                    /> 
+                  </div> */}
                 </div>
               </div>
             </div>
