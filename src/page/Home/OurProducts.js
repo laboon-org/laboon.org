@@ -2,41 +2,35 @@ import React, { useEffect, useState } from "react";
 
 import OurProductItem from "./ourProductItem";
 
-import IMG_DAPPS from '../../img/products-dapps.png'
-import IMG_GAMES from '../../img/products-games.png'
-import IMG_PLAZA from '../../img/products-plaza.png'
-import IMG_WALLET from '../../img/products-wallet.png'
-import IMG_SOON from '../../img/products-soon.png'
-
 const products = [
   {
     title: "dApps",
     slogan:
       "Our best interest is to provide the users with useful tools that allow them to remove any digital hindrances.",
-    img: IMG_DAPPS,
+    img: "https://media.graphassets.com/NpRXJ17ZQQ2UofFWajap",
   },
   {
     title: "Games",
     slogan:
       "Virtual realms for players to conquer and build their own empires.",
-    img: IMG_GAMES,
+    img: "https://media.graphassets.com/KRAKfsJzRw60ZEFzoQxc",
   },
   {
     title: "PLAZA",
     slogan:
       "The chamber of commerce allows players to exchange game items and characters with great qualities.",
-    img: IMG_PLAZA,
+    img: "https://media.graphassets.com/eGHpM8JzSDiCkbxUb0iy",
   },
   {
     title: "Wallet",
     slogan: "A reliable haven for your digital purchases and currencies.",
-    img: IMG_WALLET,
+    img: "https://media.graphassets.com/7M19BoHUSWifK7QBZFwg",
   },
   {
-    title: "Coming soon",
+    title: "Coming Soon",
     slogan:
       "Our best interest is to provide the users with useful tools that allow them to remove any digital hindrances.",
-    img: IMG_SOON,
+    img: "https://media.graphassets.com/79DZOfqQQSR0CYzGNpvv",
   },
 ];
 
@@ -84,12 +78,12 @@ const OurProducts = () => {
                         handleActiveProduct={handleActiveProduct}
                       />
                     ))}
-                  {/* <div className="ourproducts__bottom-line__mid-item">
+                  <div className="ourproducts__bottom-line__mid-item">
                     <img
-                      src={"https://storage.googleapis.com/laboon-img-storage/laboon/image-Home-OurProducts/itemourproduct6.webp"}
+                      src="https://media.graphassets.com/rOG7t4UThOZPNRhQ95QF"
                       alt=""
                     /> 
-                  </div> */}
+                  </div>
                 </div>
               </div>
             </div>

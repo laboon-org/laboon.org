@@ -1,4 +1,4 @@
-import React,{ useState }  from "react";
+import React from "react";
 import "../css/header.css";
 import "../grid.css";
 import { Link } from "react-router-dom";
@@ -14,8 +14,7 @@ window.addEventListener("click", (event) => {
   navSilde();
 });
 
-const Header = ({ active, logo }) => {
- 
+const Header = ({ active }) => {
   return (
     <>
       <div className="grid">
@@ -23,7 +22,7 @@ const Header = ({ active, logo }) => {
           <div className="grid wide">
             <div className="row header__wrapper">
               <div className="header__logo col l-7 l0-7 c-11">
-              <Link to="/"><img src={logo} alt="logo"/></Link>
+              <Link to="/"><img src="https://media.graphassets.com/BKYMf3aYTA677cyTS7pd" alt="Laboon"/></Link>
               </div>
               <div className="header__nav col l-5 l0-5">
                 <ul>

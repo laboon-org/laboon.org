@@ -1,14 +1,7 @@
 import React from "react";
 import ItemProduct from "./ItemProduct";
 import SpringOurcreativy from "./SpringOurcreativy.tsx";
-import backgrourdOurcryvity from "../../img/backgroudOurcryvity.png"
 
-import IMG_ELU_LOGO from '../../img/creativity-elu-logo.png'
-import IMG_ELU_1 from '../../img/creativity-elu-1.png'
-import IMG_ELU_2 from '../../img/creativity-elu-2.png'
-import IMG_ELU_3 from '../../img/creativity-elu-3.png'
-import IMG_ELU_4 from '../../img/creativity-elu-4.png'
-import IMG_ELU_BTN from '../../img/creativity-elu-btn.png'
 function useWindowSize() {
   const [windowSize, setWindowSize] = React.useState({
     width: undefined,
@@ -91,41 +84,41 @@ const OurCreativity = () => {
           <div className="row">
             <div className="angry__left col l-4 c-12">
               <img
-                src={IMG_ELU_LOGO}
+                src="https://media.graphassets.com/l188RR9UQ9aaRfeIGaiu"
                 alt=""
                 className="angry__left-img1"
               />
             </div>
             <div className="angry__right col l-8 c-12">
               <div className="wrap__angry">
-              <img src={backgrourdOurcryvity} alt="" className="backgrourdOurcryvity"/>
+              <img src="https://media.graphassets.com/ZFqOIugwTYWoy8mSMnAN" alt="" className="backgrourdOurcryvity"/>
                 {
-                  windownSize.height > windownSize.width ? (
+                  windownSize.height > windownSize.width || windownSize.width < 1114 ? (
                   <SpringOurcreativy></SpringOurcreativy>
                 ) : (
                   <div className="wrap__angry-wrap-item row">
                     <ItemProduct
                       title={"Drop"}
-                      img={IMG_ELU_1}
+                      img="https://media.graphassets.com/SLBIo9X8TqqU7EVFkH1V"
                     ></ItemProduct>
                     <ItemProduct
                       title={"Nest"}
-                      img={IMG_ELU_2}
+                      img="https://media.graphassets.com/as7ZXAIVQeIK72wJqdop"
                     ></ItemProduct>
                     <ItemProduct
                       title={"Scout"}
-                      img={IMG_ELU_3}
+                      img="https://media.graphassets.com/L3T5IVLBS8euaFQsOuwO"
                     ></ItemProduct>
                     <ItemProduct
                       title="Metaverse"
-                      img={IMG_ELU_4}
+                      img="https://media.graphassets.com/HUVMxdOsT7m7QTwIZTlg"
                     ></ItemProduct>
                   </div>
                 )}
                 <div className="wrap__angry-btn">
                   <a href="https://playelu.io/">
                     <img
-                      src={IMG_ELU_BTN}
+                      src="https://media.graphassets.com/aCwJpBJqTsyzLPiBTZDL"
                       alt=""
                     />
                   </a>

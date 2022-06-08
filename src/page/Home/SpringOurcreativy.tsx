@@ -6,16 +6,12 @@ import { useDrag } from 'react-use-gesture';
 import clamp from 'lodash.clamp';
 import * as styless from './../../styles.module.css';
 
-import IMG_ELU_1 from '../../img/creativity-elu-1.png'
-import IMG_ELU_2 from '../../img/creativity-elu-2.png'
-import IMG_ELU_3 from '../../img/creativity-elu-3.png'
-import IMG_ELU_4 from '../../img/creativity-elu-4.png'
 
 const pages = [
-  IMG_ELU_1,
-  IMG_ELU_2,
-  IMG_ELU_3,
-  IMG_ELU_4,
+  "https://media.graphassets.com/SLBIo9X8TqqU7EVFkH1V",
+  "https://media.graphassets.com/as7ZXAIVQeIK72wJqdop",
+  "https://media.graphassets.com/L3T5IVLBS8euaFQsOuwO",
+  "https://media.graphassets.com/HUVMxdOsT7m7QTwIZTlg",
 ]
 
 function Viewpager(propso: any) {
@@ -92,7 +88,7 @@ const styles: { [key: string]: { [key: string]: string } } = {
   container: { 
     display: 'flex',
     alignItems: 'center',
-    height: '30vh',
+    height: '40vh',
     justifyContent: 'center',
     position: 'relative'
   },

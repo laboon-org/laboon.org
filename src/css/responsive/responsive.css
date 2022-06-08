@@ -502,6 +502,7 @@
     margin-bottom: 30px;
   }
   
+
   .angry__left-img1 {
     top: 0;
   }
@@ -699,7 +700,7 @@
     margin: auto;
   }
   .product__mall-content {
-    padding-bottom: 220px;
+    padding: 220px;
   }
 
 }
@@ -709,5 +710,21 @@
     background-size: cover;
     background-position-y: bottom;
     background-position-x: right;
+  }
+}
+
+@media screen and (max-width: 1113px) {
+  .backgrourdOurcryvity {
+    display: none;
+  }
+  .wrap__angry-btn {
+    padding-top: 0;
+  }
+  .angry__left{
+    display: flex;
+    justify-content: center;
+  }
+  .angry__left img {
+    width: 85%;
   }
 }

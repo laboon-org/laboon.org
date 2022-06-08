@@ -1,7 +1,5 @@
 import React from "react";
 
-import IMG_HYPERMON from '../../img/hypermon.png';
-import IMG_PEPPER from '../../img/pepper.png';
 
 const BothProducts = () => {
   return (
@@ -29,7 +27,7 @@ const BothProducts = () => {
           <div className="product__both-ele col l-6 c-12">
             <div className="product__hypermon-wrap">
               <h2>Hypermon</h2>
-              <img src={IMG_HYPERMON} alt="" />
+              <img src="https://media.graphassets.com/NuTVDXeTXqVbAQTSbiSA" alt="" />
               <div className="product__hypermon-wrap__inf">
                 <p>
                   Plus having fun and making profits, this is an
@@ -48,7 +46,7 @@ const BothProducts = () => {
           <div className="product__both-ele col l-6 c-12">
             <div className="product__hypermon-wrap">
               <h2>Pepper Attack</h2>
-              <img className="pepperAttack__img" src={IMG_PEPPER} alt="" />
+              <img className="pepperAttack__img" src="https://media.graphassets.com/wFQTgKrQVSl9GRENqjK0" alt="" />
               <div className="product__hypermon-wrap__inf">
                 <p>
                   Pepper Attack is a 10,000 NFT collection that comes with an

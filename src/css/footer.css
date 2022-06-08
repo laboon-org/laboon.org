@@ -35,8 +35,9 @@
     font-size: 20px;
     line-height: 25px;
     color: #255056;
-    padding-bottom:24px ;
-    margin-left: -19px;
+    padding-bottom:24px;
+    margin-left: 8px;
+
 }
 
 .footer__about ul {
@@ -46,6 +47,8 @@
     font-size: 17px;
     line-height: 32px;
     color: #255056;
+    margin-left: 28px;
+    
 }
 .footer__about ul li{
     text-align: left;
@@ -70,12 +73,12 @@
 }
 .footer__about-address{
     display: flex;
+    margin-left: 8px;
 }
 .footer__about-address i,p{
     color: #06454B;
 }
 .footer__about-address i{
-    margin-left: -15px;
     font-size: 25px;
     margin-right: 15px;
 }

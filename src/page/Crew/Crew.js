@@ -5,12 +5,7 @@ import "../../grid.css";
 import "./Crew.scss";
 import HeaddingSubPage from "../../Components/HeaddingSubPage";
 import TitleSubPage from "../../Components/TitleSubPage";
-import logo21 from "../../img/logo21.png";
 import CrewItem from "./CrewItem";
-import collum from "./imgCrew/colum1.png";
-import collum1 from "./imgCrew/collum(2).png";
-import collum2 from "./imgCrew/collum(3).png";
-import Mobile from "./imgCrew/mobile.png";
 import { useState } from "react";
 import axios from "axios";
 
@@ -78,7 +73,7 @@ const Team = ({ user }) => {
 
   return (
     <>
-      <Header active={"crew"} logo={logo21}></Header>
+      <Header active={"crew"}></Header>
       <HeaddingSubPage
         title={"Crew"}
         desp={
@@ -102,16 +97,16 @@ const Team = ({ user }) => {
                   <div className="team__wrapper-mid__content">
                     <div className="row">
                       <div className="crew_item item1">
-                        <img src={collum} className="img-left"></img>
+                        <img src="https://media.graphassets.com/iFLLNLm1SFKa1dUhvB2I" className="img-left" alt="Laboon Crew"></img>
                       </div>
                       <div className="crew_item item2">
-                        <img src={collum1} className="img-midle"></img>
+                        <img src="https://media.graphassets.com/uMV2RmZNTxOhaqijeHdz" className="img-midle" alt="Laboon Crew"></img>
                       </div>
                       <div className="crew_item item3">
-                        <img src={collum2} className="img-right"></img>
+                        <img src="https://media.graphassets.com/wFZrM4t2Q0Lrlosv1miQ" className="img-right" alt="Laboon Crew"></img>
                       </div>
                       <div className="team__wrapper-mid-2 mb l-6 c-12">
-                        <img src={Mobile} alt="" className="img-mid img-mt" />
+                        <img src="https://media.graphassets.com/uCb5bXzFR9qgyUgvzvpV" alt="" className="img-mid img-mt" />
                       </div>
                     </div>
                   </div>

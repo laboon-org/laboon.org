@@ -103,12 +103,6 @@
         display: none;
     }
     
-    .products__list-title span{
-        
-    }
-    .products__list-title{
-        padding-left: 15px ;
-    }
     
     .team__personel--list{
         padding-left: 0px !important;
@@ -426,21 +420,15 @@
         height: 1302px;
         position: relative;
     }
-    .angry__left{
-        
-    }
+    
     .angry__left img{
         top: -64px;
         left: 0;
-        width:100%;
-    
     }
     
     .productlist{
     height: 6468px;
-    
     }
-    
     
     .ourpatner__items{
         position: relative;
@@ -979,13 +967,6 @@
     }
     .title__heading-group15{
         display: none;
-    }
-    
-    .products__list-title span{
-        
-    }
-    .products__list-title{
-        padding-left: 15px ;
     }
     
     .team__personel--list{

@@ -14,10 +14,9 @@ import Plaza from "./Plaza";
 import { useEffect, useState } from "react";
 import axios from "axios";
 import logo21 from "../../img/logo21.png";
-import backgroundBlockchinHome from "../../img/backgroundBlockchain.webp";
-import sung from "../../img/sung.png";
 
 const apiourpartner ="https://api-ap-northeast-1.graphcms.com/v2/ckx41ssik336s01w89hsk0rf5/master";
+
 
 const FILMS_QUERY = `{
   partners{
@@ -31,6 +30,7 @@ const FILMS_QUERY = `{
 `;
 const Home = () => {
   const [ourpartner, setOurpartner] = useState([]);
+
   useEffect(() => {
     axios({
       url: apiourpartner,
@@ -46,7 +46,7 @@ const Home = () => {
   return (
     <div>
       <Header active={"home"} logo={logo21}></Header>
-      <BlockChainify img1={backgroundBlockchinHome} img2={sung} />
+      <BlockChainify />
       <Ourorientation />
       <OurProducts />
       <OurCreativity />

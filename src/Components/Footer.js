@@ -4,7 +4,6 @@ import "../css/responsive/responsive.css";
 import "../grid.css";
 import { GrFacebook, GrLinkedin, GrTwitter } from 'react-icons/gr'
 
-import IMG_LOGO from '../img/logo_footer.png'
 
 const Footer = () => {
   return (
@@ -13,7 +12,7 @@ const Footer = () => {
         <div className="footer__content">
           <div className=" footer__content-wrap row">
             <div className="footer__logo col l-3 c-12">
-              <img src={IMG_LOGO} alt="" />
+              <img src="https://media.graphassets.com/J3GacXeQUOX6tZNmF5Bw" alt="Laboon" />
             </div>
             <div className="footer__about col l-3 c-12 ">
               <h4>Address</h4>

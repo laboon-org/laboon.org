@@ -5,8 +5,8 @@ import constant from "../../constant";
 import "../../grid.css";
 import "./product.scss";
 import HeaddingSubPage from "../../Components/HeaddingSubPage";
-import TitleSubPage from "../../Components/TitleSubPage";
-import logo21 from "./imgProduct/logo21.png";
+// import TitleSubPage from "../../Components/TitleSubPage";
+
 import ProductItems from "./ProductItems";
 import axios from "axios";
 
@@ -65,7 +65,7 @@ const Product = ({ products, setPorducts }) => {
 
   return (
     <>
-      <Header active={"product"} logo={logo21}></Header>
+      <Header active={"product"}></Header>
       <HeaddingSubPage
         title={"Products"}
         desp={

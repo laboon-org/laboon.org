@@ -1,10 +1,5 @@
 import React from 'react'
 
-import IMG_1 from '../../img/orientation-1.png'
-import IMG_2 from '../../img/orientation-2.png'
-import IMG_3 from '../../img/orientation-3.png'
-import IMG_4 from '../../img/orientation-4.png'
-
 const Ourorientation = () => {
   return (
     <div className="ahoutus__container grid">
@@ -37,14 +32,14 @@ const Ourorientation = () => {
             <div className="row no-gutters">
               <div className="aboutus__right-1 col l-6 c-12 m-12 l0-6 ">
                 <div className="aboutus__card aboutus__card-mt col c-12">
-                  <img src={IMG_1} alt="" className="aboutus__card-img" />
+                  <img src="https://media.graphassets.com/bjYz71dHRp6971tkcC1d" alt="" className="aboutus__card-img" />
                   <div className="aboutus__card-infor">
                     <span>Liberty</span>
                     <p>The patrons will be in the custody of their own data stored in the cloud.</p>
                   </div>
                 </div>
                 <div className="aboutus__card col c-12 m-12">
-                  <img src={IMG_2} alt="" className="aboutus__card-img" />
+                  <img src="https://media.graphassets.com/cq3463u1TOyVgSoiq50f" alt="" className="aboutus__card-img" />
                   <div className="aboutus__card-infor">
                     <span>Community Driven</span>
                     <p>Our denizens have a genuine stake in the products they utilize. The cohesive psyche of the nest is now unshackled!</p>
@@ -53,14 +48,14 @@ const Ourorientation = () => {
               </div>
               <div className="aboutus__right-2 col l-6 c-12 m-12 l0-6">
                 <div className="aboutus__card aboutus__card-mt col c-12">
-                  <img src={IMG_3} alt="" className="aboutus__card-img" />
+                  <img src="https://media.graphassets.com/YWs7YtPBTQmJFa3PQ3xR" alt="" className="aboutus__card-img" />
                   <div className="aboutus__card-infor">
                     <span>Borderless</span>
                     <p>Lean on furthering our targets. Passion is meant for bravo.</p>
                   </div>
                 </div>
                 <div className="aboutus__card col c-12 m-12">
-                  <img src={IMG_4} alt="" className="aboutus__card-img" />
+                  <img src="https://media.graphassets.com/Cs5EtFvhRVWlPSGShRbL" alt="" className="aboutus__card-img" />
                   <div className="aboutus__card-infor">
                     <span>Synthe</span>
                     <p>Insights on the cutting edge fit great when blended in unusual ways.</p>

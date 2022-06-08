@@ -54,7 +54,7 @@
   position: relative;
 
   /* Edox */
-  background-image: url('./img/orientation-bg.png');
+  background-image: url('https://media.graphassets.com/c3zn2x8HTaOOMss6fIr6');
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -243,7 +243,7 @@
 
 .ourproducts__title {
   text-align: center;
-  padding-top: 135px;
+  padding-top: 130px;
 }
 
 .ourproducts__title h1 {
@@ -278,7 +278,7 @@
 
 .ourproducts__bottom-line {
   position: relative;
-  padding-bottom: 150px;
+
 }
 
 .ourproducts__bottom-line__list {
@@ -287,7 +287,7 @@
   align-items: center; 
   justify-content: space-between;
   overflow: scroll;
-  padding: 55px 0 120px 0;
+  padding: 65px 0 120px 0;
   -ms-overflow-style: none;
   scrollbar-width: none;
 }
@@ -298,8 +298,14 @@
 
 .ourproducts__bottom-line__mid-item {
   position: absolute;
-  top: 30%;
+  top: 14%;
+  left: -5%;
   z-index: 0;
+  width: 110%;
+}
+
+.ourproducts__bottom-line__mid-item > img{
+  width: 100%;
 }
 
 .ourproducts__bottom-line__item {
@@ -324,7 +330,7 @@
   overflow: hidden;
 
   /* Edox */
-  background-image: url('./img/creativity-bg.png');
+  background-image: url("https://media.graphassets.com/qkxsx7MwRrGL3zn9DGY9");
   background-repeat: no-repeat;
   background-size: 100% auto;
   background-position-x: center;
@@ -371,7 +377,7 @@
 
 .productlist__title {
   text-align: center;
-  padding-top: 200px;
+  padding-top: 130px;
 }
 
 .productlist__title h1 {
@@ -457,17 +463,17 @@
   margin-left: 5px;
 }  
 .wrap__angry-btn {
-  width: 40%;
-  margin: auto;
+  padding-top: 40%;
+  display: flex;
+  justify-content: center;
 }
 
-.wrap__angry-btn:hover {
+.wrap__angry-btn a:hover {
+  opacity: 0.8;
   cursor: pointer;
 }
 
-.wrap__angry-btn {
-  padding-top: 462px;
-}
+
 .wrap__angry-btn button:hover {
   cursor: pointer;
   box-shadow: 4px 4px 0px 2px rgba(30, 80, 86, 0.8);
@@ -546,7 +552,6 @@ object-fit: scale-down;
   padding-bottom: 400px;
   z-index: 2;
   padding-top: 70px;
-  margin-left: 60px;
 }
 
 .product__mall-text {
@@ -570,8 +575,6 @@ object-fit: scale-down;
 }
 
 .product__mall-content h3 {
-  width: 40%;
-  margin: auto;
   font-weight: 600;
   font-size: 30px;
   line-height: 22px;
@@ -628,7 +631,7 @@ object-fit: scale-down;
   position: relative;
 
   /* Edox */
-  background-image: url('./img/2products-bg.png');
+  background-image: url('https://media.graphassets.com/WtSVNJoaTXykJesfWPG8');
   background-repeat: no-repeat;
   background-position-y: bottom;
   background-position-x: center;
@@ -812,9 +815,9 @@ ul {
 .ourproducts__bottom-line__item h1 {
   font-weight: 500;
   font-size: 18px;
-  line-height: 30px;
+  line-height: 20px;
   color: #255056;
-  padding-top: 30px;
+  padding-top: 50px;
   transition: all 0.3s linear;
 }
 
@@ -873,7 +876,7 @@ ul {
   right: 0;
   left: 0;
   bottom: 0;
-  background-image: url('./img/products-img-bg.png');
+  background-image: url("https://media.graphassets.com/9nK8NgoMQbiphLm2a01y");
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
@@ -896,18 +899,18 @@ ul {
 .ourproducts__bottom-inf h2 {
   font-weight: bold;
   font-size: 100px;
-  line-height: 30px;
   color: #E4B460;
   text-shadow: -1px 1px black, 1px 1px black, -1px -1px black, 1px -1px black;
+  white-space: nowrap;
+  text-overflow: ellipsis;
 }
 
 .ourproducts__bottom-inf p {
   width: 60%;
-  margin: auto;
+  margin: 20px auto 0px;
   font-size: 20px;
   line-height: 35px;
   color: #061B1C;
-  margin-top: 50px;
   min-height: 105px;
 }
 

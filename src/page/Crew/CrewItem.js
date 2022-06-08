@@ -1,5 +1,5 @@
 import React from "react";
-import personnelbg from "./imgCrew/personelbg.png";
+
 const TeamItem = ({ img, name, lastName, position, experience,refs }) => {
   return (
     <>
@@ -12,7 +12,7 @@ const TeamItem = ({ img, name, lastName, position, experience,refs }) => {
               className="team__personel--item-img team__personel--item-img-avt"
             />
             <img
-              src={personnelbg}
+              src="https://media.graphassets.com/Eatb81McTdOIO6qnsTH8"
               alt=""
               className="team__personel--item-img team__personel--item__bg"
             />

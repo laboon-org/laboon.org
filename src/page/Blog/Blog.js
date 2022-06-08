@@ -16,13 +16,12 @@ import blogitem3 from "./imgBlog/blogitem3.png";
 import blogitem4 from "./imgBlog/blogitem4.png";
 import blogitem5 from "./imgBlog/blogitem5.png";
 import blogitem6 from "./imgBlog/blogitem6.png";
-import logo21 from "../../img/logo21.png";
 import BlogItem from "./BlogItem";
 
 const Blog = () => {
   return (
     <>
-      <Header active={"blog"} logo={logo21}></Header>
+      <Header active={"blog"}></Header>
       <HeaddingSubPage
         title={"Blog"}
         desp={

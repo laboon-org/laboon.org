@@ -38,9 +38,9 @@ const MyQuery  = `
 
 const FILMS_QUERY_PRODUCTS = `
 {
-  products{
+  products {
     title  
-    content{
+    content {
       html  
     }
     cover_image {

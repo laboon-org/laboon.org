@@ -1,18 +1,14 @@
 import React from 'react'
 
-import IMG_BG from '../../img/plaza-bg.png'
-import IMG_LEFT from '../../img/plaza-left.png'
-import IMG_RIGHT from '../../img/plaza-right.png'
-
 const Plaza = () => {
     return (
         <div className="product__mall-full grid row">
           <div className='product__mall-background'>
-            <img src={IMG_BG} alt="" className="product__mall-itemMall1" />
+            <img src="https://media.graphassets.com/fLcyHHbZS0OeoOzgYJFe" alt="" className="product__mall-itemMall1" />
           </div>
           <div className='product__mall-container'>
             <div className='product__mall-left'>
-              <img src={IMG_LEFT} alt="" className="product__mall-itemMall" />
+              <img src="https://media.graphassets.com/efkvrMtWRsCNUS0v5tbH" alt="" className="product__mall-itemMall" />
             </div>
             <div className="product__mall-content">
               <div className='product__mall-text'>
@@ -28,7 +24,7 @@ const Plaza = () => {
               
             </div>
             <div className='product__mall-right'>
-              <img src={IMG_RIGHT} alt="" className="product__mall-Group375" />
+              <img src="https://media.graphassets.com/YzzETOt1TbeNS02haVVO" alt="" className="product__mall-Group375" />
             </div>
           </div>
           

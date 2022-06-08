@@ -1,6 +1,6 @@
 import React from "react";
 
-const BlockChainify = ({ img1, img2 }) => {
+const BlockChainify = () => {
   return (
     <div className="container__grid grid">
       <div className="container grid">
@@ -14,14 +14,9 @@ const BlockChainify = ({ img1, img2 }) => {
           <div className="blockchainify__bottom">
             <div className='blockchainify__bottom-img'>
               <img
-                src={img1}
+                src="https://media.graphassets.com/rPFdBHPARyxaMvV5mnSI"
                 alt=""
                 className="blockchainify--img1"
-              />
-              <img
-                src={img2}
-                alt=""
-                className="blockchainify--img2"
               />
             </div>
             

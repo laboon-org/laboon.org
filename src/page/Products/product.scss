@@ -2,7 +2,7 @@
   position: relative;
 
   /* Edox */
-  background-image: url('../../img/page-bg.png');
+  background-image: url('https://media.graphassets.com/NcxpkwFRSl6idycrFU2Y');
   background-repeat: no-repeat;
   background-size: 100% auto;
   background-position-x: center;
@@ -11,22 +11,25 @@
   .products__content {
     padding-top: 50px;
     .products__list-title {
-      text-align: center;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 50px;
       margin-top: 111px;
       margin-bottom: 50px;
       span {
+        text-align: center;
         position: relative;
         z-index: 2;
         font-family: Poppins;
         font-style: normal;
         font-weight: 600;
         font-size: 20px;
-        line-height: 22px;
+        line-height: 20px;
         /* identical to box height, or 110% */
         /* yeallow */
 
         // color: #E6B86A;
-        margin-right: 50px;
         color: #061b1c;
         cursor: pointer;
       }
