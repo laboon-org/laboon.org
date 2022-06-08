@@ -13,9 +13,9 @@ import BothProducts from "./BothProducts";
 import Plaza from "./Plaza";
 import { useEffect, useState } from "react";
 import axios from "axios";
-import logo21 from "../../img/logo21.png";
+import constant from "../../constant";
 
-const apiourpartner ="https://api-ap-northeast-1.graphcms.com/v2/ckx41ssik336s01w89hsk0rf5/master";
+const endpoint = constant.API.url;
 
 
 const FILMS_QUERY = `{
@@ -33,7 +33,7 @@ const Home = () => {
 
   useEffect(() => {
     axios({
-      url: apiourpartner,
+      url: endpoint,
       method: "POST",
       data: {
         query: FILMS_QUERY,
@@ -45,7 +45,7 @@ const Home = () => {
   // console.log(ourpartner);
   return (
     <div>
-      <Header active={"home"} logo={logo21}></Header>
+      <Header active={"home"}></Header>
       <BlockChainify />
       <Ourorientation />
       <OurProducts />

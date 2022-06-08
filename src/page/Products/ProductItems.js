@@ -14,7 +14,7 @@ const ProductItems = ({ title, mainTitle, descp, img, refs }) => {
             </div>
             <div className="products__item-right l-6 c-7">
               <span>{title}</span>
-              <h5>{mainTitle}</h5>
+              <h5>{mainTitle.toUpperCase()}</h5>
               {parse(descp)}
               <div className="products__item-right-icon">
                 {refs.map((ref, index) => (

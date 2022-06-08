@@ -7,11 +7,11 @@ import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Product from "./page/Products/Product";
 import Crew from "./page/Crew/Crew";
 import Blog from "./page/Blog/Blog";
-
+import constant from "./constant";
 import { useEffect, useState } from "react";
 import axios from "axios";
 //test
-const endpoint = "https://api-ap-northeast-1.graphcms.com/v2/ckx41ssik336s01w89hsk0rf5/master";
+const endpoint = constant.API.url;
 const MyQuery  = `
 {
   people {
@@ -19,18 +19,19 @@ const MyQuery  = `
     last_name
     short_desc
     position {
-      group_position  
-      postion_name  
+      group_position
+      position_name
+      position_priority
     }
     socialLinks {
-      socialName
+      social_name
       link
       icon {
         url
       }
     }
     photo {
-      url 
+      url
     }
   }
 }
@@ -60,7 +61,7 @@ const FILMS_QUERY_PRODUCTS = `
 `;
 
 function App() {
-  const [products, setPorducts] = useState([]);
+  const [products, setProducts] = useState([]);
   const [user, setUser] = useState([]);
   useEffect(() => {
     axios({
@@ -85,7 +86,7 @@ function App() {
         query: FILMS_QUERY_PRODUCTS,
       },
     })
-      .then((response) => setPorducts(response.data.data.products))
+      .then((response) => setProducts(response.data.data.products))
       .catch((err) => console.error(err));                                                                                       
   }, []);
 

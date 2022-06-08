@@ -8,13 +8,15 @@ import TitleSubPage from "../../Components/TitleSubPage";
 import CrewItem from "./CrewItem";
 import { useState } from "react";
 import axios from "axios";
+import constant from "../../constant";
 
 const Team = ({ user }) => {
   const [currentProduct, setCurrentProduct] = useState(user);
   const [category, setCategory] = useState("All");
 
-  const endpoint =
-    "https://api-ap-northeast-1.graphcms.com/v2/ckx41ssik336s01w89hsk0rf5/master";
+  const endpoint = constant.API.url;
+    //"https://api-ap-northeast-1.graphcms.com/v2/ckx41ssik336s01w89hsk0rf5/master";
+
   React.useLayoutEffect(() => {
     const condition = `, where: {
       position: {
@@ -29,18 +31,19 @@ const Team = ({ user }) => {
             last_name
             short_desc
             position {
-              group_position  
-              postion_name
+              group_position
+              position_name
+              position_priority
             }
             socialLinks {
-              socialName
+              social_name 
               link
               icon {
                 url
               }
             }
             photo {
-              url 
+              url
             }
           }
         }
@@ -58,17 +61,38 @@ const Team = ({ user }) => {
         );
       })
       .catch((err) => console.error(err));
-  }, [category]);
+  }, [category, endpoint]);
 
   const clickAll = (type) => {
     setCurrentProduct(user);
     setCategory(type);
   };
+
   const fetchUser = (type) => {
     setCategory(type);
   };
+
+  function comparePerson( a, b ) {
+    const prioA = a.position.position_priority;
+    const prioB = b.position.position_priority;
+    if ( prioA < prioB ){
+      return -1;
+    }
+    if ( prioA > prioB ){
+      return 1;
+    }
+    return 0;
+  }
+
   const listUser = () => {
+    let sortList = [];
+    if (currentProduct !== [] && category === "All") {
+      sortList = [...currentProduct];
+      sortList.sort(comparePerson);
+      return sortList;
+    }
     return currentProduct;
+
   };
 
   return (
@@ -106,7 +130,7 @@ const Team = ({ user }) => {
                         <img src="https://media.graphassets.com/wFZrM4t2Q0Lrlosv1miQ" className="img-right" alt="Laboon Crew"></img>
                       </div>
                       <div className="team__wrapper-mid-2 mb l-6 c-12">
-                        <img src="https://media.graphassets.com/uCb5bXzFR9qgyUgvzvpV" alt="" className="img-mid img-mt" />
+                        <img src="https://media.graphassets.com/uCb5bXzFR9qgyUgvzvpV" alt="Crew Background" className="img-mid img-mt" />
                       </div>
                     </div>
                   </div>
@@ -179,7 +203,7 @@ const Team = ({ user }) => {
                         img={u.photo.url}
                         name={u.first_name}
                         lastName={u.last_name}
-                        position={u.position.postion_name}
+                        position={u.position.position_name}
                         experience={u.short_desc}
                         refs={u.socialLinks}
                       ></CrewItem>

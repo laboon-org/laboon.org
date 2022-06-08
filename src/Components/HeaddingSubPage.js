@@ -17,7 +17,7 @@ const HeaddingSubPage = ({title,desp}) => {
                         </div>
                     </div>
                     <div className="col l-6 c-12 m-12 product__heading-img">
-                        <img src="https://media.graphassets.com/rPFdBHPARyxaMvV5mnSI" alt="Laboon Pig" className="group235" />
+                        <img src="https://media.graphassets.com/rPFdBHPARyxaMvV5mnSI" alt="Lapig" className="group235" />
                     </div>
                     
                 </div>
